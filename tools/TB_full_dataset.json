@@ -1,0 +1,5224 @@
+{
+ "nodes": [
+  {
+   "id": "TB-Boana-platanera",
+   "name": "Banana Tree Dwelling Frog",
+   "sciname": "Boana platanera",
+   "cat": 4,
+   "role": "Especie de Amphibia",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/246825473/medium.jpg",
+   "territoryPos": {
+    "x": 345.90491523707567,
+    "y": 3.291170884177259,
+    "z": 150.1177063856079
+   }
+  },
+  {
+   "id": "TB-Boana-pugnax",
+   "name": "Chirique-Flusse Tree Frog",
+   "sciname": "Boana pugnax",
+   "cat": 4,
+   "role": "Especie de Amphibia",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247151809/medium.jpg",
+   "territoryPos": {
+    "x": 308.0195430523288,
+    "y": 3.15956263386075,
+    "z": 116.6838389984548
+   }
+  },
+  {
+   "id": "TB-Engystomops-pustulosus",
+   "name": "Túngara Frog",
+   "sciname": "Engystomops pustulosus",
+   "cat": 4,
+   "role": "Especie de Amphibia",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247450905/medium.jpg",
+   "territoryPos": {
+    "x": 345.47495523707494,
+    "y": 3.3004746854430675,
+    "z": 149.73826638560735
+   }
+  },
+  {
+   "id": "TB-Ardea-alba",
+   "name": "Great Egret",
+   "sciname": "Ardea alba",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/202343253/medium.jpg",
+   "territoryPos": {
+    "x": 292.6844669147525,
+    "y": 2.7771223158228118,
+    "z": 103.15062360715802
+   }
+  },
+  {
+   "id": "TB-Columbina-passerina",
+   "name": "Common Ground Dove",
+   "sciname": "Columbina passerina",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407971334/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Columbina-squammata",
+   "name": "Scaled Dove",
+   "sciname": "Columbina squammata",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469748529/medium.jpg",
+   "territoryPos": {
+    "x": -8.917971489911906,
+    "y": 1.0675801253164723,
+    "z": -163.01373872483992
+   }
+  },
+  {
+   "id": "TB-Columbina-talpacoti",
+   "name": "Ruddy Ground Dove",
+   "sciname": "Columbina talpacoti",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391701134/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Coragyps-atratus",
+   "name": "Black Vulture",
+   "sciname": "Coragyps atratus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/259687110/medium.jpg",
+   "territoryPos": {
+    "x": 87.85344884891981,
+    "y": 1.951890048227904,
+    "z": -77.61289275459549
+   }
+  },
+  {
+   "id": "TB-Crotophaga",
+   "name": "Anis",
+   "sciname": "Crotophaga",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/381818922/medium.jpg",
+   "territoryPos": {
+    "x": -14.576733333400085,
+    "y": 0.9292405044303591,
+    "z": -168.00760000005891
+   }
+  },
+  {
+   "id": "TB-Eupsittula-pertinax",
+   "name": "Brown-throated Parakeet",
+   "sciname": "Eupsittula pertinax",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/140041326/medium.jpg",
+   "territoryPos": {
+    "x": 118.3489244277335,
+    "y": 2.005108855063227,
+    "z": -50.700614278399826
+   }
+  },
+  {
+   "id": "TB-Forpus",
+   "name": "Typical Parrotlets",
+   "sciname": "Forpus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391715969/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Forpus-spengeli",
+   "name": "Turquoise-winged Parrotlet",
+   "sciname": "Forpus spengeli",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391718801/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Icterus-nigrogularis",
+   "name": "Yellow Oriole",
+   "sciname": "Icterus nigrogularis",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/332708178/medium.jpeg",
+   "territoryPos": {
+    "x": 15.042238521044311,
+    "y": 1.5184000844145298,
+    "z": -141.8688366721903
+   }
+  },
+  {
+   "id": "TB-Leptotila-verreauxi",
+   "name": "White-tipped Dove",
+   "sciname": "Leptotila verreauxi",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/470325351/medium.jpg",
+   "territoryPos": {
+    "x": -14.579594955947101,
+    "y": 1.059759153797452,
+    "z": -168.01012538395332
+   }
+  },
+  {
+   "id": "TB-Melanerpes-rubricapillus",
+   "name": "Red-crowned Woodpecker",
+   "sciname": "Melanerpes rubricapillus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Tierra Bomba Island, Cartagena Province, Bolivar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/332710463/medium.jpeg",
+   "territoryPos": {
+    "x": 84.35485601630859,
+    "y": 1.8190475373417978,
+    "z": -80.70040337048067
+   }
+  },
+  {
+   "id": "TB-Melanospiza-bicolor",
+   "name": "Black-faced Grassquit",
+   "sciname": "Melanospiza bicolor",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/387130423/medium.jpg",
+   "territoryPos": {
+    "x": -23.70617433734418,
+    "y": 1.0441774310127019,
+    "z": -176.06433805600957
+   }
+  },
+  {
+   "id": "TB-Myiozetetes",
+   "name": "Myiozetetes Flycatchers",
+   "sciname": "Myiozetetes",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391697225/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Myiozetetes-similis",
+   "name": "Social Flycatcher",
+   "sciname": "Myiozetetes similis",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391702236/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Pitangus-sulphuratus",
+   "name": "Great Kiskadee",
+   "sciname": "Pitangus sulphuratus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391697767/medium.png",
+   "territoryPos": {
+    "x": -17.83568323032398,
+    "y": 1.056837682594978,
+    "z": -170.88362555799176
+   }
+  },
+  {
+   "id": "TB-Progne-tapera",
+   "name": "Brown-chested Martin",
+   "sciname": "Progne tapera",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407982894/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Quiscalus",
+   "name": "Typical Grackles",
+   "sciname": "Quiscalus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025571/medium.jpg",
+   "territoryPos": {
+    "x": 117.77650984162017,
+    "y": 1.5035780506329273,
+    "z": -51.20577055004105
+   }
+  },
+  {
+   "id": "TB-Saltator-olivascens",
+   "name": "Olive-gray Saltator",
+   "sciname": "Saltator olivascens",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/332706502/medium.jpeg",
+   "territoryPos": {
+    "x": 51.07847715553734,
+    "y": 1.5606981018987418,
+    "z": -110.0668309333494
+   }
+  },
+  {
+   "id": "TB-Sicalis-flaveola",
+   "name": "Saffron Finch",
+   "sciname": "Sicalis flaveola",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391716951/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Thraupis-episcopus",
+   "name": "Blue-gray Tanager",
+   "sciname": "Thraupis episcopus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391696061/medium.png",
+   "territoryPos": {
+    "x": -20.85394333470495,
+    "y": 1.0532952945568856,
+    "z": -173.54724220606673
+   }
+  },
+  {
+   "id": "TB-Todirostrum-cinereum",
+   "name": "Common Tody-Flycatcher",
+   "sciname": "Todirostrum cinereum",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391679845/medium.png",
+   "territoryPos": {
+    "x": -20.19585764211581,
+    "y": 1.0557909882910896,
+    "z": -172.96648112318454
+   }
+  },
+  {
+   "id": "TB-Trochilidae",
+   "name": "Hummingbirds",
+   "sciname": "Trochilidae",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/387127460/medium.jpg",
+   "territoryPos": {
+    "x": -23.500378282956945,
+    "y": 1.0372247943038135,
+    "z": -175.88272289442082
+   }
+  },
+  {
+   "id": "TB-Troglodytes-musculus",
+   "name": "Southern House Wren",
+   "sciname": "Troglodytes musculus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391703219/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Tyrannidae",
+   "name": "Tyrant Flycatchers",
+   "sciname": "Tyrannidae",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407982347/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Tyrannus",
+   "name": "Kingbirds",
+   "sciname": "Tyrannus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/381821529/medium.jpg",
+   "territoryPos": {
+    "x": -24.856121466659744,
+    "y": 1.058410443987289,
+    "z": -177.0791671999939
+   }
+  },
+  {
+   "id": "TB-Tyrannus-dominicensis",
+   "name": "Gray Kingbird",
+   "sciname": "Tyrannus dominicensis",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469754248/medium.jpg",
+   "territoryPos": {
+    "x": -8.8842846016924,
+    "y": 1.0617421500000368,
+    "z": -162.98401002248153
+   }
+  },
+  {
+   "id": "TB-Tyrannus-melancholicus",
+   "name": "Tropical Kingbird",
+   "sciname": "Tyrannus melancholicus",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391702580/medium.png",
+   "territoryPos": {
+    "x": 33.47384795375956,
+    "y": 1.6602754818987322,
+    "z": -125.6029284873604
+   }
+  },
+  {
+   "id": "TB-Tyrannus-melancholicus-satrapa",
+   "name": "Middle American Tropical Kingbird",
+   "sciname": "Tyrannus melancholicus satrapa",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Zenaida-auriculata",
+   "name": "Eared Dove",
+   "sciname": "Zenaida auriculata",
+   "cat": 1,
+   "role": "Especie de Aves",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/387131061/medium.jpg",
+   "territoryPos": {
+    "x": 103.32879040720104,
+    "y": 2.232087137658267,
+    "z": -63.95589303165792
+   }
+  },
+  {
+   "id": "TB-Abudefduf-saxatilis",
+   "name": "Atlantic Sergeant Major",
+   "sciname": "Abudefduf saxatilis",
+   "cat": 6,
+   "role": "Especie de Actinopterygii",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025316/medium.jpg",
+   "territoryPos": {
+    "x": 63.00715999998033,
+    "y": 0.6922784791138654,
+    "z": -99.53976000001737
+   }
+  },
+  {
+   "id": "TB-Acanthomorpha",
+   "name": "Spiny-rayed fishes",
+   "sciname": "Acanthomorpha",
+   "cat": 6,
+   "role": "Especie de Actinopterygii",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025810/medium.jpg",
+   "territoryPos": {
+    "x": -31.32924857034672,
+    "y": 0.9109177234177199,
+    "z": -182.79170638555297
+   }
+  },
+  {
+   "id": "TB-Aellopos",
+   "name": "Aellopos",
+   "sciname": "Aellopos",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391695499/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Aellopos-titan",
+   "name": "Titan Sphinx",
+   "sciname": "Aellopos titan",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/387015740/medium.jpg",
+   "territoryPos": {
+    "x": -23.907191147442717,
+    "y": 1.0438551512658125,
+    "z": -176.24173553117888
+   }
+  },
+  {
+   "id": "TB-Agaricomycetes",
+   "name": "Mushrooms, Bracket Fungi, Puffballs, and Allies",
+   "sciname": "Agaricomycetes",
+   "cat": 6,
+   "role": "Especie de Fungi",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238561480/medium.jpg",
+   "territoryPos": {
+    "x": -43.654769048130674,
+    "y": 2.228354430379706,
+    "z": -193.66898680719765
+   }
+  },
+  {
+   "id": "TB-Agroiconota-propinqua",
+   "name": "Agroiconota propinqua",
+   "sciname": "Agroiconota propinqua",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526064/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Anartia-amathea",
+   "name": "Red Peacock",
+   "sciname": "Anartia amathea",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/202345218/medium.jpg",
+   "territoryPos": {
+    "x": 273.3663894346794,
+    "y": 2.265747915189854,
+    "z": 86.10240675201118
+   }
+  },
+  {
+   "id": "TB-Anoplius",
+   "name": "Blue-black Spider Wasps",
+   "sciname": "Anoplius",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526138/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Anteos",
+   "name": "Angled Sulphurs",
+   "sciname": "Anteos",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391709624/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Anthanassa",
+   "name": "Anthanassa",
+   "sciname": "Anthanassa",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525880/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Anthophila",
+   "name": "Bees",
+   "sciname": "Anthophila",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407979802/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Apeulaema",
+   "name": "Apeulaema",
+   "sciname": "Apeulaema",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/202344363/medium.jpg",
+   "territoryPos": {
+    "x": 300.3365304842538,
+    "y": 2.037516846835429,
+    "z": 109.90357504638865
+   }
+  },
+  {
+   "id": "TB-Apiomerus-pictipes",
+   "name": "Apiomerus pictipes",
+   "sciname": "Apiomerus pictipes",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407978378/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Aricoris-erostratus",
+   "name": "Aricoris erostratus",
+   "sciname": "Aricoris erostratus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla de Tierra Bomba,, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/62324904/medium.jpg",
+   "territoryPos": {
+    "x": -27.985083706618695,
+    "y": 1.0862658227847835,
+    "z": -179.84047855995766
+   }
+  },
+  {
+   "id": "TB-Ariidae",
+   "name": "Sea Catfishes",
+   "sciname": "Ariidae",
+   "cat": 6,
+   "role": "Especie de Actinopterygii",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354885/medium.jpg",
+   "territoryPos": {
+    "x": 348.5324485704282,
+    "y": 3.3548734196202474,
+    "z": 152.43650638562485
+   }
+  },
+  {
+   "id": "TB-Ascalapha-odorata",
+   "name": "Black Witch",
+   "sciname": "Ascalapha odorata",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/408667732/medium.jpeg",
+   "territoryPos": {
+    "x": -15.945417357620698,
+    "y": 1.04404794303803,
+    "z": -169.21546460641827
+   }
+  },
+  {
+   "id": "TB-Ascia",
+   "name": "Ascia",
+   "sciname": "Ascia",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391720065/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Astylus-lebasi",
+   "name": "Astylus lebasi",
+   "sciname": "Astylus lebasi",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526233/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Asyndetus",
+   "name": "Asyndetus",
+   "sciname": "Asyndetus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261355096/medium.jpg",
+   "territoryPos": {
+    "x": 338.34080476286124,
+    "y": 3.3354113924051196,
+    "z": 143.44237361433636
+   }
+  },
+  {
+   "id": "TB-Attina",
+   "name": "Fungus-growing Ants",
+   "sciname": "Attina",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/182404183/medium.jpg",
+   "territoryPos": {
+    "x": 14.490181227170496,
+    "y": 1.879887144303768,
+    "z": -142.35602761922604
+   }
+  },
+  {
+   "id": "TB-Battus-polydamas",
+   "name": "Polydamas Swallowtail",
+   "sciname": "Battus polydamas",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391708877/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Bicyrtes-variegatus",
+   "name": "Bicyrtes variegatus",
+   "sciname": "Bicyrtes variegatus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247230456/medium.jpg",
+   "territoryPos": {
+    "x": 344.31247142952225,
+    "y": 3.341107594936752,
+    "z": 148.71237361433134
+   }
+  },
+  {
+   "id": "TB-Bostrichini",
+   "name": "Bostrichini",
+   "sciname": "Bostrichini",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330061/medium.jpg",
+   "territoryPos": {
+    "x": 336.71651142955557,
+    "y": 3.3353164537974607,
+    "z": 142.00893361436073
+   }
+  },
+  {
+   "id": "TB-Burnsius-orcus",
+   "name": "Orcus Checkered-Skipper",
+   "sciname": "Burnsius orcus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355261238/medium.jpg",
+   "territoryPos": {
+    "x": -21.138166577294157,
+    "y": 1.0532039354429914,
+    "z": -173.79806941596541
+   }
+  },
+  {
+   "id": "TB-Calephelis",
+   "name": "Calephelis",
+   "sciname": "Calephelis",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526000/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Centropomus-undecimalis",
+   "name": "Common Snook",
+   "sciname": "Centropomus undecimalis",
+   "cat": 6,
+   "role": "Especie de Actinopterygii",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354716/medium.jpg",
+   "territoryPos": {
+    "x": 337.9586180962091,
+    "y": 3.335601263924032,
+    "z": 143.1050936143492
+   }
+  },
+  {
+   "id": "TB-Cogia-calchas",
+   "name": "Mimosa Skipper",
+   "sciname": "Cogia calchas",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407984878/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Coliadinae",
+   "name": "Yellows and Sulphurs",
+   "sciname": "Coliadinae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407980583/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Condylostylus",
+   "name": "Condylostylus",
+   "sciname": "Condylostylus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407981743/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Corythalia",
+   "name": "Corythalia",
+   "sciname": "Corythalia",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223445376/medium.jpg",
+   "territoryPos": {
+    "x": 158.8237474331807,
+    "y": 2.1989838617088955,
+    "z": -14.98155473521706
+   }
+  },
+  {
+   "id": "TB-Cydosia",
+   "name": "Cydosia",
+   "sciname": "Cydosia",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407977245/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Cydosia-curvinella",
+   "name": "Cydosia curvinella",
+   "sciname": "Cydosia curvinella",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391705658/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Dacrymyces-spathularia",
+   "name": "Fan-shaped Jelly Fungus",
+   "sciname": "Dacrymyces spathularia",
+   "cat": 6,
+   "role": "Especie de Fungi",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/166039271/medium.jpg",
+   "territoryPos": {
+    "x": -42.20564476294882,
+    "y": 2.249715275316423,
+    "z": -192.39013361441366
+   }
+  },
+  {
+   "id": "TB-Danaus-eresimus",
+   "name": "Soldier",
+   "sciname": "Danaus eresimus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469601027/medium.jpg",
+   "territoryPos": {
+    "x": -4.293636556145145,
+    "y": 1.0736607702532048,
+    "z": -158.9327599192104
+   }
+  },
+  {
+   "id": "TB-Danaus-plexippus",
+   "name": "Monarch",
+   "sciname": "Danaus plexippus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/385788994/medium.jpg",
+   "territoryPos": {
+    "x": 48.23220565339193,
+    "y": 1.5136086075948652,
+    "z": -112.57866751994828
+   }
+  },
+  {
+   "id": "TB-Dendryphantina",
+   "name": "Dendryphantina",
+   "sciname": "Dendryphantina",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/529237594/medium.jpg",
+   "territoryPos": {
+    "x": 440.14577809618936,
+    "y": 3.167848099367145,
+    "z": 233.28533361433182
+   }
+  },
+  {
+   "id": "TB-Dione-vanillae",
+   "name": "Gulf Fritillary",
+   "sciname": "Dione vanillae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391703878/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Dryas-iulia",
+   "name": "Julia Heliconian",
+   "sciname": "Dryas iulia",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526316/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Dysdercus",
+   "name": "Cotton Stainer Bugs",
+   "sciname": "Dysdercus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407964989/medium.png",
+   "territoryPos": {
+    "x": -15.375256478434977,
+    "y": 1.0534100753163649,
+    "z": -168.7122972327132
+   }
+  },
+  {
+   "id": "TB-Efferia",
+   "name": "Hammertails",
+   "sciname": "Efferia",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/299931508/medium.jpeg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Electrostrymon-hugon",
+   "name": "Ruddy Hairstreak",
+   "sciname": "Electrostrymon hugon",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407973885/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Entelegynae",
+   "name": "Entelegyne Spiders",
+   "sciname": "Entelegynae",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407966600/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Eriophora",
+   "name": "Eriophora",
+   "sciname": "Eriophora",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238563549/medium.jpg",
+   "territoryPos": {
+    "x": -40.24693809633939,
+    "y": 2.2387974664556984,
+    "z": -190.6615736144642
+   }
+  },
+  {
+   "id": "TB-Eriophora-edax",
+   "name": "Eriophora edax",
+   "sciname": "Eriophora edax",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407978833/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Erythrodiplax-umbrata",
+   "name": "Band-winged Dragonlet",
+   "sciname": "Erythrodiplax umbrata",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407972875/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Eumeninae",
+   "name": "Potter and Mason Wasps",
+   "sciname": "Eumeninae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330186/medium.jpg",
+   "territoryPos": {
+    "x": 156.4277542481754,
+    "y": 2.1955148743670585,
+    "z": -17.09602039276291
+   }
+  },
+  {
+   "id": "TB-Euptoieta-hegesia",
+   "name": "Mexican Fritillary",
+   "sciname": "Euptoieta hegesia",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407962685/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Eurema",
+   "name": "Grass Yellows",
+   "sciname": "Eurema",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407980112/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Euryneura",
+   "name": "Euryneura",
+   "sciname": "Euryneura",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526120/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Gasteracantha-cancriformis",
+   "name": "Spinybacked Orbweaver",
+   "sciname": "Gasteracantha cancriformis",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330885/medium.jpg",
+   "territoryPos": {
+    "x": 346.3508000000204,
+    "y": 3.3376898734177924,
+    "z": 150.51120000001794
+   }
+  },
+  {
+   "id": "TB-Glaphyria-sesquistrialis",
+   "name": "White-roped Glaphyria Moth",
+   "sciname": "Glaphyria sesquistrialis",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407985163/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Glutophrissa-drusilla",
+   "name": "Florida White",
+   "sciname": "Glutophrissa drusilla",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391714102/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Hamadryas-februa",
+   "name": "Gray Cracker",
+   "sciname": "Hamadryas februa",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407975229/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Hamadryas-iphthime",
+   "name": "Brownish Cracker",
+   "sciname": "Hamadryas iphthime",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468702698/medium.jpg",
+   "territoryPos": {
+    "x": -12.513451795475277,
+    "y": 1.0733788424050492,
+    "z": -166.1867526032076
+   }
+  },
+  {
+   "id": "TB-Hapalopus",
+   "name": "Pumpkin Patch Tarantulas",
+   "sciname": "Hapalopus",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/44559943/medium.jpg",
+   "territoryPos": {
+    "x": 72.36573098756685,
+    "y": 2.124335500632989,
+    "z": -91.28081457362924
+   }
+  },
+  {
+   "id": "TB-Heraclides-homothoas",
+   "name": "False Giant Swallowtail",
+   "sciname": "Heraclides homothoas",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/427866910/medium.jpeg",
+   "territoryPos": {
+    "x": -15.293333333355946,
+    "y": 1.057405061392391,
+    "z": -168.64000000001997
+   }
+  },
+  {
+   "id": "TB-Hermetia-illucens",
+   "name": "Black Soldier Fly",
+   "sciname": "Hermetia illucens",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469968894/medium.jpg",
+   "territoryPos": {
+    "x": -5.452193873352371,
+    "y": 1.053772239873443,
+    "z": -159.95518756001678
+   }
+  },
+  {
+   "id": "TB-Insecta",
+   "name": "Insects",
+   "sciname": "Insecta",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355277695/medium.jpg",
+   "territoryPos": {
+    "x": -21.09309721466633,
+    "y": 1.0536480056961683,
+    "z": -173.7582956719997
+   }
+  },
+  {
+   "id": "TB-Junonia",
+   "name": "Buckeyes & Pansies",
+   "sciname": "Junonia",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469751468/medium.jpg",
+   "territoryPos": {
+    "x": -8.417375750172027,
+    "y": 1.0586154303797062,
+    "z": -162.57196263523414
+   }
+  },
+  {
+   "id": "TB-Junonia-zonalis",
+   "name": "Northern Tropical Buckeye",
+   "sciname": "Junonia zonalis",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391706945/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Lactista-stramineus",
+   "name": "Lactista stramineus",
+   "sciname": "Lactista stramineus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407981543/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Lepidoptera",
+   "name": "Butterflies and Moths",
+   "sciname": "Lepidoptera",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238563478/medium.jpg",
+   "territoryPos": {
+    "x": -34.848710514844356,
+    "y": 1.6573186708859904,
+    "z": -185.89763400723916
+   }
+  },
+  {
+   "id": "TB-Leucauge",
+   "name": "Orchard Spiders and Allies",
+   "sciname": "Leucauge",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330920/medium.jpg",
+   "territoryPos": {
+    "x": 345.18831523698395,
+    "y": 3.3360759512658205,
+    "z": 149.48530638552705
+   }
+  },
+  {
+   "id": "TB-Loxa-viridis",
+   "name": "Loxa viridis",
+   "sciname": "Loxa viridis",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/182404293/medium.jpg",
+   "territoryPos": {
+    "x": -41.377573333351904,
+    "y": 2.1899050632911368,
+    "z": -191.65936000001636
+   }
+  },
+  {
+   "id": "TB-Lurio",
+   "name": "Lurio",
+   "sciname": "Lurio",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468693031/medium.jpg",
+   "territoryPos": {
+    "x": -16.273759655731254,
+    "y": 1.0596630816455979,
+    "z": -169.50522691359816
+   }
+  },
+  {
+   "id": "TB-Lycosidae",
+   "name": "Wolf Spiders",
+   "sciname": "Lycosidae",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526280/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Lystronychus-sexsignatus",
+   "name": "Lystronychus sexsignatus",
+   "sciname": "Lystronychus sexsignatus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525924/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Megalopyge-lanata",
+   "name": "Megalopyge lanata",
+   "sciname": "Megalopyge lanata",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468684119/medium.jpg",
+   "territoryPos": {
+    "x": -15.631524581934627,
+    "y": 1.0629115917721148,
+    "z": -168.93845401285998
+   }
+  },
+  {
+   "id": "TB-Menemerus",
+   "name": "Wall Jumping Spiders",
+   "sciname": "Menemerus",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223445306/medium.jpg",
+   "territoryPos": {
+    "x": 338.3885780962098,
+    "y": 3.3344620234177462,
+    "z": 143.48453361434974
+   }
+  },
+  {
+   "id": "TB-Microtia-elva-elva",
+   "name": "Microtia elva elva",
+   "sciname": "Microtia elva elva",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526024/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Mischocyttarus",
+   "name": "Long-waisted Paper Wasps",
+   "sciname": "Mischocyttarus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526337/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Musonia-surinama",
+   "name": "Musonia surinama",
+   "sciname": "Musonia surinama",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407980404/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Myzinum",
+   "name": "New World Banded Thynnid Wasps",
+   "sciname": "Myzinum",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526184/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Nastonotus",
+   "name": "Nastonotus",
+   "sciname": "Nastonotus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526104/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Neoxylocopa",
+   "name": "Neoxylocopa",
+   "sciname": "Neoxylocopa",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384117586/medium.jpg",
+   "territoryPos": {
+    "x": -14.624506666612803,
+    "y": 1.0650000018987704,
+    "z": -168.04975999995247
+   }
+  },
+  {
+   "id": "TB-Noctuinae",
+   "name": "Cutworms and Dart Moths",
+   "sciname": "Noctuinae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407968162/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Nyia",
+   "name": "Nyia",
+   "sciname": "Nyia",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525892/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Pachylia-ficus",
+   "name": "Fig Sphinx",
+   "sciname": "Pachylia ficus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/418477952/medium.jpeg",
+   "territoryPos": {
+    "x": 215.27701626661712,
+    "y": 2.446518987341772,
+    "z": 34.83849439995623
+   }
+  },
+  {
+   "id": "TB-Palpada",
+   "name": "Plushback Flies",
+   "sciname": "Palpada",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526045/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Pantala-flavescens",
+   "name": "Wandering Glider",
+   "sciname": "Pantala flavescens",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407972545/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Pheidole",
+   "name": "Big-headed Ants",
+   "sciname": "Pheidole",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223445468/medium.jpg",
+   "territoryPos": {
+    "x": 338.46819999996274,
+    "y": 3.333892403164603,
+    "z": 143.55479999996703
+   }
+  },
+  {
+   "id": "TB-Phoebis-sennae",
+   "name": "Cloudless Sulphur",
+   "sciname": "Phoebis sennae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391692028/medium.png",
+   "territoryPos": {
+    "x": -17.326713302961622,
+    "y": 1.0263971549050617,
+    "z": -170.43445924196612
+   }
+  },
+  {
+   "id": "TB-Phoebis-sennae-marcellina",
+   "name": "Marcellina Sulphur",
+   "sciname": "Phoebis sennae marcellina",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407967270/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Poecilosomella",
+   "name": "Poecilosomella",
+   "sciname": "Poecilosomella",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525955/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Pogonomyrmex-mayri",
+   "name": "Pogonomyrmex mayri",
+   "sciname": "Pogonomyrmex mayri",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526296/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Proconiini",
+   "name": "Proconiini",
+   "sciname": "Proconiini",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525972/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Proscopiidae",
+   "name": "Neotropical Stick Grasshoppers",
+   "sciname": "Proscopiidae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/222793158/medium.jpg",
+   "territoryPos": {
+    "x": 26.059246164606094,
+    "y": 2.4894182715190265,
+    "z": -132.14631973974758
+   }
+  },
+  {
+   "id": "TB-Pseudomyrmex",
+   "name": "Twig Ants",
+   "sciname": "Pseudomyrmex",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330310/medium.jpg",
+   "territoryPos": {
+    "x": 347.73622666658366,
+    "y": 3.3449050651899417,
+    "z": 151.73383999992672
+   }
+  },
+  {
+   "id": "TB-Pseudosphinx-tetrio",
+   "name": "Tetrio Sphinx",
+   "sciname": "Pseudosphinx tetrio",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/168698232/medium.jpg",
+   "territoryPos": {
+    "x": -43.79808857036642,
+    "y": 2.250284810126622,
+    "z": -193.79546638557036
+   }
+  },
+  {
+   "id": "TB-Psilonyx",
+   "name": "Psilonyx",
+   "sciname": "Psilonyx",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525932/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Ptinus-latefasciatus",
+   "name": "Ptinus latefasciatus",
+   "sciname": "Ptinus latefasciatus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/299930772/medium.jpeg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Quadrus-fridericus",
+   "name": "Fridericus Spreadwing",
+   "sciname": "Quadrus fridericus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391711321/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Scarabaeidae",
+   "name": "Scarabs",
+   "sciname": "Scarabaeidae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/218238010/medium.jpg",
+   "territoryPos": {
+    "x": -33.24034146667299,
+    "y": 1.6688060117088632,
+    "z": -184.47824720000557
+   }
+  },
+  {
+   "id": "TB-Schistocerca-nitens",
+   "name": "Schistocerca nitens",
+   "sciname": "Schistocerca nitens",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/385789576/medium.jpg",
+   "territoryPos": {
+    "x": 277.90753809629524,
+    "y": 3.036835441139297,
+    "z": 90.1099736144252
+   }
+  },
+  {
+   "id": "TB-Schizophyllum",
+   "name": "Schizophyllum",
+   "sciname": "Schizophyllum",
+   "cat": 6,
+   "role": "Especie de Fungi",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407965863/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Sparassidae",
+   "name": "Huntsman Spiders",
+   "sciname": "Sparassidae",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/218238443/medium.jpg",
+   "territoryPos": {
+    "x": -42.25341809629731,
+    "y": 2.2829430360760012,
+    "z": -192.43229361442707
+   }
+  },
+  {
+   "id": "TB-Spodoptera",
+   "name": "Armyworm Moths",
+   "sciname": "Spodoptera",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407967342/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Spodoptera-cosmioides",
+   "name": "Spodoptera cosmioides",
+   "sciname": "Spodoptera cosmioides",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407981862/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Stagmomantis",
+   "name": "Stagmomantis",
+   "sciname": "Stagmomantis",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526255/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Steirodon-dentatum",
+   "name": "Steirodon dentatum",
+   "sciname": "Steirodon dentatum",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/182404262/medium.jpg",
+   "territoryPos": {
+    "x": -42.668205285597935,
+    "y": 2.194815674050679,
+    "z": -192.79834359839816
+   }
+  },
+  {
+   "id": "TB-Tachytes",
+   "name": "Tachytes",
+   "sciname": "Tachytes",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526163/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Tetanorhynchini",
+   "name": "Tetanorhynchini",
+   "sciname": "Tetanorhynchini",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407985230/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Thyreocoridae",
+   "name": "Ebony Bugs",
+   "sciname": "Thyreocoridae",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407982017/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Trichonephila-clavipes",
+   "name": "Golden Silk Spider",
+   "sciname": "Trichonephila clavipes",
+   "cat": 6,
+   "role": "Especie de Arachnida",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468685046/medium.jpg",
+   "territoryPos": {
+    "x": -9.247864032724038,
+    "y": 1.0507554683543687,
+    "z": -163.30486912405064
+   }
+  },
+  {
+   "id": "TB-Urbanus-proteus",
+   "name": "Long-tailed Skipper",
+   "sciname": "Urbanus proteus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391699511/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Villini",
+   "name": "banded bee flies",
+   "sciname": "Villini",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526202/medium.jpg",
+   "territoryPos": {
+    "x": 126.03929599997122,
+    "y": 4.130162658227898,
+    "z": -43.91385600002542
+   }
+  },
+  {
+   "id": "TB-Xyleus",
+   "name": "Xyleus",
+   "sciname": "Xyleus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407977065/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Zelus",
+   "name": "Zelus",
+   "sciname": "Zelus",
+   "cat": 6,
+   "role": "Especie de Insecta",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238563641/medium.jpg",
+   "territoryPos": {
+    "x": -27.841795237128565,
+    "y": 1.7254746854430725,
+    "z": -179.71402638565462
+   }
+  },
+  {
+   "id": "TB-Agonandra-brasiliensis",
+   "name": "Agonandra brasiliensis",
+   "sciname": "Agonandra brasiliensis",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/366983428/medium.jpg",
+   "territoryPos": {
+    "x": 300.28138190365513,
+    "y": 2.9954430398734555,
+    "z": 109.85490638553097
+   }
+  },
+  {
+   "id": "TB-Alstonia-scholaris",
+   "name": "White Cheesewood",
+   "sciname": "Alstonia scholaris",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Tierra Bomba Island Punta Arena, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/605745434/medium.jpg",
+   "territoryPos": {
+    "x": 316.77982947727213,
+    "y": 3.300212201582294,
+    "z": 124.41479788086366
+   }
+  },
+  {
+   "id": "TB-Astronium-graveolens",
+   "name": "Astronium graveolens",
+   "sciname": "Astronium graveolens",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/366931580/medium.jpg",
+   "territoryPos": {
+    "x": 195.32320948515695,
+    "y": 2.1114484177215,
+    "z": 17.229245992762003
+   }
+  },
+  {
+   "id": "TB-Azadirachta-indica",
+   "name": "Neem",
+   "sciname": "Azadirachta indica",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355260762/medium.jpg",
+   "territoryPos": {
+    "x": -18.87448737172204,
+    "y": 1.0655848955695832,
+    "z": -171.80037093759003
+   }
+  },
+  {
+   "id": "TB-Bignonia-callistegioides",
+   "name": "lavender trumpet vine",
+   "sciname": "Bignonia callistegioides",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405513452/medium.jpeg",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Boraginaceae",
+   "name": "borage family",
+   "sciname": "Boraginaceae",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Playa Linda Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/205478849/medium.jpeg",
+   "territoryPos": {
+    "x": -12.109261686951925,
+    "y": 2.4077442702531986,
+    "z": -165.8300545504164
+   }
+  },
+  {
+   "id": "TB-Bouchea",
+   "name": "Bouchea",
+   "sciname": "Bouchea",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419310407/medium.jpeg",
+   "territoryPos": {
+    "x": 22.479448570411222,
+    "y": 1.4264243259494085,
+    "z": -135.3054936143901
+   }
+  },
+  {
+   "id": "TB-Bougainvillea-glabra",
+   "name": "lesser bougainvillea",
+   "sciname": "Bougainvillea glabra",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416209574/medium.jpeg",
+   "territoryPos": {
+    "x": -22.88929428880641,
+    "y": 1.0632778405063412,
+    "z": -175.34344084320566
+   }
+  },
+  {
+   "id": "TB-Bougainvillea-spectabilis",
+   "name": "beautiful bougainvillea",
+   "sciname": "Bougainvillea spectabilis",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355278610/medium.jpg",
+   "territoryPos": {
+    "x": -20.096010420054597,
+    "y": 1.056290086708874,
+    "z": -172.87836588004816
+   }
+  },
+  {
+   "id": "TB-Cactoideae",
+   "name": "globular cacti, moonlight cacti, torch cacti, and allies",
+   "sciname": "Cactoideae",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/183193904/medium.jpg",
+   "territoryPos": {
+    "x": -42.668205285597935,
+    "y": 2.194006391772121,
+    "z": -192.79834359839816
+   }
+  },
+  {
+   "id": "TB-Caesalpinia-pulcherrima",
+   "name": "peacock flower",
+   "sciname": "Caesalpinia pulcherrima",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384551518/medium.jpg",
+   "territoryPos": {
+    "x": -23.522899109960605,
+    "y": 1.0581336939872583,
+    "z": -175.90259753996526
+   }
+  },
+  {
+   "id": "TB-Calotropis-procera",
+   "name": "giant milkweed",
+   "sciname": "Calotropis procera",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/44509534/medium.jpeg",
+   "territoryPos": {
+    "x": -1.1785069483419193,
+    "y": 1.7285521508137116,
+    "z": -156.18365586677564
+   }
+  },
+  {
+   "id": "TB-Carica-papaya",
+   "name": "Papaya",
+   "sciname": "Carica papaya",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355279068/medium.jpg",
+   "territoryPos": {
+    "x": -18.250272399188248,
+    "y": 1.0572622291139309,
+    "z": -171.24950078878965
+   }
+  },
+  {
+   "id": "TB-Ceiba",
+   "name": "Ceiba",
+   "sciname": "Ceiba",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405494364/medium.jpeg",
+   "territoryPos": {
+    "x": -20.099189257629064,
+    "y": 1.0560135018987304,
+    "z": -172.88117120642565
+   }
+  },
+  {
+   "id": "TB-Cissus-erosa",
+   "name": "Cissus erosa",
+   "sciname": "Cissus erosa",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405518542/medium.jpeg",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Citrus-maxima",
+   "name": "Pomelo",
+   "sciname": "Citrus maxima",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407973058/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Coccoloba-uvifera",
+   "name": "sea grape",
+   "sciname": "Coccoloba uvifera",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/48492231/medium.jpg",
+   "territoryPos": {
+    "x": 66.23402031011076,
+    "y": 1.4759017017721314,
+    "z": -96.6920535248199
+   }
+  },
+  {
+   "id": "TB-Cocos",
+   "name": "Coconut Palms",
+   "sciname": "Cocos",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/671339554/medium.jpg",
+   "territoryPos": {
+    "x": 165.8153733333553,
+    "y": 2.4175632930380253,
+    "z": -8.811439999980621
+   }
+  },
+  {
+   "id": "TB-Commelina-erecta",
+   "name": "whitemouth dayflower",
+   "sciname": "Commelina erecta",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419346156/medium.jpeg",
+   "territoryPos": {
+    "x": 13.49806190374548,
+    "y": 1.3378483765822315,
+    "z": -143.23157361438928
+   }
+  },
+  {
+   "id": "TB-Conocarpus-erectus",
+   "name": "Green Buttonwood",
+   "sciname": "Conocarpus erectus",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/31936985/medium.jpeg",
+   "territoryPos": {
+    "x": 218.4081673746257,
+    "y": 3.035308569620254,
+    "z": 37.60173743750107
+   }
+  },
+  {
+   "id": "TB-Cordia",
+   "name": "Cordia",
+   "sciname": "Cordia",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405844894/medium.jpeg",
+   "territoryPos": {
+    "x": -10.117888570403721,
+    "y": 1.0554118575949358,
+    "z": -164.0726663856033
+   }
+  },
+  {
+   "id": "TB-Cordia-dentata",
+   "name": "white manjack",
+   "sciname": "Cordia dentata",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405519115/medium.jpeg",
+   "territoryPos": {
+    "x": -8.008138866671146,
+    "y": 1.636840348575896,
+    "z": -162.21081080000397
+   }
+  },
+  {
+   "id": "TB-Cordia-sebestena",
+   "name": "Scarlet Cordia",
+   "sciname": "Cordia sebestena",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384549810/medium.jpg",
+   "territoryPos": {
+    "x": -31.600123848097155,
+    "y": 1.1131889240506487,
+    "z": -183.03075400716807
+   }
+  },
+  {
+   "id": "TB-Crescentia-cujete",
+   "name": "Calabash Tree",
+   "sciname": "Crescentia cujete",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355276712/medium.jpg",
+   "territoryPos": {
+    "x": -23.404168522372345,
+    "y": 1.0600349553797332,
+    "z": -175.7978177135756
+   }
+  },
+  {
+   "id": "TB-Epipremnum-aureum",
+   "name": "Golden Pothos",
+   "sciname": "Epipremnum aureum",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416210618/medium.jpeg",
+   "territoryPos": {
+    "x": -20.55687881118189,
+    "y": 1.0530046139240052,
+    "z": -173.28508255678403
+   }
+  },
+  {
+   "id": "TB-Euphorbia-lactea",
+   "name": "Mottled Spurge",
+   "sciname": "Euphorbia lactea",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384551281/medium.jpg",
+   "territoryPos": {
+    "x": -36.950578096243675,
+    "y": 1.1755063310126612,
+    "z": -187.7525336143797
+   }
+  },
+  {
+   "id": "TB-Euphorbia-tithymaloides",
+   "name": "Devil's Backbone",
+   "sciname": "Euphorbia tithymaloides",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/366931154/medium.jpg",
+   "territoryPos": {
+    "x": 307.4951552371055,
+    "y": 3.00854430569625,
+    "z": 116.22106638563429
+   }
+  },
+  {
+   "id": "TB-Heliantheae",
+   "name": "Sunflowers and Allies",
+   "sciname": "Heliantheae",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419350030/medium.jpeg",
+   "territoryPos": {
+    "x": 19.979311429643786,
+    "y": 1.1547154651898761,
+    "z": -137.51186638556135
+   }
+  },
+  {
+   "id": "TB-Hymenocallis-speciosa",
+   "name": "Hymenocallis speciosa",
+   "sciname": "Hymenocallis speciosa",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/424258726/medium.jpeg",
+   "territoryPos": {
+    "x": -24.338418096314285,
+    "y": 1.0618670905062815,
+    "z": -176.62229361444201
+   }
+  },
+  {
+   "id": "TB-Justicia-carthaginensis",
+   "name": "Justicia carthaginensis",
+   "sciname": "Justicia carthaginensis",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/167451263/medium.jpg",
+   "territoryPos": {
+    "x": 352.8002000000306,
+    "y": 3.2151740496835637,
+    "z": 156.20280000002697
+   }
+  },
+  {
+   "id": "TB-Kallstroemia",
+   "name": "Kallstroemia",
+   "sciname": "Kallstroemia",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419346845/medium.jpeg",
+   "territoryPos": {
+    "x": 15.679711429636995,
+    "y": 1.2621840094936363,
+    "z": -141.30626638556737
+   }
+  },
+  {
+   "id": "TB-Lonchocarpus",
+   "name": "Cabbage bark",
+   "sciname": "Lonchocarpus",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/408668141/medium.jpeg",
+   "territoryPos": {
+    "x": -27.602928570386098,
+    "y": 1.1947784810126736,
+    "z": -179.50322638558774
+   }
+  },
+  {
+   "id": "TB-Mansoa-alliacea",
+   "name": "Garlic Vine",
+   "sciname": "Mansoa alliacea",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419305120/medium.jpeg",
+   "territoryPos": {
+    "x": -4.5761819037433895,
+    "y": 1.0441140094936274,
+    "z": -159.18210638560888
+   }
+  },
+  {
+   "id": "TB-Melochia-parvifolia",
+   "name": "Melochia parvifolia",
+   "sciname": "Melochia parvifolia",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419347385/medium.jpeg",
+   "territoryPos": {
+    "x": 16.189293333254824,
+    "y": 1.125949642405042,
+    "z": -140.8565600000693
+   }
+  },
+  {
+   "id": "TB-Mimosoideae",
+   "name": "Acacias, Mimosas, Mesquites, and Allies",
+   "sciname": "Mimosoideae",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/431635678/medium.jpeg",
+   "territoryPos": {
+    "x": 96.5281152370892,
+    "y": 2.565189871518982,
+    "z": -69.95749361438013
+   }
+  },
+  {
+   "id": "TB-Morinda",
+   "name": "Morinda",
+   "sciname": "Morinda",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363024845/medium.jpg",
+   "territoryPos": {
+    "x": -12.028821903800434,
+    "y": 0.8808227829113827,
+    "z": -165.75906638565922
+   }
+  },
+  {
+   "id": "TB-Morinda-citrifolia",
+   "name": "Noni",
+   "sciname": "Morinda citrifolia",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/349167439/medium.jpg",
+   "territoryPos": {
+    "x": 342.18967005119725,
+    "y": 3.021526575000078,
+    "z": 146.83899991679755
+   }
+  },
+  {
+   "id": "TB-Morisonia-tenuisiliqua",
+   "name": "Morisonia tenuisiliqua",
+   "sciname": "Morisonia tenuisiliqua",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/381500324/medium.jpg",
+   "territoryPos": {
+    "x": 288.97502666667185,
+    "y": 2.9943037993670685,
+    "z": 99.87704000000457
+   }
+  },
+  {
+   "id": "TB-Neltuma-juliflora",
+   "name": "mesquite",
+   "sciname": "Neltuma juliflora",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419315038/medium.jpeg",
+   "territoryPos": {
+    "x": 19.02384476294546,
+    "y": 1.4152216044303572,
+    "z": -138.3550663855893
+   }
+  },
+  {
+   "id": "TB-Passiflora-foetida",
+   "name": "Stinking Passionflower",
+   "sciname": "Passiflora foetida",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/385790006/medium.jpg",
+   "territoryPos": {
+    "x": 377.4034666666305,
+    "y": 3.220253162658224,
+    "z": 177.91519999996802
+   }
+  },
+  {
+   "id": "TB-Physalis-angulata",
+   "name": "cutleaf groundcherry",
+   "sciname": "Physalis angulata",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/402649837/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Pithecellobium-dulce",
+   "name": "Madras Thorn",
+   "sciname": "Pithecellobium dulce",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355281009/medium.jpg",
+   "territoryPos": {
+    "x": -19.831799999969434,
+    "y": 1.061677213291166,
+    "z": -172.64519999997302
+   }
+  },
+  {
+   "id": "TB-Plumeria-pudica",
+   "name": "Hammerleaf Frangipani",
+   "sciname": "Plumeria pudica",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416207514/medium.jpeg",
+   "territoryPos": {
+    "x": -23.136761110929427,
+    "y": 1.057159315822776,
+    "z": -175.56183048639656
+   }
+  },
+  {
+   "id": "TB-Pochota-fendleri",
+   "name": "Red Ceiba",
+   "sciname": "Pochota fendleri",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405517174/medium.jpeg",
+   "territoryPos": {
+    "x": -25.820665066695653,
+    "y": 1.057511392405044,
+    "z": -177.93037760002557
+   }
+  },
+  {
+   "id": "TB-Priva-lappulacea",
+   "name": "Catstongue",
+   "sciname": "Priva lappulacea",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/402652366/medium.png",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Pseudobombax",
+   "name": "Pseudobombax",
+   "sciname": "Pseudobombax",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/424643299/medium.jpeg",
+   "territoryPos": {
+    "x": 3.4406645070115474,
+    "y": 1.451895707278505,
+    "z": -152.10723383444864
+   }
+  },
+  {
+   "id": "TB-Quadrella-indica",
+   "name": "Linguam",
+   "sciname": "Quadrella indica",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/366929122/medium.jpg",
+   "territoryPos": {
+    "x": 342.25821809621584,
+    "y": 3.1735443018987772,
+    "z": 146.89949361435515
+   }
+  },
+  {
+   "id": "TB-Rauvolfia-viridis",
+   "name": "milkbush",
+   "sciname": "Rauvolfia viridis",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419348970/medium.jpeg",
+   "territoryPos": {
+    "x": 18.51426190370813,
+    "y": 1.1902216044303724,
+    "z": -138.80477361442226
+   }
+  },
+  {
+   "id": "TB-Ruellia-simplex",
+   "name": "Mexican Ruellia",
+   "sciname": "Ruellia simplex",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416206738/medium.jpeg",
+   "territoryPos": {
+    "x": -24.845802426620622,
+    "y": 1.0562831943037463,
+    "z": -177.07006063995937
+   }
+  },
+  {
+   "id": "TB-Ruellia-tuberosa",
+   "name": "Popping Pod",
+   "sciname": "Ruellia tuberosa",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419351030/medium.jpeg",
+   "territoryPos": {
+    "x": 21.938018096253188,
+    "y": 1.1871838196202416,
+    "z": -135.7833063856119
+   }
+  },
+  {
+   "id": "TB-Russelia-equisetiformis",
+   "name": "Firecracker plant",
+   "sciname": "Russelia equisetiformis",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416206418/medium.jpeg",
+   "territoryPos": {
+    "x": -24.856213191467333,
+    "y": 1.0566723189873102,
+    "z": -177.0792481472006
+   }
+  },
+  {
+   "id": "TB-Sida",
+   "name": "Sidas",
+   "sciname": "Sida",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261355047/medium.jpg",
+   "territoryPos": {
+    "x": 345.1086933333668,
+    "y": 3.338259493670936,
+    "z": 149.41504000002953
+   }
+  },
+  {
+   "id": "TB-Sida-rhombifolia",
+   "name": "Cuban jute",
+   "sciname": "Sida rhombifolia",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419348244/medium.jpeg",
+   "territoryPos": {
+    "x": 16.635178096199553,
+    "y": 1.2424369841772376,
+    "z": -140.4630663856592
+   }
+  },
+  {
+   "id": "TB-Spondias-mombin",
+   "name": "yellow mombin",
+   "sciname": "Spondias mombin",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/398361234/medium.jpg",
+   "territoryPos": {
+    "x": -22.234988804544543,
+    "y": 1.7235604082278488,
+    "z": -174.7660157968099
+   }
+  },
+  {
+   "id": "TB-Tabebuia-rosea",
+   "name": "Pink poui",
+   "sciname": "Tabebuia rosea",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416245393/medium.jpeg",
+   "territoryPos": {
+    "x": -17.478888806896663,
+    "y": 1.0620009455696189,
+    "z": -170.56875423036763
+   }
+  },
+  {
+   "id": "TB-Tamarindus-indica",
+   "name": "Tamarind",
+   "sciname": "Tamarindus indica",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/355278938/medium.jpg",
+   "territoryPos": {
+    "x": -20.597702080066966,
+    "y": 1.0602180455696284,
+    "z": -173.3211091200591
+   }
+  },
+  {
+   "id": "TB-Tecoma",
+   "name": "Tecoma",
+   "sciname": "Tecoma",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384550453/medium.jpg",
+   "territoryPos": {
+    "x": -35.86771523709598,
+    "y": 1.142373417721494,
+    "z": -186.79690638562587
+   }
+  },
+  {
+   "id": "TB-Tecoma-stans",
+   "name": "yellow trumpet flower",
+   "sciname": "Tecoma stans",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/704259474/medium.jpg",
+   "territoryPos": {
+    "x": 63.500818096273576,
+    "y": 3.3674050651898995,
+    "z": -99.10410638559392
+   }
+  },
+  {
+   "id": "TB-Terminalia",
+   "name": "Cluster-leafs",
+   "sciname": "Terminalia",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/366085106/medium.jpeg",
+   "territoryPos": {
+    "x": 235.7017405599134,
+    "y": 3.497842594936706,
+    "z": 52.863327839923556
+   }
+  },
+  {
+   "id": "TB-Tracheophyta",
+   "name": "Vascular Plants",
+   "sciname": "Tracheophyta",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/166039214/medium.jpg",
+   "territoryPos": {
+    "x": -41.377573333351904,
+    "y": 2.2400316455696436,
+    "z": -191.65936000001636
+   }
+  },
+  {
+   "id": "TB-Trema-micranthum",
+   "name": "Nettletree",
+   "sciname": "Trema micranthum",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/224565051/medium.jpg",
+   "territoryPos": {
+    "x": 294.1764123495641,
+    "y": 3.33163263987348,
+    "z": 104.46726649436829
+   }
+  },
+  {
+   "id": "TB-Vachellia-macracantha",
+   "name": "porknut",
+   "sciname": "Vachellia macracantha",
+   "cat": 0,
+   "role": "Especie de Plantae",
+   "loc": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bo",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405511995/medium.jpeg",
+   "territoryPos": {
+    "x": -25.81970959994993,
+    "y": 1.0575170886075411,
+    "z": -177.9295343999558
+   }
+  },
+  {
+   "id": "TB-Bradypus",
+   "name": "Three-toed Sloths",
+   "sciname": "Bradypus",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Tierra Bomba Island, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/281870266/medium.jpeg",
+   "territoryPos": {
+    "x": 207.3676020501157,
+    "y": 2.4887068575949014,
+    "z": 27.858430835184436
+   }
+  },
+  {
+   "id": "TB-Cuniculus-paca",
+   "name": "Spotted Paca",
+   "sciname": "Cuniculus paca",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/129203790/medium.jpg",
+   "territoryPos": {
+    "x": -32.57135523713603,
+    "y": 1.6373734177214807,
+    "z": -183.8878663856612
+   }
+  },
+  {
+   "id": "TB-Mammalia",
+   "name": "Mammals",
+   "sciname": "Mammalia",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354962/medium.jpg",
+   "territoryPos": {
+    "x": 347.6566047629665,
+    "y": 3.3520253183544315,
+    "z": 151.66357361442925
+   }
+  },
+  {
+   "id": "TB-Molossus-molossus",
+   "name": "Velvety Free-tailed Bat",
+   "sciname": "Molossus molossus",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Isla de Tierra Bomba, BL, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666828675/medium.jpg",
+   "territoryPos": {
+    "x": 63.80113177972356,
+    "y": 0.6973422208860878,
+    "z": -98.83907935040861
+   }
+  },
+  {
+   "id": "TB-Mormoops-megalophylla",
+   "name": "Ghost-faced Bat",
+   "sciname": "Mormoops megalophylla",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Isla de Tierra Bomba, BL, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666813111/medium.jpg",
+   "territoryPos": {
+    "x": 63.72200862964584,
+    "y": 0.6988378670886206,
+    "z": -98.90890558555955
+   }
+  },
+  {
+   "id": "TB-Pteronotus-fuscus",
+   "name": "Allen's Common Mustached Bat",
+   "sciname": "Pteronotus fuscus",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Isla de Tierra Bomba, BL, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666818845/medium.jpg",
+   "territoryPos": {
+    "x": 63.89405282400702,
+    "y": 0.6981075911392376,
+    "z": -98.75707646399383
+   }
+  },
+  {
+   "id": "TB-Pteronotus-gymnonotus",
+   "name": "big naked-backed bat",
+   "sciname": "Pteronotus gymnonotus",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Isla de Tierra Bomba, BL, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666826692/medium.jpg",
+   "territoryPos": {
+    "x": 63.519718182426175,
+    "y": 0.7000236512657987,
+    "z": -99.08742704637689
+   }
+  },
+  {
+   "id": "TB-Pteronotus-personatus",
+   "name": "Wagner's Lesser Mustached Bat",
+   "sciname": "Pteronotus personatus",
+   "cat": 2,
+   "role": "Especie de Mammalia",
+   "loc": "Isla de Tierra Bomba, BL, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666825140/medium.jpg",
+   "territoryPos": {
+    "x": 63.672230727166664,
+    "y": 0.6980515291139371,
+    "z": -98.9528346192294
+   }
+  },
+  {
+   "id": "TB-Acanthopleura-granulata",
+   "name": "West Indian Fuzzy Chiton",
+   "sciname": "Acanthopleura granulata",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025904/medium.jpg",
+   "territoryPos": {
+    "x": 86.24203644837547,
+    "y": 2.3146871126582393,
+    "z": -79.03496532242167
+   }
+  },
+  {
+   "id": "TB-Chicoreus-brevifrons",
+   "name": "West Indian murex",
+   "sciname": "Chicoreus brevifrons",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502208055/medium.jpeg",
+   "territoryPos": {
+    "x": 393.8757597732947,
+    "y": 3.2155506341772786,
+    "z": 192.45201015996588
+   }
+  },
+  {
+   "id": "TB-Echinolittorina",
+   "name": "Echinolittorina",
+   "sciname": "Echinolittorina",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/469612180/medium.jpg",
+   "territoryPos": {
+    "x": 341.09573333331525,
+    "y": 3.343386075949425,
+    "z": 145.87359999998398
+   }
+  },
+  {
+   "id": "TB-Gastropoda",
+   "name": "Gastropods",
+   "sciname": "Gastropoda",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390500451/medium.jpeg",
+   "territoryPos": {
+    "x": 186.06744480002436,
+    "y": 2.561303164556935,
+    "z": 9.061027200021499
+   }
+  },
+  {
+   "id": "TB-Hastula",
+   "name": "Hastula",
+   "sciname": "Hastula",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/387130962/medium.jpg",
+   "territoryPos": {
+    "x": -28.50263897970342,
+    "y": 1.0849605322785196,
+    "z": -180.2972214495736
+   }
+  },
+  {
+   "id": "TB-Littorininae",
+   "name": "Littorininae",
+   "sciname": "Littorininae",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla Tierra Bomba, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354775/medium.jpg",
+   "territoryPos": {
+    "x": 343.4366266665769,
+    "y": 3.342721517088623,
+    "z": 147.93943999992075
+   }
+  },
+  {
+   "id": "TB-Melongena",
+   "name": "Melongena",
+   "sciname": "Melongena",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502208501/medium.jpeg",
+   "territoryPos": {
+    "x": 395.5255373136056,
+    "y": 3.230467068987344,
+    "z": 193.90793999040494
+   }
+  },
+  {
+   "id": "TB-Melongena-melongena",
+   "name": "Caribbean Crown Conch",
+   "sciname": "Melongena melongena",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390499500/medium.jpeg",
+   "territoryPos": {
+    "x": 186.06744480002436,
+    "y": 2.561303164556935,
+    "z": 9.061027200021499
+   }
+  },
+  {
+   "id": "TB-Neogastropoda",
+   "name": "Neogastropods",
+   "sciname": "Neogastropoda",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390520280/medium.jpeg",
+   "territoryPos": {
+    "x": 186.06744480002436,
+    "y": 2.561303164556935,
+    "z": 9.061027200021499
+   }
+  },
+  {
+   "id": "TB-Ostreidae",
+   "name": "True Oysters",
+   "sciname": "Ostreidae",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502350899/medium.jpeg",
+   "territoryPos": {
+    "x": 379.1270683389565,
+    "y": 3.223365795569641,
+    "z": 179.43627967842042
+   }
+  },
+  {
+   "id": "TB-Spondylus-tenuis",
+   "name": "Digitate Thorny Oyster",
+   "sciname": "Spondylus tenuis",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390500019/medium.jpeg",
+   "territoryPos": {
+    "x": 186.06744480002436,
+    "y": 2.561303164556935,
+    "z": 9.061027200021499
+   }
+  },
+  {
+   "id": "TB-Strombidae",
+   "name": "True Conchs",
+   "sciname": "Strombidae",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390517111/medium.jpeg",
+   "territoryPos": {
+    "x": 186.06744480002436,
+    "y": 2.561303164556935,
+    "z": 9.061027200021499
+   }
+  },
+  {
+   "id": "TB-Stromboidea",
+   "name": "Conchs and Allies",
+   "sciname": "Stromboidea",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390500875/medium.jpeg",
+   "territoryPos": {
+    "x": 186.06744480002436,
+    "y": 2.561303164556935,
+    "z": 9.061027200021499
+   }
+  },
+  {
+   "id": "TB-Trachycardium-isocardia",
+   "name": "Even Prickly Cockle",
+   "sciname": "Trachycardium isocardia",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502058514/medium.jpeg",
+   "territoryPos": {
+    "x": 382.7373583777886,
+    "y": 3.1995633588608197,
+    "z": 182.62236315673113
+   }
+  },
+  {
+   "id": "TB-Vermetidae",
+   "name": "Worm Snails",
+   "sciname": "Vermetidae",
+   "cat": 3,
+   "role": "Especie de Mollusca",
+   "loc": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/398685418/medium.jpeg",
+   "territoryPos": {
+    "x": 359.22722679248807,
+    "y": 3.3383760265822566,
+    "z": 161.87465562876002
+   }
+  },
+  {
+   "id": "TB-Cnemidophorus",
+   "name": "Southern Whiptails",
+   "sciname": "Cnemidophorus",
+   "cat": 5,
+   "role": "Especie de Reptilia",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://static.inaturalist.org/photos/401894689/medium.jpg",
+   "territoryPos": {
+    "x": 439.2221600000312,
+    "y": 3.172500000000049,
+    "z": 232.47024000002756
+   }
+  },
+  {
+   "id": "TB-Cnemidophorus-gaigei",
+   "name": "Gaige’s Rainbow Lizard",
+   "sciname": "Cnemidophorus gaigei",
+   "cat": 5,
+   "role": "Especie de Reptilia",
+   "loc": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+   "alert": "Registro verificado iNaturalist / Cat?logo de Biodiversidad",
+   "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/183193936/medium.jpg",
+   "territoryPos": {
+    "x": 43.49848698470467,
+    "y": 2.08921843101266,
+    "z": -116.75617754796647
+   }
+  }
+ ],
+ "edges": [
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Leptotila-verreauxi",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Melanerpes-rubricapillus",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Melanospiza-bicolor",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Myiozetetes",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Boraginaceae"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Bouchea"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Bougainvillea-glabra"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Bougainvillea-spectabilis"
+  },
+  {
+   "source": "TB-Myiozetetes-similis",
+   "target": "TB-Cactoideae"
+  },
+  {
+   "source": "TB-Bradypus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Bradypus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Bradypus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Bradypus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Bradypus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Cuniculus-paca",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Cuniculus-paca",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Cuniculus-paca",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Cuniculus-paca",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Cuniculus-paca",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Mammalia",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Mammalia",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Mammalia",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Mammalia",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Mammalia",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Molossus-molossus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Molossus-molossus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Molossus-molossus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Molossus-molossus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Molossus-molossus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Mormoops-megalophylla",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Mormoops-megalophylla",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Mormoops-megalophylla",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Mormoops-megalophylla",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Mormoops-megalophylla",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Pteronotus-fuscus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Pteronotus-fuscus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Pteronotus-fuscus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Pteronotus-fuscus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Pteronotus-fuscus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Pteronotus-gymnonotus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Pteronotus-gymnonotus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Pteronotus-gymnonotus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Pteronotus-gymnonotus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Pteronotus-gymnonotus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Pteronotus-personatus",
+   "target": "TB-Agonandra-brasiliensis"
+  },
+  {
+   "source": "TB-Pteronotus-personatus",
+   "target": "TB-Alstonia-scholaris"
+  },
+  {
+   "source": "TB-Pteronotus-personatus",
+   "target": "TB-Astronium-graveolens"
+  },
+  {
+   "source": "TB-Pteronotus-personatus",
+   "target": "TB-Azadirachta-indica"
+  },
+  {
+   "source": "TB-Pteronotus-personatus",
+   "target": "TB-Bignonia-callistegioides"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Ardea-alba",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Columbina-passerina",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Columbina-squammata",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Columbina-talpacoti",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Coragyps-atratus",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Crotophaga",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Eupsittula-pertinax",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Forpus",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Forpus-spengeli",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Cnemidophorus"
+  },
+  {
+   "source": "TB-Icterus-nigrogularis",
+   "target": "TB-Cnemidophorus-gaigei"
+  },
+  {
+   "source": "TB-Cnemidophorus",
+   "target": "TB-Bradypus"
+  },
+  {
+   "source": "TB-Cnemidophorus",
+   "target": "TB-Cuniculus-paca"
+  },
+  {
+   "source": "TB-Cnemidophorus",
+   "target": "TB-Mammalia"
+  },
+  {
+   "source": "TB-Cnemidophorus-gaigei",
+   "target": "TB-Bradypus"
+  },
+  {
+   "source": "TB-Cnemidophorus-gaigei",
+   "target": "TB-Cuniculus-paca"
+  },
+  {
+   "source": "TB-Cnemidophorus-gaigei",
+   "target": "TB-Mammalia"
+  }
+ ],
+ "edgeDetailsMap": {
+  "TB-Ardea-alba_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a Agonandra brasiliens"
+  },
+  "TB-Ardea-alba_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a White Cheesewood"
+  },
+  "TB-Ardea-alba_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a Astronium graveolens"
+  },
+  "TB-Ardea-alba_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a Neem"
+  },
+  "TB-Ardea-alba_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a lavender trumpet vin"
+  },
+  "TB-Ardea-alba_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a borage family"
+  },
+  "TB-Ardea-alba_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a Bouchea"
+  },
+  "TB-Ardea-alba_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a lesser bougainvillea"
+  },
+  "TB-Ardea-alba_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a beautiful bougainvil"
+  },
+  "TB-Ardea-alba_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Great Egret a globular cacti, moon"
+  },
+  "TB-Columbina-passerina_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a Agonandra brasiliens"
+  },
+  "TB-Columbina-passerina_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a White Cheesewood"
+  },
+  "TB-Columbina-passerina_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a Astronium graveolens"
+  },
+  "TB-Columbina-passerina_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a Neem"
+  },
+  "TB-Columbina-passerina_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a lavender trumpet vin"
+  },
+  "TB-Columbina-passerina_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a borage family"
+  },
+  "TB-Columbina-passerina_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a Bouchea"
+  },
+  "TB-Columbina-passerina_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a lesser bougainvillea"
+  },
+  "TB-Columbina-passerina_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a beautiful bougainvil"
+  },
+  "TB-Columbina-passerina_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Common Ground Dove a globular cacti, moon"
+  },
+  "TB-Columbina-squammata_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a Agonandra brasiliens"
+  },
+  "TB-Columbina-squammata_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a White Cheesewood"
+  },
+  "TB-Columbina-squammata_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a Astronium graveolens"
+  },
+  "TB-Columbina-squammata_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a Neem"
+  },
+  "TB-Columbina-squammata_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a lavender trumpet vin"
+  },
+  "TB-Columbina-squammata_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a borage family"
+  },
+  "TB-Columbina-squammata_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a Bouchea"
+  },
+  "TB-Columbina-squammata_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a lesser bougainvillea"
+  },
+  "TB-Columbina-squammata_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a beautiful bougainvil"
+  },
+  "TB-Columbina-squammata_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Scaled Dove a globular cacti, moon"
+  },
+  "TB-Columbina-talpacoti_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a Agonandra brasiliens"
+  },
+  "TB-Columbina-talpacoti_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a White Cheesewood"
+  },
+  "TB-Columbina-talpacoti_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a Astronium graveolens"
+  },
+  "TB-Columbina-talpacoti_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a Neem"
+  },
+  "TB-Columbina-talpacoti_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a lavender trumpet vin"
+  },
+  "TB-Columbina-talpacoti_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a borage family"
+  },
+  "TB-Columbina-talpacoti_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a Bouchea"
+  },
+  "TB-Columbina-talpacoti_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a lesser bougainvillea"
+  },
+  "TB-Columbina-talpacoti_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a beautiful bougainvil"
+  },
+  "TB-Columbina-talpacoti_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Ruddy Ground Dove a globular cacti, moon"
+  },
+  "TB-Coragyps-atratus_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a Agonandra brasiliens"
+  },
+  "TB-Coragyps-atratus_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a White Cheesewood"
+  },
+  "TB-Coragyps-atratus_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a Astronium graveolens"
+  },
+  "TB-Coragyps-atratus_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a Neem"
+  },
+  "TB-Coragyps-atratus_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a lavender trumpet vin"
+  },
+  "TB-Coragyps-atratus_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a borage family"
+  },
+  "TB-Coragyps-atratus_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a Bouchea"
+  },
+  "TB-Coragyps-atratus_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a lesser bougainvillea"
+  },
+  "TB-Coragyps-atratus_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a beautiful bougainvil"
+  },
+  "TB-Coragyps-atratus_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Black Vulture a globular cacti, moon"
+  },
+  "TB-Crotophaga_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a Agonandra brasiliens"
+  },
+  "TB-Crotophaga_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a White Cheesewood"
+  },
+  "TB-Crotophaga_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a Astronium graveolens"
+  },
+  "TB-Crotophaga_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a Neem"
+  },
+  "TB-Crotophaga_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a lavender trumpet vin"
+  },
+  "TB-Crotophaga_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a borage family"
+  },
+  "TB-Crotophaga_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a Bouchea"
+  },
+  "TB-Crotophaga_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a lesser bougainvillea"
+  },
+  "TB-Crotophaga_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a beautiful bougainvil"
+  },
+  "TB-Crotophaga_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Anis a globular cacti, moon"
+  },
+  "TB-Eupsittula-pertinax_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a Agonandra brasiliens"
+  },
+  "TB-Eupsittula-pertinax_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a White Cheesewood"
+  },
+  "TB-Eupsittula-pertinax_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a Astronium graveolens"
+  },
+  "TB-Eupsittula-pertinax_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a Neem"
+  },
+  "TB-Eupsittula-pertinax_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a lavender trumpet vin"
+  },
+  "TB-Eupsittula-pertinax_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a borage family"
+  },
+  "TB-Eupsittula-pertinax_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a Bouchea"
+  },
+  "TB-Eupsittula-pertinax_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a lesser bougainvillea"
+  },
+  "TB-Eupsittula-pertinax_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a beautiful bougainvil"
+  },
+  "TB-Eupsittula-pertinax_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Brown-throated Parak a globular cacti, moon"
+  },
+  "TB-Forpus_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a Agonandra brasiliens"
+  },
+  "TB-Forpus_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a White Cheesewood"
+  },
+  "TB-Forpus_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a Astronium graveolens"
+  },
+  "TB-Forpus_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a Neem"
+  },
+  "TB-Forpus_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a lavender trumpet vin"
+  },
+  "TB-Forpus_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a borage family"
+  },
+  "TB-Forpus_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a Bouchea"
+  },
+  "TB-Forpus_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a lesser bougainvillea"
+  },
+  "TB-Forpus_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a beautiful bougainvil"
+  },
+  "TB-Forpus_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Typical Parrotlets a globular cacti, moon"
+  },
+  "TB-Forpus-spengeli_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a Agonandra brasiliens"
+  },
+  "TB-Forpus-spengeli_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a White Cheesewood"
+  },
+  "TB-Forpus-spengeli_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a Astronium graveolens"
+  },
+  "TB-Forpus-spengeli_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a Neem"
+  },
+  "TB-Forpus-spengeli_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a lavender trumpet vin"
+  },
+  "TB-Forpus-spengeli_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a borage family"
+  },
+  "TB-Forpus-spengeli_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a Bouchea"
+  },
+  "TB-Forpus-spengeli_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a lesser bougainvillea"
+  },
+  "TB-Forpus-spengeli_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a beautiful bougainvil"
+  },
+  "TB-Forpus-spengeli_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Turquoise-winged Par a globular cacti, moon"
+  },
+  "TB-Icterus-nigrogularis_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a Agonandra brasiliens"
+  },
+  "TB-Icterus-nigrogularis_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a White Cheesewood"
+  },
+  "TB-Icterus-nigrogularis_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a Astronium graveolens"
+  },
+  "TB-Icterus-nigrogularis_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a Neem"
+  },
+  "TB-Icterus-nigrogularis_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a lavender trumpet vin"
+  },
+  "TB-Icterus-nigrogularis_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a borage family"
+  },
+  "TB-Icterus-nigrogularis_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a Bouchea"
+  },
+  "TB-Icterus-nigrogularis_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a lesser bougainvillea"
+  },
+  "TB-Icterus-nigrogularis_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a beautiful bougainvil"
+  },
+  "TB-Icterus-nigrogularis_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Yellow Oriole a globular cacti, moon"
+  },
+  "TB-Leptotila-verreauxi_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a Agonandra brasiliens"
+  },
+  "TB-Leptotila-verreauxi_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a White Cheesewood"
+  },
+  "TB-Leptotila-verreauxi_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a Astronium graveolens"
+  },
+  "TB-Leptotila-verreauxi_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a Neem"
+  },
+  "TB-Leptotila-verreauxi_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a lavender trumpet vin"
+  },
+  "TB-Leptotila-verreauxi_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a borage family"
+  },
+  "TB-Leptotila-verreauxi_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a Bouchea"
+  },
+  "TB-Leptotila-verreauxi_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a lesser bougainvillea"
+  },
+  "TB-Leptotila-verreauxi_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a beautiful bougainvil"
+  },
+  "TB-Leptotila-verreauxi_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de White-tipped Dove a globular cacti, moon"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a Agonandra brasiliens"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a White Cheesewood"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a Astronium graveolens"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a Neem"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a lavender trumpet vin"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a borage family"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a Bouchea"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a lesser bougainvillea"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a beautiful bougainvil"
+  },
+  "TB-Melanerpes-rubricapillus_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Red-crowned Woodpeck a globular cacti, moon"
+  },
+  "TB-Melanospiza-bicolor_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a Agonandra brasiliens"
+  },
+  "TB-Melanospiza-bicolor_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a White Cheesewood"
+  },
+  "TB-Melanospiza-bicolor_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a Astronium graveolens"
+  },
+  "TB-Melanospiza-bicolor_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a Neem"
+  },
+  "TB-Melanospiza-bicolor_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a lavender trumpet vin"
+  },
+  "TB-Melanospiza-bicolor_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a borage family"
+  },
+  "TB-Melanospiza-bicolor_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a Bouchea"
+  },
+  "TB-Melanospiza-bicolor_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a lesser bougainvillea"
+  },
+  "TB-Melanospiza-bicolor_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a beautiful bougainvil"
+  },
+  "TB-Melanospiza-bicolor_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Black-faced Grassqui a globular cacti, moon"
+  },
+  "TB-Myiozetetes_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a Agonandra brasiliens"
+  },
+  "TB-Myiozetetes_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a White Cheesewood"
+  },
+  "TB-Myiozetetes_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a Astronium graveolens"
+  },
+  "TB-Myiozetetes_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a Neem"
+  },
+  "TB-Myiozetetes_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a lavender trumpet vin"
+  },
+  "TB-Myiozetetes_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a borage family"
+  },
+  "TB-Myiozetetes_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a Bouchea"
+  },
+  "TB-Myiozetetes_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a lesser bougainvillea"
+  },
+  "TB-Myiozetetes_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a beautiful bougainvil"
+  },
+  "TB-Myiozetetes_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Myiozetetes Flycatch a globular cacti, moon"
+  },
+  "TB-Myiozetetes-similis_TB-Agonandra-brasiliensis": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a Agonandra brasiliens"
+  },
+  "TB-Myiozetetes-similis_TB-Alstonia-scholaris": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a White Cheesewood"
+  },
+  "TB-Myiozetetes-similis_TB-Astronium-graveolens": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a Astronium graveolens"
+  },
+  "TB-Myiozetetes-similis_TB-Azadirachta-indica": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a Neem"
+  },
+  "TB-Myiozetetes-similis_TB-Bignonia-callistegioides": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a lavender trumpet vin"
+  },
+  "TB-Myiozetetes-similis_TB-Boraginaceae": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a borage family"
+  },
+  "TB-Myiozetetes-similis_TB-Bouchea": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a Bouchea"
+  },
+  "TB-Myiozetetes-similis_TB-Bougainvillea-glabra": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a lesser bougainvillea"
+  },
+  "TB-Myiozetetes-similis_TB-Bougainvillea-spectabilis": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a beautiful bougainvil"
+  },
+  "TB-Myiozetetes-similis_TB-Cactoideae": {
+   "type": 3,
+   "rationale": "Visita floral de Social Flycatcher a globular cacti, moon"
+  },
+  "TB-Bradypus_TB-Agonandra-brasiliensis": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Three-toed Sloths"
+  },
+  "TB-Bradypus_TB-Alstonia-scholaris": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Three-toed Sloths"
+  },
+  "TB-Bradypus_TB-Astronium-graveolens": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Three-toed Sloths"
+  },
+  "TB-Bradypus_TB-Azadirachta-indica": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Three-toed Sloths"
+  },
+  "TB-Bradypus_TB-Bignonia-callistegioides": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Three-toed Sloths"
+  },
+  "TB-Cuniculus-paca_TB-Agonandra-brasiliensis": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Spotted Paca"
+  },
+  "TB-Cuniculus-paca_TB-Alstonia-scholaris": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Spotted Paca"
+  },
+  "TB-Cuniculus-paca_TB-Astronium-graveolens": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Spotted Paca"
+  },
+  "TB-Cuniculus-paca_TB-Azadirachta-indica": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Spotted Paca"
+  },
+  "TB-Cuniculus-paca_TB-Bignonia-callistegioides": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Spotted Paca"
+  },
+  "TB-Mammalia_TB-Agonandra-brasiliensis": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Mammals"
+  },
+  "TB-Mammalia_TB-Alstonia-scholaris": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Mammals"
+  },
+  "TB-Mammalia_TB-Astronium-graveolens": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Mammals"
+  },
+  "TB-Mammalia_TB-Azadirachta-indica": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Mammals"
+  },
+  "TB-Mammalia_TB-Bignonia-callistegioides": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Mammals"
+  },
+  "TB-Molossus-molossus_TB-Agonandra-brasiliensis": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Velvety Free-tailed "
+  },
+  "TB-Molossus-molossus_TB-Alstonia-scholaris": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Velvety Free-tailed "
+  },
+  "TB-Molossus-molossus_TB-Astronium-graveolens": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Velvety Free-tailed "
+  },
+  "TB-Molossus-molossus_TB-Azadirachta-indica": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Velvety Free-tailed "
+  },
+  "TB-Molossus-molossus_TB-Bignonia-callistegioides": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Velvety Free-tailed "
+  },
+  "TB-Mormoops-megalophylla_TB-Agonandra-brasiliensis": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Ghost-faced Bat"
+  },
+  "TB-Mormoops-megalophylla_TB-Alstonia-scholaris": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Ghost-faced Bat"
+  },
+  "TB-Mormoops-megalophylla_TB-Astronium-graveolens": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Ghost-faced Bat"
+  },
+  "TB-Mormoops-megalophylla_TB-Azadirachta-indica": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Ghost-faced Bat"
+  },
+  "TB-Mormoops-megalophylla_TB-Bignonia-callistegioides": {
+   "type": 2,
+   "rationale": "Dispersi\\u003n de semillas por Ghost-faced Bat"
+  },
+  "TB-Pteronotus-fuscus_TB-Agonandra-brasiliensis": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Agonandra brasi por Allen's Common "
+  },
+  "TB-Pteronotus-fuscus_TB-Alstonia-scholaris": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de White Cheesewoo por Allen's Common "
+  },
+  "TB-Pteronotus-fuscus_TB-Astronium-graveolens": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Astronium grave por Allen's Common "
+  },
+  "TB-Pteronotus-fuscus_TB-Azadirachta-indica": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Neem por Allen's Common "
+  },
+  "TB-Pteronotus-fuscus_TB-Bignonia-callistegioides": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de lavender trumpe por Allen's Common "
+  },
+  "TB-Pteronotus-gymnonotus_TB-Agonandra-brasiliensis": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Agonandra brasi por big naked-backe"
+  },
+  "TB-Pteronotus-gymnonotus_TB-Alstonia-scholaris": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de White Cheesewoo por big naked-backe"
+  },
+  "TB-Pteronotus-gymnonotus_TB-Astronium-graveolens": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Astronium grave por big naked-backe"
+  },
+  "TB-Pteronotus-gymnonotus_TB-Azadirachta-indica": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Neem por big naked-backe"
+  },
+  "TB-Pteronotus-gymnonotus_TB-Bignonia-callistegioides": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de lavender trumpe por big naked-backe"
+  },
+  "TB-Pteronotus-personatus_TB-Agonandra-brasiliensis": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Agonandra brasi por Wagner's Lesser"
+  },
+  "TB-Pteronotus-personatus_TB-Alstonia-scholaris": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de White Cheesewoo por Wagner's Lesser"
+  },
+  "TB-Pteronotus-personatus_TB-Astronium-graveolens": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Astronium grave por Wagner's Lesser"
+  },
+  "TB-Pteronotus-personatus_TB-Azadirachta-indica": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de Neem por Wagner's Lesser"
+  },
+  "TB-Pteronotus-personatus_TB-Bignonia-callistegioides": {
+   "type": 1,
+   "rationale": "Herbivor\\u00eda directa de lavender trumpe por Wagner's Lesser"
+  },
+  "TB-Ardea-alba_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Great Egret"
+  },
+  "TB-Ardea-alba_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Great Egret"
+  },
+  "TB-Columbina-passerina_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Common Ground D"
+  },
+  "TB-Columbina-passerina_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Common Ground D"
+  },
+  "TB-Columbina-squammata_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Scaled Dove"
+  },
+  "TB-Columbina-squammata_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Scaled Dove"
+  },
+  "TB-Columbina-talpacoti_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Ruddy Ground Do"
+  },
+  "TB-Columbina-talpacoti_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Ruddy Ground Do"
+  },
+  "TB-Coragyps-atratus_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Black Vulture"
+  },
+  "TB-Coragyps-atratus_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Black Vulture"
+  },
+  "TB-Crotophaga_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Anis"
+  },
+  "TB-Crotophaga_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Anis"
+  },
+  "TB-Eupsittula-pertinax_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Brown-throated "
+  },
+  "TB-Eupsittula-pertinax_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Brown-throated "
+  },
+  "TB-Forpus_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Typical Parrotl"
+  },
+  "TB-Forpus_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Typical Parrotl"
+  },
+  "TB-Forpus-spengeli_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Turquoise-winge"
+  },
+  "TB-Forpus-spengeli_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Turquoise-winge"
+  },
+  "TB-Icterus-nigrogularis_TB-Cnemidophorus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Southern Whipta por Yellow Oriole"
+  },
+  "TB-Icterus-nigrogularis_TB-Cnemidophorus-gaigei": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Gaige’s Rainbow por Yellow Oriole"
+  },
+  "TB-Cnemidophorus_TB-Bradypus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Three-toed Slot por Southern Whipta"
+  },
+  "TB-Cnemidophorus_TB-Cuniculus-paca": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Spotted Paca por Southern Whipta"
+  },
+  "TB-Cnemidophorus_TB-Mammalia": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Mammals por Southern Whipta"
+  },
+  "TB-Cnemidophorus-gaigei_TB-Bradypus": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Three-toed Slot por Gaige’s Rainbow"
+  },
+  "TB-Cnemidophorus-gaigei_TB-Cuniculus-paca": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Spotted Paca por Gaige’s Rainbow"
+  },
+  "TB-Cnemidophorus-gaigei_TB-Mammalia": {
+   "type": 0,
+   "rationale": "Depredaci\\u00f3n de Mammals por Gaige’s Rainbow"
+  }
+ },
+ "interTypes": {
+  "PREDATION": {
+   "id": 0,
+   "name": "Depredaci?n",
+   "color": "#C96349"
+  },
+  "HERBIVORY": {
+   "id": 1,
+   "name": "Herbivor?a",
+   "color": "#84A48B"
+  },
+  "DISPERSAL": {
+   "id": 2,
+   "name": "Dispersi?n de Semillas",
+   "color": "#E69888"
+  },
+  "MUTUALISM": {
+   "id": 3,
+   "name": "Mutualismo",
+   "color": "#E7C878"
+  },
+  "NESTING": {
+   "id": 4,
+   "name": "Nidificaci?n & Refugio",
+   "color": "#F79E70"
+  },
+  "POLLINATION": {
+   "id": 5,
+   "name": "Visita Floral / Polinizaci?n",
+   "color": "#A386A9"
+  },
+  "NEST_SITE": {
+   "id": 6,
+   "name": "Anidamiento de Dosel",
+   "color": "#D1A996"
+  },
+  "PARASITISM": {
+   "id": 7,
+   "name": "Parasitismo de Nido",
+   "color": "#C6B3CA"
+  },
+  "ALLELOPATHY": {
+   "id": 8,
+   "name": "Competencia / Biofiltro",
+   "color": "#6B9080"
+  }
+ },
+ "palette": {
+  "catColors": [
+   "#84A48B",
+   "#38BDF8",
+   "#F59E0B",
+   "#EC4899",
+   "#10B981",
+   "#A855F7"
+  ],
+  "interColors": [
+   "#C96349",
+   "#84A48B",
+   "#E69888",
+   "#E7C878",
+   "#F79E70",
+   "#A386A9",
+   "#D1A996",
+   "#C6B3CA",
+   "#6B9080"
+  ]
+ }
+}

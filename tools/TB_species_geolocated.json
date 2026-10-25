@@ -1,0 +1,4452 @@
+[
+ {
+  "sci": "Boana platanera",
+  "common": "Banana Tree Dwelling Frog",
+  "iconic": "Amphibia",
+  "n": 1,
+  "lat": 10.3647783333,
+  "lon": -75.5516966667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/246825473/medium.jpg",
+  "ids": [
+   "143874778"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 345.90491523707567,
+   "y": 3.291170884177259,
+   "z": 150.1177063856079
+  },
+  "cat": 4
+ },
+ {
+  "sci": "Boana pugnax",
+  "common": "Chirique-Flusse Tree Frog",
+  "iconic": "Amphibia",
+  "n": 2,
+  "lat": 10.36246787735,
+  "lon": -75.55566178379999,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247151809/medium.jpg",
+  "ids": [
+   "144047098",
+   "406357156"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 308.0195430523288,
+   "y": 3.15956263386075,
+   "z": 116.6838389984548
+  },
+  "cat": 4
+ },
+ {
+  "sci": "Engystomops pustulosus",
+  "common": "Túngara Frog",
+  "iconic": "Amphibia",
+  "n": 1,
+  "lat": 10.3649416667,
+  "lon": -75.5517416667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247450905/medium.jpg",
+  "ids": [
+   "144202172"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 345.47495523707494,
+   "y": 3.3004746854430675,
+   "z": 149.73826638560735
+  },
+  "cat": 4
+ },
+ {
+  "sci": "Ardea alba",
+  "common": "Great Egret",
+  "iconic": "Aves",
+  "n": 2,
+  "lat": 10.3557539251,
+  "lon": -75.55726676665,
+  "img": "https://static.inaturalist.org/photos/202343253/medium.jpg",
+  "ids": [
+   "119679504",
+   "362509948"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 292.6844669147525,
+   "y": 2.7771223158228118,
+   "z": 103.15062360715802
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Columbina passerina",
+  "common": "Common Ground Dove",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407971334/medium.png",
+  "ids": [
+   "229809964"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Columbina squammata",
+  "common": "Scaled Dove",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3257419622,
+  "lon": -75.5888327489,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469748529/medium.jpg",
+  "ids": [
+   "261470275"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+  "territoryPos": {
+   "x": -8.917971489911906,
+   "y": 1.0675801253164723,
+   "z": -163.01373872483992
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Columbina talpacoti",
+  "common": "Ruddy Ground Dove",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391701134/medium.png",
+  "ids": [
+   "221195073"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Coragyps atratus",
+  "common": "Black Vulture",
+  "iconic": "Aves",
+  "n": 5,
+  "lat": 10.34126651418,
+  "lon": -75.57870456508,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/259687110/medium.jpg",
+  "ids": [
+   "150584119",
+   "197351329",
+   "283759688",
+   "303253412",
+   "356703748"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 87.85344884891981,
+   "y": 1.951890048227904,
+   "z": -77.61289275459549
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Crotophaga",
+  "common": "Anis",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3233133333,
+  "lon": -75.589425,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/381818922/medium.jpg",
+  "ids": [
+   "215928022"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -14.576733333400085,
+   "y": 0.9292405044303591,
+   "z": -168.00760000005891
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Eupsittula pertinax",
+  "common": "Brown-throated Parakeet",
+  "iconic": "Aves",
+  "n": 3,
+  "lat": 10.342200799899999,
+  "lon": -75.5755128812,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/140041326/medium.jpg",
+  "ids": [
+   "85143559",
+   "268376693",
+   "391547154"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 118.3489244277335,
+   "y": 2.005108855063227,
+   "z": -50.700614278399826
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Forpus",
+  "common": "Typical Parrotlets",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391715969/medium.png",
+  "ids": [
+   "221202541"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Forpus spengeli",
+  "common": "Turquoise-winged Parrotlet",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391718801/medium.png",
+  "ids": [
+   "221203949"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Icterus nigrogularis",
+  "common": "Yellow Oriole",
+  "iconic": "Aves",
+  "n": 8,
+  "lat": 10.3336563570375,
+  "lon": -75.5863250517875,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/332708178/medium.jpeg",
+  "ids": [
+   "189866336",
+   "213249943",
+   "215928171",
+   "215929156",
+   "221182764",
+   "221184502",
+   "221191022",
+   "384711349"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 15.042238521044311,
+   "y": 1.5184000844145298,
+   "z": -141.8688366721903
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Leptotila verreauxi",
+  "common": "White-tipped Dove",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3256046607,
+  "lon": -75.5894252995,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/470325351/medium.jpg",
+  "ids": [
+   "261758589"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+  "territoryPos": {
+   "x": -14.579594955947101,
+   "y": 1.059759153797452,
+   "z": -168.01012538395332
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Melanerpes rubricapillus",
+  "common": "Red-crowned Woodpecker",
+  "iconic": "Aves",
+  "n": 2,
+  "lat": 10.3389343901,
+  "lon": -75.57907073095001,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/332710463/medium.jpeg",
+  "ids": [
+   "189866999",
+   "272813175"
+  ],
+  "place": "Tierra Bomba Island, Cartagena Province, Bolivar, Colombia",
+  "territoryPos": {
+   "x": 84.35485601630859,
+   "y": 1.8190475373417978,
+   "z": -80.70040337048067
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Melanospiza bicolor",
+  "common": "Black-faced Grassquit",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3253311149,
+  "lon": -75.5903804955,
+  "img": "https://static.inaturalist.org/photos/387130423/medium.jpg",
+  "ids": [
+   "218756111"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -23.70617433734418,
+   "y": 1.0441774310127019,
+   "z": -176.06433805600957
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Myiozetetes",
+  "common": "Myiozetetes Flycatchers",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391697225/medium.png",
+  "ids": [
+   "221192945"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Myiozetetes similis",
+  "common": "Social Flycatcher",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391702236/medium.png",
+  "ids": [
+   "221195479"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Pitangus sulphuratus",
+  "common": "Great Kiskadee",
+  "iconic": "Aves",
+  "n": 4,
+  "lat": 10.32555337265,
+  "lon": -75.589766084625,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391697767/medium.png",
+  "ids": [
+   "221193256",
+   "261739598",
+   "261740351",
+   "261740682"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+  "territoryPos": {
+   "x": -17.83568323032398,
+   "y": 1.056837682594978,
+   "z": -170.88362555799176
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Progne tapera",
+  "common": "Brown-chested Martin",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407982894/medium.png",
+  "ids": [
+   "229816044"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Quiscalus",
+  "common": "Typical Grackles",
+  "iconic": "Aves",
+  "n": 4,
+  "lat": 10.333396148,
+  "lon": -75.575572790625,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025571/medium.jpg",
+  "ids": [
+   "147847262",
+   "205317751",
+   "215299284",
+   "261471243"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 117.77650984162017,
+   "y": 1.5035780506329273,
+   "z": -51.20577055004105
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Saltator olivascens",
+  "common": "Olive-gray Saltator",
+  "iconic": "Aves",
+  "n": 3,
+  "lat": 10.334398922233333,
+  "lon": -75.58255346666667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/332706502/medium.jpeg",
+  "ids": [
+   "189865454",
+   "215928427",
+   "219159104"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 51.07847715553734,
+   "y": 1.5606981018987418,
+   "z": -110.0668309333494
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Sicalis flaveola",
+  "common": "Saffron Finch",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391716951/medium.png",
+  "ids": [
+   "221203198"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Thraupis episcopus",
+  "common": "Blue-gray Tanager",
+  "iconic": "Aves",
+  "n": 5,
+  "lat": 10.325491184059999,
+  "lon": -75.59008197844,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391696061/medium.png",
+  "ids": [
+   "212322836",
+   "221192336",
+   "221193874",
+   "261740667",
+   "261758506"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -20.85394333470495,
+   "y": 1.0532952945568856,
+   "z": -173.54724220606673
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Todirostrum cinereum",
+  "common": "Common Tody-Flycatcher",
+  "iconic": "Aves",
+  "n": 2,
+  "lat": 10.32553499735,
+  "lon": -75.5900131026,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391679845/medium.png",
+  "ids": [
+   "221184057",
+   "261739753"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -20.19585764211581,
+   "y": 1.0557909882910896,
+   "z": -172.96648112318454
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Trochilidae",
+  "common": "Hummingbirds",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3252090575,
+  "lon": -75.5903589567,
+  "img": "https://static.inaturalist.org/photos/387127460/medium.jpg",
+  "ids": [
+   "218754877"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -23.500378282956945,
+   "y": 1.0372247943038135,
+   "z": -175.88272289442082
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Troglodytes musculus",
+  "common": "Southern House Wren",
+  "iconic": "Aves",
+  "n": 2,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391703219/medium.png",
+  "ids": [
+   "212325496",
+   "221196163"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Tyrannidae",
+  "common": "Tyrant Flycatchers",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407982347/medium.png",
+  "ids": [
+   "229816041"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Tyrannus",
+  "common": "Kingbirds",
+  "iconic": "Aves",
+  "n": 2,
+  "lat": 10.32558098335,
+  "lon": -75.59050085,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/381821529/medium.jpg",
+  "ids": [
+   "215929422",
+   "221203521"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -24.856121466659744,
+   "y": 1.058410443987289,
+   "z": -177.0791671999939
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Tyrannus dominicensis",
+  "common": "Gray Kingbird",
+  "iconic": "Aves",
+  "n": 2,
+  "lat": 10.3256394733,
+  "lon": -75.58882922320001,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469754248/medium.jpg",
+  "ids": [
+   "261472738",
+   "261739964"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+  "territoryPos": {
+   "x": -8.8842846016924,
+   "y": 1.0617421500000368,
+   "z": -162.98401002248153
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Tyrannus melancholicus",
+  "common": "Tropical Kingbird",
+  "iconic": "Aves",
+  "n": 5,
+  "lat": 10.33614705846,
+  "lon": -75.58439598298,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391702580/medium.png",
+  "ids": [
+   "221195683",
+   "229811165",
+   "243353285",
+   "261470626",
+   "261757756"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 33.47384795375956,
+   "y": 1.6602754818987322,
+   "z": -125.6029284873604
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Tyrannus melancholicus satrapa",
+  "common": "Middle American Tropical Kingbird",
+  "iconic": "Aves",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "",
+  "ids": [
+   "157741173"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Zenaida auriculata",
+  "common": "Eared Dove",
+  "iconic": "Aves",
+  "n": 4,
+  "lat": 10.34618552975,
+  "lon": -75.577084901925,
+  "img": "https://static.inaturalist.org/photos/387131061/medium.jpg",
+  "ids": [
+   "218756714",
+   "261471030",
+   "384711341",
+   "397274473"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 103.32879040720104,
+   "y": 2.232087137658267,
+   "z": -63.95589303165792
+  },
+  "cat": 1
+ },
+ {
+  "sci": "Abudefduf saxatilis",
+  "common": "Atlantic Sergeant Major",
+  "iconic": "Actinopterygii",
+  "n": 1,
+  "lat": 10.3191533333,
+  "lon": -75.581305,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025316/medium.jpg",
+  "ids": [
+   "205317633"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 63.00715999998033,
+   "y": 0.6922784791138654,
+   "z": -99.53976000001737
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Acanthomorpha",
+  "common": "Spiny-rayed fishes",
+  "iconic": "Actinopterygii",
+  "n": 1,
+  "lat": 10.3229916667,
+  "lon": -75.5911783333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025810/medium.jpg",
+  "ids": [
+   "205317834"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -31.32924857034672,
+   "y": 0.9109177234177199,
+   "z": -182.79170638555297
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Aellopos",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391695499/medium.png",
+  "ids": [
+   "221192058"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Aellopos titan",
+  "common": "Titan Sphinx",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3253254571,
+  "lon": -75.5904015341,
+  "img": "https://static.inaturalist.org/photos/387015740/medium.jpg",
+  "ids": [
+   "218693798"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -23.907191147442717,
+   "y": 1.0438551512658125,
+   "z": -176.24173553117888
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Agaricomycetes",
+  "common": "Mushrooms, Bracket Fungi, Puffballs, and Allies",
+  "iconic": "Fungi",
+  "n": 2,
+  "lat": 10.346119999999999,
+  "lon": -75.59246833335,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238561480/medium.jpg",
+  "ids": [
+   "139475387",
+   "139476396"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -43.654769048130674,
+   "y": 2.228354430379706,
+   "z": -193.66898680719765
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Agroiconota propinqua",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526064/medium.jpg",
+  "ids": [
+   "144243785"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Anartia amathea",
+  "common": "Red Peacock",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3467764634,
+  "lon": -75.559288614,
+  "img": "https://static.inaturalist.org/photos/202345218/medium.jpg",
+  "ids": [
+   "119680543"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 273.3663894346794,
+   "y": 2.265747915189854,
+   "z": 86.10240675201118
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Anoplius",
+  "common": "Blue-black Spider Wasps",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526138/medium.jpg",
+  "ids": [
+   "144243791"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Anteos",
+  "common": "Angled Sulphurs",
+  "iconic": "Insecta",
+  "n": 2,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391709624/medium.png",
+  "ids": [
+   "221198830",
+   "221201198"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Anthanassa",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525880/medium.jpg",
+  "ids": [
+   "144243769"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Anthophila",
+  "common": "Bees",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407979802/medium.png",
+  "ids": [
+   "229814474"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Apeulaema",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3427697402,
+  "lon": -75.5564658948,
+  "img": "https://static.inaturalist.org/photos/202344363/medium.jpg",
+  "ids": [
+   "119680048"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 300.3365304842538,
+   "y": 2.037516846835429,
+   "z": 109.90357504638865
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Apiomerus pictipes",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407978378/medium.png",
+  "ids": [
+   "229813802"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Aricoris erostratus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.32607,
+  "lon": -75.59082833,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/62324904/medium.jpg",
+  "ids": [
+   "39294967"
+  ],
+  "place": "Isla de Tierra Bomba,, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -27.985083706618695,
+   "y": 1.0862658227847835,
+   "z": -179.84047855995766
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Ariidae",
+  "common": "Sea Catfishes",
+  "iconic": "Actinopterygii",
+  "n": 1,
+  "lat": 10.3658966667,
+  "lon": -75.5514216667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354885/medium.jpg",
+  "ids": [
+   "151469093"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 348.5324485704282,
+   "y": 3.3548734196202474,
+   "z": 152.43650638562485
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Ascalapha odorata",
+  "common": "Black Witch",
+  "iconic": "Insecta",
+  "n": 3,
+  "lat": 10.325328841666668,
+  "lon": -75.5895682477,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/408667732/medium.jpeg",
+  "ids": [
+   "230176567",
+   "232034599",
+   "261471614"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -15.945417357620698,
+   "y": 1.04404794303803,
+   "z": -169.21546460641827
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Ascia",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391720065/medium.png",
+  "ids": [
+   "221204468"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Astylus lebasi",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526233/medium.jpg",
+  "ids": [
+   "144243796"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Asyndetus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.365555,
+  "lon": -75.5524883333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261355096/medium.jpg",
+  "ids": [
+   "151469174"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 338.34080476286124,
+   "y": 3.3354113924051196,
+   "z": 143.44237361433636
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Attina",
+  "common": "Fungus-growing Ants",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3400024632,
+  "lon": -75.5863828306,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/182404183/medium.jpg",
+  "ids": [
+   "108347832"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 14.490181227170496,
+   "y": 1.879887144303768,
+   "z": -142.35602761922604
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Battus polydamas",
+  "common": "Polydamas Swallowtail",
+  "iconic": "Insecta",
+  "n": 5,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391708877/medium.png",
+  "ids": [
+   "221198695",
+   "221199193",
+   "229805797",
+   "229807491",
+   "229809330"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Bicyrtes variegatus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.365655,
+  "lon": -75.5518633333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247230456/medium.jpg",
+  "ids": [
+   "144088403"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 344.31247142952225,
+   "y": 3.341107594936752,
+   "z": 148.71237361433134
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Bostrichini",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3655533333,
+  "lon": -75.5526583333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330061/medium.jpg",
+  "ids": [
+   "131252685"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 336.71651142955557,
+   "y": 3.3353164537974607,
+   "z": 142.00893361436073
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Burnsius orcus",
+  "common": "Orcus Checkered-Skipper",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3254895802,
+  "lon": -75.5901117255,
+  "img": "https://static.inaturalist.org/photos/355261238/medium.jpg",
+  "ids": [
+   "201268115"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -21.138166577294157,
+   "y": 1.0532039354429914,
+   "z": -173.79806941596541
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Calephelis",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526000/medium.jpg",
+  "ids": [
+   "144243780"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Centropomus undecimalis",
+  "common": "Common Snook",
+  "iconic": "Actinopterygii",
+  "n": 1,
+  "lat": 10.3655583333,
+  "lon": -75.5525283333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354716/medium.jpg",
+  "ids": [
+   "151469022"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 337.9586180962091,
+   "y": 3.335601263924032,
+   "z": 143.1050936143492
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Cogia calchas",
+  "common": "Mimosa Skipper",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407984878/medium.png",
+  "ids": [
+   "229816799"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Coliadinae",
+  "common": "Yellows and Sulphurs",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407980583/medium.png",
+  "ids": [
+   "229814482"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Condylostylus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407981743/medium.png",
+  "ids": [
+   "229816038"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Corythalia",
+  "common": "",
+  "iconic": "Arachnida",
+  "n": 2,
+  "lat": 10.34560438335,
+  "lon": -75.57127674985,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223445376/medium.jpg",
+  "ids": [
+   "131312918",
+   "202454184"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 158.8237474331807,
+   "y": 2.1989838617088955,
+   "z": -14.98155473521706
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Cydosia",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407977245/medium.png",
+  "ids": [
+   "229812746"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Cydosia curvinella",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391705658/medium.png",
+  "ids": [
+   "221197231"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Dacrymyces spathularia",
+  "common": "Fan-shaped Jelly Fungus",
+  "iconic": "Fungi",
+  "n": 1,
+  "lat": 10.3464950015,
+  "lon": -75.5923166667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/166039271/medium.jpg",
+  "ids": [
+   "99584723"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -42.20564476294882,
+   "y": 2.249715275316423,
+   "z": -192.39013361441366
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Danaus eresimus",
+  "common": "Soldier",
+  "iconic": "Insecta",
+  "n": 2,
+  "lat": 10.3258487113,
+  "lon": -75.58834876185,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469601027/medium.jpg",
+  "ids": [
+   "261395084",
+   "261471397"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -4.293636556145145,
+   "y": 1.0736607702532048,
+   "z": -158.9327599192104
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Danaus plexippus",
+  "common": "Monarch",
+  "iconic": "Insecta",
+  "n": 5,
+  "lat": 10.333572239999999,
+  "lon": -75.58285135999999,
+  "img": "https://static.inaturalist.org/photos/385788994/medium.jpg",
+  "ids": [
+   "218035335",
+   "221201818",
+   "228500474",
+   "229808421",
+   "229816034"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 48.23220565339193,
+   "y": 1.5136086075948652,
+   "z": -112.57866751994828
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Dendryphantina",
+  "common": "",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3626133333,
+  "lon": -75.5418333333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/529237594/medium.jpg",
+  "ids": [
+   "294046095"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 440.14577809618936,
+   "y": 3.167848099367145,
+   "z": 233.28533361433182
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Dione vanillae",
+  "common": "Gulf Fritillary",
+  "iconic": "Insecta",
+  "n": 3,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391703878/medium.png",
+  "ids": [
+   "221196966",
+   "221200876",
+   "229808420"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Dryas iulia",
+  "common": "Julia Heliconian",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526316/medium.jpg",
+  "ids": [
+   "144243802"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Dysdercus",
+  "common": "Cotton Stainer Bugs",
+  "iconic": "Insecta",
+  "n": 2,
+  "lat": 10.325493199099999,
+  "lon": -75.58950857414999,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407964989/medium.png",
+  "ids": [
+   "229806633",
+   "261578688"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -15.375256478434977,
+   "y": 1.0534100753163649,
+   "z": -168.7122972327132
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Efferia",
+  "common": "Hammertails",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/299931508/medium.jpeg",
+  "ids": [
+   "144243776"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Electrostrymon hugon",
+  "common": "Ruddy Hairstreak",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407973885/medium.png",
+  "ids": [
+   "229811164"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Entelegynae",
+  "common": "Entelegyne Spiders",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407966600/medium.png",
+  "ids": [
+   "229807488"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Eriophora",
+  "common": "",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3463033333,
+  "lon": -75.5921116667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238563549/medium.jpg",
+  "ids": [
+   "139476471"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -40.24693809633939,
+   "y": 2.2387974664556984,
+   "z": -190.6615736144642
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Eriophora edax",
+  "common": "",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407978833/medium.png",
+  "ids": [
+   "229813805"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Erythrodiplax umbrata",
+  "common": "Band-winged Dragonlet",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407972875/medium.png",
+  "ids": [
+   "229811162"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Eumeninae",
+  "common": "Potter and Mason Wasps",
+  "iconic": "Insecta",
+  "n": 2,
+  "lat": 10.34554348335,
+  "lon": -75.57152751665,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330186/medium.jpg",
+  "ids": [
+   "131252739",
+   "229808892"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 156.4277542481754,
+   "y": 2.1955148743670585,
+   "z": -17.09602039276291
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Euptoieta hegesia",
+  "common": "Mexican Fritillary",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407962685/medium.png",
+  "ids": [
+   "229805609"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Eurema",
+  "common": "Grass Yellows",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407980112/medium.png",
+  "ids": [
+   "229814478"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Euryneura",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526120/medium.jpg",
+  "ids": [
+   "144243788"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Gasteracantha cancriformis",
+  "common": "Spinybacked Orbweaver",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.365595,
+  "lon": -75.55165,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330885/medium.jpg",
+  "ids": [
+   "131252962"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 346.3508000000204,
+   "y": 3.3376898734177924,
+   "z": 150.51120000001794
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Glaphyria sesquistrialis",
+  "common": "White-roped Glaphyria Moth",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407985163/medium.png",
+  "ids": [
+   "229816800"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Glutophrissa drusilla",
+  "common": "Florida White",
+  "iconic": "Insecta",
+  "n": 3,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391714102/medium.png",
+  "ids": [
+   "221201637",
+   "229806440",
+   "229807185"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Hamadryas februa",
+  "common": "Gray Cracker",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407975229/medium.png",
+  "ids": [
+   "229811603"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Hamadryas iphthime",
+  "common": "Brownish Cracker",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3258437619,
+  "lon": -75.5892090551,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468702698/medium.jpg",
+  "ids": [
+   "260942854"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -12.513451795475277,
+   "y": 1.0733788424050492,
+   "z": -166.1867526032076
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Hapalopus",
+  "common": "Pumpkin Patch Tarantulas",
+  "iconic": "Arachnida",
+  "n": 4,
+  "lat": 10.344293889900001,
+  "lon": -75.58032552355,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/44559943/medium.jpg",
+  "ids": [
+   "28578853",
+   "108347819",
+   "150728780",
+   "218694043"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 72.36573098756685,
+   "y": 2.124335500632989,
+   "z": -91.28081457362924
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Heraclides homothoas",
+  "common": "False Giant Swallowtail",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255633333,
+  "lon": -75.5895,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/427866910/medium.jpeg",
+  "ids": [
+   "240179632"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -15.293333333355946,
+   "y": 1.057405061392391,
+   "z": -168.64000000001997
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Hermetia illucens",
+  "common": "Black Soldier Fly",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3254995571,
+  "lon": -75.5884700175,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469968894/medium.jpg",
+  "ids": [
+   "261578768"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+  "territoryPos": {
+   "x": -5.452193873352371,
+   "y": 1.053772239873443,
+   "z": -159.95518756001678
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Insecta",
+  "common": "Insects",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3254973761,
+  "lon": -75.5901070085,
+  "img": "https://static.inaturalist.org/photos/355277695/medium.jpg",
+  "ids": [
+   "201277132"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -21.09309721466633,
+   "y": 1.0536480056961683,
+   "z": -173.7582956719997
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Junonia",
+  "common": "Buckeyes & Pansies",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.325584582,
+  "lon": -75.5887803561,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/469751468/medium.jpg",
+  "ids": [
+   "261471512"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena de Indias, Bolivar, CO",
+  "territoryPos": {
+   "x": -8.417375750172027,
+   "y": 1.0586154303797062,
+   "z": -162.57196263523414
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Junonia zonalis",
+  "common": "Northern Tropical Buckeye",
+  "iconic": "Insecta",
+  "n": 5,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391706945/medium.png",
+  "ids": [
+   "221197975",
+   "221198268",
+   "221199584",
+   "221201004",
+   "229805997"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Lactista stramineus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407981543/medium.png",
+  "ids": [
+   "229816036"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Lepidoptera",
+  "common": "Butterflies and Moths",
+  "iconic": "Insecta",
+  "n": 2,
+  "lat": 10.336095149999998,
+  "lon": -75.59154668335,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238563478/medium.jpg",
+  "ids": [
+   "139476437",
+   "228499974"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -34.848710514844356,
+   "y": 1.6573186708859904,
+   "z": -185.89763400723916
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Leucauge",
+  "common": "Orchard Spiders and Allies",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3655666667,
+  "lon": -75.5517716667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330920/medium.jpg",
+  "ids": [
+   "131253110"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 345.18831523698395,
+   "y": 3.3360759512658205,
+   "z": 149.48530638552705
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Loxa viridis",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.345445,
+  "lon": -75.59223,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/182404293/medium.jpg",
+  "ids": [
+   "108347907"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -41.377573333351904,
+   "y": 2.1899050632911368,
+   "z": -191.65936000001636
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Lurio",
+  "common": "",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3256029741,
+  "lon": -75.5896026123,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468693031/medium.jpg",
+  "ids": [
+   "260937618"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -16.273759655731254,
+   "y": 1.0596630816455979,
+   "z": -169.50522691359816
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Lycosidae",
+  "common": "Wolf Spiders",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526280/medium.jpg",
+  "ids": [
+   "144243800"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Lystronychus sexsignatus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525924/medium.jpg",
+  "ids": [
+   "144243771"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Megalopyge lanata",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3256600035,
+  "lon": -75.5895353954,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468684119/medium.jpg",
+  "ids": [
+   "260933192"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -15.631524581934627,
+   "y": 1.0629115917721148,
+   "z": -168.93845401285998
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Menemerus",
+  "common": "Wall Jumping Spiders",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3655383333,
+  "lon": -75.5524833333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223445306/medium.jpg",
+  "ids": [
+   "131312879"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 338.3885780962098,
+   "y": 3.3344620234177462,
+   "z": 143.48453361434974
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Microtia elva elva",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526024/medium.jpg",
+  "ids": [
+   "144243781"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Mischocyttarus",
+  "common": "Long-waisted Paper Wasps",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526337/medium.jpg",
+  "ids": [
+   "144243806"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Musonia surinama",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407980404/medium.png",
+  "ids": [
+   "229814479"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Myzinum",
+  "common": "New World Banded Thynnid Wasps",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526184/medium.jpg",
+  "ids": [
+   "144243793"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Nastonotus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526104/medium.jpg",
+  "ids": [
+   "144243786"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Neoxylocopa",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3256966667,
+  "lon": -75.58943,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384117586/medium.jpg",
+  "ids": [
+   "217152059"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -14.624506666612803,
+   "y": 1.0650000018987704,
+   "z": -168.04975999995247
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Noctuinae",
+  "common": "Cutworms and Dart Moths",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407968162/medium.png",
+  "ids": [
+   "229808422"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Nyia",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525892/medium.jpg",
+  "ids": [
+   "144243770"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Pachylia ficus",
+  "common": "Fig Sphinx",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.34995,
+  "lon": -75.5653683,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/418477952/medium.jpeg",
+  "ids": [
+   "235315808"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 215.27701626661712,
+   "y": 2.446518987341772,
+   "z": 34.83849439995623
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Palpada",
+  "common": "Plushback Flies",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526045/medium.jpg",
+  "ids": [
+   "144243784"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Pantala flavescens",
+  "common": "Wandering Glider",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407972545/medium.png",
+  "ids": [
+   "229809968"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Pheidole",
+  "common": "Big-headed Ants",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3655283333,
+  "lon": -75.552475,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223445468/medium.jpg",
+  "ids": [
+   "131312961"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 338.46819999996274,
+   "y": 3.333892403164603,
+   "z": 143.55479999996703
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Phoebis sennae",
+  "common": "Cloudless Sulphur",
+  "iconic": "Insecta",
+  "n": 4,
+  "lat": 10.325018972275,
+  "lon": -75.589712815375,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391692028/medium.png",
+  "ids": [
+   "221189918",
+   "221190443",
+   "221200345",
+   "221204681"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -17.326713302961622,
+   "y": 1.0263971549050617,
+   "z": -170.43445924196612
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Phoebis sennae marcellina",
+  "common": "Marcellina Sulphur",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407967270/medium.png",
+  "ids": [
+   "229807775"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Poecilosomella",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525955/medium.jpg",
+  "ids": [
+   "144243777"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Pogonomyrmex mayri",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526296/medium.jpg",
+  "ids": [
+   "144243801"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Proconiini",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525972/medium.jpg",
+  "ids": [
+   "144243779"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Proscopiidae",
+  "common": "Neotropical Stick Grasshoppers",
+  "iconic": "Insecta",
+  "n": 3,
+  "lat": 10.350703120766667,
+  "lon": -75.58517200186667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/222793158/medium.jpg",
+  "ids": [
+   "128704857",
+   "144243787",
+   "261394969"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 26.059246164606094,
+   "y": 2.4894182715190265,
+   "z": -132.14631973974758
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Pseudomyrmex",
+  "common": "Twig Ants",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3657216667,
+  "lon": -75.551505,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/223330310/medium.jpg",
+  "ids": [
+   "131252809"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 347.73622666658366,
+   "y": 3.3449050651899417,
+   "z": 151.73383999992672
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Pseudosphinx tetrio",
+  "common": "Tetrio Sphinx",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.346505,
+  "lon": -75.5924833333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/168698232/medium.jpg",
+  "ids": [
+   "101037835"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -43.79808857036642,
+   "y": 2.250284810126622,
+   "z": -193.79546638557036
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Psilonyx",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247525932/medium.jpg",
+  "ids": [
+   "144243772"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Ptinus latefasciatus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/299930772/medium.jpeg",
+  "ids": [
+   "144243778"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Quadrus fridericus",
+  "common": "Fridericus Spreadwing",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391711321/medium.png",
+  "ids": [
+   "221200035"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Scarabaeidae",
+  "common": "Scarabs",
+  "iconic": "Insecta",
+  "n": 2,
+  "lat": 10.33629681665,
+  "lon": -75.59137835,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/218238010/medium.jpg",
+  "ids": [
+   "128480123",
+   "229813807"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -33.24034146667299,
+   "y": 1.6688060117088632,
+   "z": -184.47824720000557
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Schistocerca nitens",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3603133333,
+  "lon": -75.5588133333,
+  "img": "https://static.inaturalist.org/photos/385789576/medium.jpg",
+  "ids": [
+   "218035566"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 277.90753809629524,
+   "y": 3.036835441139297,
+   "z": 90.1099736144252
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Schizophyllum",
+  "common": "",
+  "iconic": "Fungi",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407965863/medium.png",
+  "ids": [
+   "229807024"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Sparassidae",
+  "common": "Huntsman Spiders",
+  "iconic": "Arachnida",
+  "n": 1,
+  "lat": 10.3470783333,
+  "lon": -75.5923216667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/218238443/medium.jpg",
+  "ids": [
+   "128480556"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -42.25341809629731,
+   "y": 2.2829430360760012,
+   "z": -192.43229361442707
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Spodoptera",
+  "common": "Armyworm Moths",
+  "iconic": "Insecta",
+  "n": 3,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407967342/medium.png",
+  "ids": [
+   "229807777",
+   "229808426",
+   "229808894"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Spodoptera cosmioides",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407981862/medium.png",
+  "ids": [
+   "229816039"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Stagmomantis",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526255/medium.jpg",
+  "ids": [
+   "144243797"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Steirodon dentatum",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3455312085,
+  "lon": -75.5923650787,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/182404262/medium.jpg",
+  "ids": [
+   "108347895"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -42.668205285597935,
+   "y": 2.194815674050679,
+   "z": -192.79834359839816
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Tachytes",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526163/medium.jpg",
+  "ids": [
+   "144243792"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Tetanorhynchini",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407985230/medium.png",
+  "ids": [
+   "229816801"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Thyreocoridae",
+  "common": "Ebony Bugs",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407982017/medium.png",
+  "ids": [
+   "229816040"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Trichonephila clavipes",
+  "common": "Golden Silk Spider",
+  "iconic": "Arachnida",
+  "n": 2,
+  "lat": 10.325446595999999,
+  "lon": -75.58886727575,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/468685046/medium.jpg",
+  "ids": [
+   "260933609",
+   "260933831"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -9.247864032724038,
+   "y": 1.0507554683543687,
+   "z": -163.30486912405064
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Urbanus proteus",
+  "common": "Long-tailed Skipper",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/391699511/medium.png",
+  "ids": [
+   "221194663"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Villini",
+  "common": "banded bee flies",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3795073,
+  "lon": -75.574708,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/247526202/medium.jpg",
+  "ids": [
+   "144243795"
+  ],
+  "place": "Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 126.03929599997122,
+   "y": 4.130162658227898,
+   "z": -43.91385600002542
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Xyleus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407977065/medium.png",
+  "ids": [
+   "229812743"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Zelus",
+  "common": "",
+  "iconic": "Insecta",
+  "n": 1,
+  "lat": 10.3372916667,
+  "lon": -75.5908133333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/238563641/medium.jpg",
+  "ids": [
+   "139476553"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -27.841795237128565,
+   "y": 1.7254746854430725,
+   "z": -179.71402638565462
+  },
+  "cat": 6
+ },
+ {
+  "sci": "Agonandra brasiliensis",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3595866667,
+  "lon": -75.5564716667,
+  "img": "https://static.inaturalist.org/photos/366983428/medium.jpg",
+  "ids": [
+   "207471638"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 300.28138190365513,
+   "y": 2.9954430398734555,
+   "z": 109.85490638553097
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Alstonia scholaris",
+  "common": "White Cheesewood",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.36493705865,
+  "lon": -75.55474492434999,
+  "img": "https://static.inaturalist.org/photos/605745434/medium.jpg",
+  "ids": [
+   "333656418",
+   "334220434"
+  ],
+  "place": "Tierra Bomba Island Punta Arena, Colombia",
+  "territoryPos": {
+   "x": 316.77982947727213,
+   "y": 3.300212201582294,
+   "z": 124.41479788086366
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Astronium graveolens",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.34406765,
+  "lon": -75.56745668335,
+  "img": "https://static.inaturalist.org/photos/366931580/medium.jpg",
+  "ids": [
+   "207444270",
+   "228519717"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 195.32320948515695,
+   "y": 2.1114484177215,
+   "z": 17.229245992762003
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Azadirachta indica",
+  "common": "Neem",
+  "iconic": "Plantae",
+  "n": 3,
+  "lat": 10.325706934833333,
+  "lon": -75.5898748068,
+  "img": "https://static.inaturalist.org/photos/355260762/medium.jpg",
+  "ids": [
+   "201267569",
+   "201278027",
+   "228503719"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -18.87448737172204,
+   "y": 1.0655848955695832,
+   "z": -171.80037093759003
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Bignonia callistegioides",
+  "common": "lavender trumpet vine",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405513452/medium.jpeg",
+  "ids": [
+   "228515034"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Boraginaceae",
+  "common": "borage family",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3492692883,
+  "lon": -75.5891667522,
+  "img": "https://static.inaturalist.org/photos/205478849/medium.jpeg",
+  "ids": [
+   "121429528"
+  ],
+  "place": "Playa Linda Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -12.109261686951925,
+   "y": 2.4077442702531986,
+   "z": -165.8300545504164
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Bouchea",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3320416715,
+  "lon": -75.5855466667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419310407/medium.jpeg",
+  "ids": [
+   "235751132"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 22.479448570411222,
+   "y": 1.4264243259494085,
+   "z": -135.3054936143901
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Bougainvillea glabra",
+  "common": "lesser bougainvillea",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3256664332,
+  "lon": -75.5902950001,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416209574/medium.jpeg",
+  "ids": [
+   "234147543"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -22.88929428880641,
+   "y": 1.0632778405063412,
+   "z": -175.34344084320566
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Bougainvillea spectabilis",
+  "common": "beautiful bougainvillea",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255437593,
+  "lon": -75.5900026525,
+  "img": "https://static.inaturalist.org/photos/355278610/medium.jpg",
+  "ids": [
+   "201277398"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -20.096010420054597,
+   "y": 1.056290086708874,
+   "z": -172.87836588004816
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Cactoideae",
+  "common": "globular cacti, moonlight cacti, torch cacti, and allies",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3455170011,
+  "lon": -75.5923650787,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/183193904/medium.jpg",
+  "ids": [
+   "108767304"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -42.668205285597935,
+   "y": 2.194006391772121,
+   "z": -192.79834359839816
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Caesalpinia pulcherrima",
+  "common": "peacock flower",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.325576124849999,
+  "lon": -75.59036131375,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384551518/medium.jpg",
+  "ids": [
+   "217378290",
+   "228516034"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -23.522899109960605,
+   "y": 1.0581336939872583,
+   "z": -175.90259753996526
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Calotropis procera",
+  "common": "giant milkweed",
+  "iconic": "Plantae",
+  "n": 7,
+  "lat": 10.337345693314285,
+  "lon": -75.58802272958572,
+  "img": "https://static.inaturalist.org/photos/44509534/medium.jpeg",
+  "ids": [
+   "28547478",
+   "39294843",
+   "201269685",
+   "205317270",
+   "228500860",
+   "263927052",
+   "384711340"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -1.1785069483419193,
+   "y": 1.7285521508137116,
+   "z": -156.18365586677564
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Carica papaya",
+  "common": "Papaya",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255608258,
+  "lon": -75.5898094759,
+  "img": "https://static.inaturalist.org/photos/355279068/medium.jpg",
+  "ids": [
+   "201277905"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -18.250272399188248,
+   "y": 1.0572622291139309,
+   "z": -171.24950078878965
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Ceiba",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 3,
+  "lat": 10.3255389037,
+  "lon": -75.5900029852,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405494364/medium.jpeg",
+  "ids": [
+   "228512300",
+   "228513765",
+   "228515534"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -20.099189257629064,
+   "y": 1.0560135018987304,
+   "z": -172.88117120642565
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Cissus erosa",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405518542/medium.jpeg",
+  "ids": [
+   "228517483"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Citrus maxima",
+  "common": "Pomelo",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/407973058/medium.png",
+  "ids": [
+   "229811163"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Coccoloba uvifera",
+  "common": "sea grape",
+  "iconic": "Plantae",
+  "n": 5,
+  "lat": 10.33291027432,
+  "lon": -75.5809672739,
+  "img": "https://static.inaturalist.org/photos/48492231/medium.jpg",
+  "ids": [
+   "31012361",
+   "222966536",
+   "228499567",
+   "228500100",
+   "228512549"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 66.23402031011076,
+   "y": 1.4759017017721314,
+   "z": -96.6920535248199
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Cocos",
+  "common": "Coconut Palms",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3494416667,
+  "lon": -75.570545,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/671339554/medium.jpg",
+  "ids": [
+   "367603176"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 165.8153733333553,
+   "y": 2.4175632930380253,
+   "z": -8.811439999980621
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Commelina erecta",
+  "common": "whitemouth dayflower",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3304866715,
+  "lon": -75.5864866667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419346156/medium.jpeg",
+  "ids": [
+   "235770260"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 13.49806190374548,
+   "y": 1.3378483765822315,
+   "z": -143.23157361438928
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Conocarpus erectus",
+  "common": "Green Buttonwood",
+  "iconic": "Plantae",
+  "n": 9,
+  "lat": 10.360286528222222,
+  "lon": -75.56504059091111,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/31936985/medium.jpeg",
+  "ids": [
+   "20714854",
+   "78917213",
+   "125622411",
+   "128976105",
+   "234148784",
+   "314502737",
+   "371056461",
+   "384716536",
+   "385330378"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 218.4081673746257,
+   "y": 3.035308569620254,
+   "z": 37.60173743750107
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Cordia",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255283415,
+  "lon": -75.5889583333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405844894/medium.jpeg",
+  "ids": [
+   "228688359"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -10.117888570403721,
+   "y": 1.0554118575949358,
+   "z": -164.0726663856033
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Cordia dentata",
+  "common": "white manjack",
+  "iconic": "Plantae",
+  "n": 4,
+  "lat": 10.335735641674999,
+  "lon": -75.588737525,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405519115/medium.jpeg",
+  "ids": [
+   "228518485",
+   "229812737",
+   "229812740",
+   "383450067"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -8.008138866671146,
+   "y": 1.636840348575896,
+   "z": -162.21081080000397
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Cordia sebestena",
+  "common": "Scarlet Cordia",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.32654265,
+  "lon": -75.59120668335,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384549810/medium.jpg",
+  "ids": [
+   "217377427",
+   "228519512"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -31.600123848097155,
+   "y": 1.1131889240506487,
+   "z": -183.03075400716807
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Crescentia cujete",
+  "common": "Calabash Tree",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.32560950255,
+  "lon": -75.5903488873,
+  "img": "https://static.inaturalist.org/photos/355276712/medium.jpg",
+  "ids": [
+   "201276580",
+   "228502902"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -23.404168522372345,
+   "y": 1.0600349553797332,
+   "z": -175.7978177135756
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Epipremnum aureum",
+  "common": "Golden Pothos",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.325486081,
+  "lon": -75.5900508874,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416210618/medium.jpeg",
+  "ids": [
+   "234148316"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -20.55687881118189,
+   "y": 1.0530046139240052,
+   "z": -173.28508255678403
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Euphorbia lactea",
+  "common": "Mottled Spurge",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3276366667,
+  "lon": -75.5917666667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384551281/medium.jpg",
+  "ids": [
+   "217378173"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -36.950578096243675,
+   "y": 1.1755063310126612,
+   "z": -187.7525336143797
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Euphorbia tithymaloides",
+  "common": "Devil's Backbone",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3598166667,
+  "lon": -75.5557166667,
+  "img": "https://static.inaturalist.org/photos/366931154/medium.jpg",
+  "ids": [
+   "207444075"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 307.4951552371055,
+   "y": 3.00854430569625,
+   "z": 116.22106638563429
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Heliantheae",
+  "common": "Sunflowers and Allies",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3272716715,
+  "lon": -75.5858083333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419350030/medium.jpeg",
+  "ids": [
+   "235771918"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 19.979311429643786,
+   "y": 1.1547154651898761,
+   "z": -137.51186638556135
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Hymenocallis speciosa",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3256416667,
+  "lon": -75.5904466667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/424258726/medium.jpeg",
+  "ids": [
+   "238313776"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -24.338418096314285,
+   "y": 1.0618670905062815,
+   "z": -176.62229361444201
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Justicia carthaginensis",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.36344416665,
+  "lon": -75.550975,
+  "img": "https://static.inaturalist.org/photos/167451263/medium.jpg",
+  "ids": [
+   "100337785",
+   "100338223"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 352.8002000000306,
+   "y": 3.2151740496835637,
+   "z": 156.20280000002697
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Kallstroemia",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3291583415,
+  "lon": -75.5862583333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419346845/medium.jpeg",
+  "ids": [
+   "235770533"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 15.679711429636995,
+   "y": 1.2621840094936363,
+   "z": -141.30626638556737
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Lonchocarpus",
+  "common": "Cabbage bark",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.327975,
+  "lon": -75.5907883333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/408668141/medium.jpeg",
+  "ids": [
+   "230176782"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -27.602928570386098,
+   "y": 1.1947784810126736,
+   "z": -179.50322638558774
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Mansoa alliacea",
+  "common": "Garlic Vine",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3253300015,
+  "lon": -75.5883783333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419305120/medium.jpeg",
+  "ids": [
+   "235748390"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -4.5761819037433895,
+   "y": 1.0441140094936274,
+   "z": -159.18210638560888
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Melochia parvifolia",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3267666715,
+  "lon": -75.586205,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419347385/medium.jpeg",
+  "ids": [
+   "235770745"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 16.189293333254824,
+   "y": 1.125949642405042,
+   "z": -140.8565600000693
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Mimosoideae",
+  "common": "Acacias, Mimosas, Mesquites, and Allies",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3520333333,
+  "lon": -75.5777966667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/431635678/medium.jpeg",
+  "ids": [
+   "242135080"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 96.5281152370892,
+   "y": 2.565189871518982,
+   "z": -69.95749361438013
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Morinda",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3224633333,
+  "lon": -75.5891583333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363024845/medium.jpg",
+  "ids": [
+   "205317358"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -12.028821903800434,
+   "y": 0.8808227829113827,
+   "z": -165.75906638565922
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Morinda citrifolia",
+  "common": "Noni",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.360044577650001,
+  "lon": -75.5520855076,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/349167439/medium.jpg",
+  "ids": [
+   "198144707",
+   "259337177"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 342.18967005119725,
+   "y": 3.021526575000078,
+   "z": 146.83899991679755
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Morisonia tenuisiliqua",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3595666667,
+  "lon": -75.557655,
+  "img": "https://static.inaturalist.org/photos/381500324/medium.jpg",
+  "ids": [
+   "215760575"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 288.97502666667185,
+   "y": 2.9943037993670685,
+   "z": 99.87704000000457
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Neltuma juliflora",
+  "common": "mesquite",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3318450015,
+  "lon": -75.5859083333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419315038/medium.jpeg",
+  "ids": [
+   "235753287"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 19.02384476294546,
+   "y": 1.4152216044303572,
+   "z": -138.3550663855893
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Passiflora foetida",
+  "common": "Stinking Passionflower",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3635333333,
+  "lon": -75.5484,
+  "img": "https://static.inaturalist.org/photos/385790006/medium.jpg",
+  "ids": [
+   "218035732"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 377.4034666666305,
+   "y": 3.220253162658224,
+   "z": 177.91519999996802
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Physalis angulata",
+  "common": "cutleaf groundcherry",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/402649837/medium.png",
+  "ids": [
+   "226999638"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Pithecellobium dulce",
+  "common": "Madras Thorn",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3256383333,
+  "lon": -75.589975,
+  "img": "https://static.inaturalist.org/photos/355281009/medium.jpg",
+  "ids": [
+   "201278891"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -19.831799999969434,
+   "y": 1.061677213291166,
+   "z": -172.64519999997302
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Plumeria pudica",
+  "common": "Hammerleaf Frangipani",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255590191,
+  "lon": -75.5903209002,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416207514/medium.jpeg",
+  "ids": [
+   "234146662"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -23.136761110929427,
+   "y": 1.057159315822776,
+   "z": -175.56183048639656
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Pochota fendleri",
+  "common": "Red Ceiba",
+  "iconic": "Plantae",
+  "n": 3,
+  "lat": 10.3255652,
+  "lon": -75.5906018,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405517174/medium.jpeg",
+  "ids": [
+   "228516773",
+   "229808677",
+   "229811859"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.820665066695653,
+   "y": 1.057511392405044,
+   "z": -177.93037760002557
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Priva lappulacea",
+  "common": "Catstongue",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/402652366/medium.png",
+  "ids": [
+   "227001155",
+   "229809264"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Pseudobombax",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 2,
+  "lat": 10.33248883575,
+  "lon": -75.58753928295,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/424643299/medium.jpeg",
+  "ids": [
+   "238514744",
+   "253751379"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 3.4406645070115474,
+   "y": 1.451895707278505,
+   "z": -152.10723383444864
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Quadrella indica",
+  "common": "Linguam",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3627133333,
+  "lon": -75.5520783333,
+  "img": "https://static.inaturalist.org/photos/366929122/medium.jpg",
+  "ids": [
+   "207442896"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 342.25821809621584,
+   "y": 3.1735443018987772,
+   "z": 146.89949361435515
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Rauvolfia viridis",
+  "common": "milkbush",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3278950015,
+  "lon": -75.5859616667,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419348970/medium.jpeg",
+  "ids": [
+   "235771462"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 18.51426190370813,
+   "y": 1.1902216044303724,
+   "z": -138.80477361442226
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Ruellia simplex",
+  "common": "Mexican Ruellia",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255436383,
+  "lon": -75.59049977,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416206738/medium.jpeg",
+  "ids": [
+   "234146166"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -24.845802426620622,
+   "y": 1.0562831943037463,
+   "z": -177.07006063995937
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Ruellia tuberosa",
+  "common": "Popping Pod",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3278416715,
+  "lon": -75.5856033333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419351030/medium.jpeg",
+  "ids": [
+   "235772469"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 21.938018096253188,
+   "y": 1.1871838196202416,
+   "z": -135.7833063856119
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Russelia equisetiformis",
+  "common": "Firecracker plant",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255504696,
+  "lon": -75.5905008596,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416206418/medium.jpeg",
+  "ids": [
+   "234145908"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -24.856213191467333,
+   "y": 1.0566723189873102,
+   "z": -177.0792481472006
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Sida",
+  "common": "Sidas",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.365605,
+  "lon": -75.55178,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261355047/medium.jpg",
+  "ids": [
+   "151469162"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 345.1086933333668,
+   "y": 3.338259493670936,
+   "z": 149.41504000002953
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Sida rhombifolia",
+  "common": "Cuban jute",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3288116715,
+  "lon": -75.5861583333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/419348244/medium.jpeg",
+  "ids": [
+   "235771147"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 16.635178096199553,
+   "y": 1.2424369841772376,
+   "z": -140.4630663856592
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Spondias mombin",
+  "common": "yellow mombin",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3372580605,
+  "lon": -75.5902265199,
+  "img": "https://static.inaturalist.org/photos/398361234/medium.jpg",
+  "ids": [
+   "224741172"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -22.234988804544543,
+   "y": 1.7235604082278488,
+   "z": -174.7660157968099
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Tabebuia rosea",
+  "common": "Pink poui",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3256440166,
+  "lon": -75.5897287422,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/416245393/medium.jpeg",
+  "ids": [
+   "234167245"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -17.478888806896663,
+   "y": 1.0620009455696189,
+   "z": -170.56875423036763
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Tamarindus indica",
+  "common": "Tamarind",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3256127168,
+  "lon": -75.59005516,
+  "img": "https://static.inaturalist.org/photos/355278938/medium.jpg",
+  "ids": [
+   "201277849"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -20.597702080066966,
+   "y": 1.0602180455696284,
+   "z": -173.3211091200591
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Tecoma",
+  "common": "",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.327055,
+  "lon": -75.5916533333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/384550453/medium.jpg",
+  "ids": [
+   "217377753"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -35.86771523709598,
+   "y": 1.142373417721494,
+   "z": -186.79690638562587
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Tecoma stans",
+  "common": "yellow trumpet flower",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3661166667,
+  "lon": -75.5812533333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/704259474/medium.jpg",
+  "ids": [
+   "384716730"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 63.500818096273576,
+   "y": 3.3674050651898995,
+   "z": -99.10410638559392
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Terminalia",
+  "common": "Cluster-leafs",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.36840657,
+  "lon": -75.56323063,
+  "img": "https://static.inaturalist.org/photos/366085106/medium.jpeg",
+  "ids": [
+   "206992889"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 235.7017405599134,
+   "y": 3.497842594936706,
+   "z": 52.863327839923556
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Tracheophyta",
+  "common": "Vascular Plants",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.346325,
+  "lon": -75.59223,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/166039214/medium.jpg",
+  "ids": [
+   "99584691"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -41.377573333351904,
+   "y": 2.2400316455696436,
+   "z": -191.65936000001636
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Trema micranthum",
+  "common": "Nettletree",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3654886619,
+  "lon": -75.5571106183,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/224565051/medium.jpg",
+  "ids": [
+   "128676785"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 294.1764123495641,
+   "y": 3.33163263987348,
+   "z": 104.46726649436829
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Vachellia macracantha",
+  "common": "porknut",
+  "iconic": "Plantae",
+  "n": 1,
+  "lat": 10.3255653,
+  "lon": -75.5906017,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/405511995/medium.jpeg",
+  "ids": [
+   "228514120"
+  ],
+  "place": "Blue Apple Beach House, Isla Tierra Bomba, Bocachica, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": -25.81970959994993,
+   "y": 1.0575170886075411,
+   "z": -177.9295343999558
+  },
+  "cat": 0
+ },
+ {
+  "sci": "Bradypus",
+  "common": "Three-toed Sloths",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.3506906315,
+  "lon": -75.5661961064,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/281870266/medium.jpeg",
+  "ids": [
+   "162994409"
+  ],
+  "place": "Tierra Bomba Island, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 207.3676020501157,
+   "y": 2.4887068575949014,
+   "z": 27.858430835184436
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Cuniculus paca",
+  "common": "Spotted Paca",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.335745,
+  "lon": -75.5913083333,
+  "img": "https://static.inaturalist.org/photos/129203790/medium.jpg",
+  "ids": [
+   "78916383"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -32.57135523713603,
+   "y": 1.6373734177214807,
+   "z": -183.8878663856612
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Mammalia",
+  "common": "Mammals",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.3658466667,
+  "lon": -75.5515133333,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354962/medium.jpg",
+  "ids": [
+   "151469132"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 347.6566047629665,
+   "y": 3.3520253183544315,
+   "z": 151.66357361442925
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Molossus molossus",
+  "common": "Velvety Free-tailed Bat",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.3192422301,
+  "lon": -75.5812219022,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666828675/medium.jpg",
+  "ids": [
+   "365244613"
+  ],
+  "place": "Isla de Tierra Bomba, BL, CO",
+  "territoryPos": {
+   "x": 63.80113177972356,
+   "y": 0.6973422208860878,
+   "z": -98.83907935040861
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Mormoops megalophylla",
+  "common": "Ghost-faced Bat",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.319268487,
+  "lon": -75.5812301833,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666813111/medium.jpg",
+  "ids": [
+   "365236785"
+  ],
+  "place": "Isla de Tierra Bomba, BL, CO",
+  "territoryPos": {
+   "x": 63.72200862964584,
+   "y": 0.6988378670886206,
+   "z": -98.90890558555955
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Pteronotus fuscus",
+  "common": "Allen's Common Mustached Bat",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.3192556666,
+  "lon": -75.581212177,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666818845/medium.jpg",
+  "ids": [
+   "365239552"
+  ],
+  "place": "Isla de Tierra Bomba, BL, CO",
+  "territoryPos": {
+   "x": 63.89405282400702,
+   "y": 0.6981075911392376,
+   "z": -98.75707646399383
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Pteronotus gymnonotus",
+  "common": "big naked-backed bat",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.3192893041,
+  "lon": -75.5812513552,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666826692/medium.jpg",
+  "ids": [
+   "365243337"
+  ],
+  "place": "Isla de Tierra Bomba, BL, CO",
+  "territoryPos": {
+   "x": 63.519718182426175,
+   "y": 0.7000236512657987,
+   "z": -99.08742704637689
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Pteronotus personatus",
+  "common": "Wagner's Lesser Mustached Bat",
+  "iconic": "Mammalia",
+  "n": 1,
+  "lat": 10.3192546824,
+  "lon": -75.5812353931,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/666825140/medium.jpg",
+  "ids": [
+   "365242623"
+  ],
+  "place": "Isla de Tierra Bomba, BL, CO",
+  "territoryPos": {
+   "x": 63.672230727166664,
+   "y": 0.6980515291139371,
+   "z": -98.9528346192294
+  },
+  "cat": 2
+ },
+ {
+  "sci": "Acanthopleura granulata",
+  "common": "West Indian Fuzzy Chiton",
+  "iconic": "Mollusca",
+  "n": 2,
+  "lat": 10.3476356182,
+  "lon": -75.57887321695,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/363025904/medium.jpg",
+  "ids": [
+   "205317868",
+   "370933148"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 86.24203644837547,
+   "y": 2.3146871126582393,
+   "z": -79.03496532242167
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Chicoreus brevifrons",
+  "common": "West Indian murex",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3634507778,
+  "lon": -75.546675995,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502208055/medium.jpeg",
+  "ids": [
+   "279656933"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 393.8757597732947,
+   "y": 3.2155506341772786,
+   "z": 192.45201015996588
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Echinolittorina",
+  "common": "",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.365695,
+  "lon": -75.5522,
+  "img": "https://static.inaturalist.org/photos/469612180/medium.jpg",
+  "ids": [
+   "261400717"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 341.09573333331525,
+   "y": 3.343386075949425,
+   "z": 145.87359999998398
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Gastropoda",
+  "common": "Gastropods",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3519651,
+  "lon": -75.5684254,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390500451/medium.jpeg",
+  "ids": [
+   "220554187"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 186.06744480002436,
+   "y": 2.561303164556935,
+   "z": 9.061027200021499
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Hastula",
+  "common": "",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3260470849,
+  "lon": -75.5908824978,
+  "img": "https://static.inaturalist.org/photos/387130962/medium.jpg",
+  "ids": [
+   "218756496"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": -28.50263897970342,
+   "y": 1.0849605322785196,
+   "z": -180.2972214495736
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Littorininae",
+  "common": "",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3656833333,
+  "lon": -75.551955,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/261354775/medium.jpg",
+  "ids": [
+   "151469049"
+  ],
+  "place": "Isla Tierra Bomba, Bolívar, CO",
+  "territoryPos": {
+   "x": 343.4366266665769,
+   "y": 3.342721517088623,
+   "z": 147.93943999992075
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Melongena",
+  "common": "",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3637126441,
+  "lon": -75.5465033278,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502208501/medium.jpeg",
+  "ids": [
+   "279657207"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 395.5255373136056,
+   "y": 3.230467068987344,
+   "z": 193.90793999040494
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Melongena melongena",
+  "common": "Caribbean Crown Conch",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3519651,
+  "lon": -75.5684254,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390499500/medium.jpeg",
+  "ids": [
+   "220553779"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 186.06744480002436,
+   "y": 2.561303164556935,
+   "z": 9.061027200021499
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Neogastropoda",
+  "common": "Neogastropods",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3519651,
+  "lon": -75.5684254,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390520280/medium.jpeg",
+  "ids": [
+   "220565160"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 186.06744480002436,
+   "y": 2.561303164556935,
+   "z": 9.061027200021499
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Ostreidae",
+  "common": "True Oysters",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3635879773,
+  "lon": -75.5482196063,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502350899/medium.jpeg",
+  "ids": [
+   "279734479"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 379.1270683389565,
+   "y": 3.223365795569641,
+   "z": 179.43627967842042
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Spondylus tenuis",
+  "common": "Digitate Thorny Oyster",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3519651,
+  "lon": -75.5684254,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390500019/medium.jpeg",
+  "ids": [
+   "220553976"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 186.06744480002436,
+   "y": 2.561303164556935,
+   "z": 9.061027200021499
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Strombidae",
+  "common": "True Conchs",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3519651,
+  "lon": -75.5684254,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390517111/medium.jpeg",
+  "ids": [
+   "220563629"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 186.06744480002436,
+   "y": 2.561303164556935,
+   "z": 9.061027200021499
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Stromboidea",
+  "common": "Conchs and Allies",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3519651,
+  "lon": -75.5684254,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/390500875/medium.jpeg",
+  "ids": [
+   "220554758"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 186.06744480002436,
+   "y": 2.561303164556935,
+   "z": 9.061027200021499
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Trachycardium isocardia",
+  "common": "Even Prickly Cockle",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3631701123,
+  "lon": -75.5478417501,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/502058514/medium.jpeg",
+  "ids": [
+   "279579676"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 382.7373583777886,
+   "y": 3.1995633588608197,
+   "z": 182.62236315673113
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Vermetidae",
+  "common": "Worm Snails",
+  "iconic": "Mollusca",
+  "n": 1,
+  "lat": 10.3656070458,
+  "lon": -75.5503023416,
+  "img": "https://static.inaturalist.org/photos/398685418/medium.jpeg",
+  "ids": [
+   "224911748"
+  ],
+  "place": "Isla de Tierra Bomba, Provincia de Cartagena, Bolívar, Colombia",
+  "territoryPos": {
+   "x": 359.22722679248807,
+   "y": 3.3383760265822566,
+   "z": 161.87465562876002
+  },
+  "cat": 3
+ },
+ {
+  "sci": "Cnemidophorus",
+  "common": "Southern Whiptails",
+  "iconic": "Reptilia",
+  "n": 1,
+  "lat": 10.362695,
+  "lon": -75.54193,
+  "img": "https://static.inaturalist.org/photos/401894689/medium.jpg",
+  "ids": [
+   "226339882"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 439.2221600000312,
+   "y": 3.172500000000049,
+   "z": 232.47024000002756
+  },
+  "cat": 5
+ },
+ {
+  "sci": "Cnemidophorus gaigei",
+  "common": "Gaige’s Rainbow Lizard",
+  "iconic": "Reptilia",
+  "n": 6,
+  "lat": 10.343677390233333,
+  "lon": -75.58334679525,
+  "img": "https://inaturalist-open-data.s3.amazonaws.com/photos/183193936/medium.jpg",
+  "ids": [
+   "108767318",
+   "119680622",
+   "261394732",
+   "261738846",
+   "356723634",
+   "384711360"
+  ],
+  "place": "Isla Tierra Bomba, Cartagena, Bolívar, CO",
+  "territoryPos": {
+   "x": 43.49848698470467,
+   "y": 2.08921843101266,
+   "z": -116.75617754796647
+  },
+  "cat": 5
+ }
+]
