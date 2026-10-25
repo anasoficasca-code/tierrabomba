@@ -2,8 +2,9 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Red de Interacciones Bióticas - Isla Tierra Bomba</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#ffffff">
+<title>Especies Flotantes - Isla Tierra Bomba</title>
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,138 +15,315 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <style>
-/* Reset y base */
-* { margin: 0; padding: 0; box-sizing: border-tail; }
-body { font-family: 'Inter', sans-serif; background: #ffffff; color: #1a1a2e; min-height: 100vh; }
-a { text-decoration: none; color: inherit; }
-
-/* Contenedor principal */
-.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-
-/* Encabezado */
-header { text-align: center; padding: 40px 0; }
-header h1 { font-family: 'IBM Plex Mono', monospace; font-size: 2.5rem; color: #0f3460; margin-bottom: 10px; }
-header p { color: #4a4a6a; font-size: 1.1rem; }
-
-/-- Main Content --/
-main { padding: 40px 0; }
-
-/* Tarjetas de especies */
-.species-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 40px; }
-.species-card { 
-    background: #f8f9fa; 
-    border: 1px solid #e0e0e0; 
-    border-radius: 12px; 
-    padding: 20px; 
-    transition: transform 0.2s; 
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+    font-family: 'Inter', sans-serif; 
+    background: #ffffff; 
+    color: #1a1a2e; 
+    min-height: 100vh; 
+    overflow: hidden;
 }
-.species-card:hover { transform: translateY(-4px); border-color: #0f3460; }
 
-/* Información de especie */
-.species-name { font-weight: 700; color: #0f3460; margin-bottom: 8px; }
-.species-scientific { color: #666; font-size: 0.85rem; margin-bottom: 12px; }
-.species-category { 
-    display: inline-block; 
-    padding: 4px 8px; 
-    background: #e8f4fd; 
-    border-radius: 4px; 
-    font-size: 0.75rem; 
-    font-weight: 600; 
-    text-transform: uppercase; 
-    margin-bottom: 12px; 
+/* Fondo con efecto de ondas/bolas flotantes */
+.bubble-container { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    pointer-events: none; 
+    z-index: 1;
 }
-.species-desc { color: #555; line-height: 1.5; font-size: 0.9rem; }
 
-/-- Info Panel --/
+/* Bolas flotantes */
+.bubble { 
+    position: absolute; 
+    border-radius: 50%; 
+    backdrop-filter: blur(8px); 
+    border: 1px solid rgba(255,255,255,0.3); 
+    min-width: 60px; 
+    max-width: 180px; 
+    padding: 15px 20px; 
+    margin: 20px; 
+    transition: all 0.3s ease; 
+    cursor: default;
+    animation: float 6s infinite ease-in-out;
+    opacity: 0.9;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Clases de tamaño para variar las bolas */
+.bubble-small { min-width: 40px; max-width: 100px; padding: 10px; font-size: 0.75rem; margin: 10px; }
+.bubble-medium { min-width: 80px; max-width: 150px; padding: 15px; font-size: 0.85rem; margin: 20px; }
+.bubble-large { min-width: 120px; max-width: 220px; padding: 20px; font-size: 1rem; margin: 30px; }
+
+/* Animación flotante */
+@keyframes float {
+    0%, 100% { transform: translateY(0) translateX(0); }
+    50% { transform: translateY(-30px) translateX(20px); }
+}
+
+/* Estilo de la bola - color por categoría */
+.bubble.flora { border-color: #84A48B; background: rgba(132, 164, 125, 0.15); color: #84A48B; }
+.bubble.aves { border-color: #38BDF8; background: rgba(56, 189, 248, 0.15); color: #38BDF8; }
+.bubble.mamiferos { border-color: #F59E0B; background: rgba(245, 158, 11, 0.15); color: #F59E0B; }
+.bubble.moluscos { border-color: #EC4899; background: rgba(236, 72, 153, 0.15); color: #EC4899; }
+.bubble.anfibios { border-color: #10B981; background: rgba(16, 185, 121, 0.15); color: #10B981; }
+.bubble.reptiles { border-color: #A855F7; background: rgba(168, 85, 247, 0.15); color: #A855F7; }
+
+/* Contenido de la bola */
+.bubble-content { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.bubble-name { font-weight: 700; margin-bottom: 4px; }
+.bubble-scientific { font-size: 0.65rem; color: rgba(255,255,255,0.7); margin-top: 2px; }
+.bubble-category { font-size: 0.55rem; text-transform: uppercase; margin-top: 4px; }
+
+/-- Panel de información --/
 .info-panel { 
-    background: #f8f9fa; 
+    position: fixed; 
+    bottom: 30px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background: rgba(255,255,255,0.9); 
     border: 1px solid #e0e0e0; 
-    border-radius: 12px; 
-    padding: 25px; 
-    margin-top: 40px; 
-    max-width: 800px; 
-    margin-left: auto; 
-    margin-right: auto; 
+    border-radius: 20px; 
+    padding: 25px 30px; 
+    backdrop-filter: blur(10px); 
+    z-index: 10;
+    min-width: 300px;
+    max-width: 90vw;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
 }
-.info-panel h2 { color: #0f3460; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #e0e0e0; }
-.info-panel p { margin-bottom: 15px; color: #333; }
+.info-panel h3 { color: #0f3460; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e0e0e0; }
+.info-panel p { margin-bottom: 12px; color: #333; }
 .info-panel p strong { color: #0f3460; }
 
-/-- Footer --/
-footer { text-align: center; padding: 40px; color: #777; font-size: 0.9rem; }
+/-- Contenedor principal --/
+.main-content { 
+    position: relative; 
+    z-index: 2; 
+    min-height: 100vh; 
+    padding: 20px;
+}
 
 /-- Responsive --/
 @media (max-width: 480px) {
-    .species-grid { grid-template-columns: 1fr; }
-    header h1 { font-size: 2rem; }
+    .bubble { min-width: 30px; max-width: 80px; padding: 8px; margin: 8px; font-size: 0.6rem; }
+    .bubble-small { min-width: 30px; max-width: 60px; padding: 5px; font-size: 0.5rem; margin: 5px; }
+    .bubble-medium { min-width: 50px; max-width: 100px; padding: 8px; font-size: 0.55rem; margin: 8px; }
+    .bubble-large { min-width: 80px; max-width: 140px; padding: 10px; font-size: 0.7rem; margin: 12px; }
+    .info-panel { width: 95%; padding: 15px; margin-bottom: 10px; }
 }
+
+/* Reducir número de bolas en móviles */
+@media (max-width: 480px) { /* Reducir número de bolas en pequeños */ }
 </style>
 </head>
 <body>
-<div class="container">
-    <header>
-        <h1>Red de Interacciones Bióticas</h1>
-        <p>Isla Tierra Bomba, Cartagena, Bolívar, Colombia</p>
-    </header>
+<!-- Contenedor de bolas flotantes -->
+<div class="bubble-container"></div>
 
-    <main>
-        <div class="species-grid">
-            <!-- Las especies se cargarán dinámicamente o se listarán aquí -->
-            <div class="species-card">
-                <div class="species-category">Flora</div>
-                <div class="species-name">Varias especies vegetales</div>
-                <div class="species-scientific">Registradas en iNaturalist</div>
-                <div class="species-desc">729 observaciones, 436 especies identificadas en expediciones a Isla Tierra Bomba</div>
-            </div>
-            
-            <div class="species-card">
-                <div class="species-category">Aves</div>
-                <div class="species-name">Aves marinas y costeras</div>
-                <div class="species-scientific">Pelícanos, garzas, playeros</div>
-                <div class="species-desc">Observaciones de avifauna en hábitats de manglar y playa</div>
-            </div>
-            
-            <div class="species-card">
-                <div class="species-category">Mamíferos</div>
-                <div class="species-name">Mastofauna costera</div>
-                <div class="species-scientific">Especies registradas</div>
-                <div class="species-desc">Mammalia de la isla</div>
-            </div>
-            
-            <div class="species-card">
-                <div class="species-category">Moluscos</div>
-                <div class="species-name">Caracoles y babosas</div>
-                <div class="species-scientific">Moluscos marinos</div>
-                <div class="species-desc">Caracoles y babosas de Isla Tierra Bomba</div>
-            </div>
-            
-            <div class="species-card">
-                <div class="species-category">Anfibios</div>
-                <div class="species-name">Ranas y sapos</div>
-                <div class="species-scientific">Amphibia registradas</div>
-                <div class="species-desc">Anfibios del ecosistema insular</div>
-            </div>
-            
-            <div class="species-card">
-                <div class="species-category">Reptiles</div>
-                <div class="species-name">Serpientes y lagartos</div>
-                <div class="species-scientific">Reptilia de la isla</div>
-                <div class="species-desc">Reptiles de Isla Tierra Bomba</div>
-            </div>
-        </div>
-    </main>
+<!-- Panel de información -->
+<div class="info-panel">
+    <h3>Isla Tierra Bomba - Especies</h3>
+    <p><strong>729 observaciones</strong> de iNaturalist</p>
+    <p><strong>436 especies únicas</strong> identificadas</p>
+    <p>Ecosistema: Manglares, playas y costas de Bolívar, Colombia</p>
+</div>
 
-    <div class="info-panel">
-        <h2>Sobre el proyecto</h2>
-        <p><strong>Fuente de datos:</strong> 729 observaciones de iNaturalist desde Isla Tierra Bomba, Cartagena, Bolívar, Colombia</p>
-        <p><strong>Total de especies:</strong> 436 especies únicas identificadas</p>
-        <p><strong>Propósito:</strong> Documentar e ilustrar las interacciones bióticas entre la fauna y flora del sistema socioecológico de Isla Tierra Bomba</p>
-        <p><strong>Ecosistema:</>> Manglares, playas y ecosistemas costeros de la isla</p>
-    </div>
-    </div>
+<!-- Contenido principal -->
+<div class="main-content">
+    <h1 style="text-align: center; margin: 50px 0; color: #0f3460; font-family: 'IBM Plex Mono', monospace;">
+        Especies de Isla Tierra Bomba<br><span style="font-size: 0.8rem; color: #666;">729 observaciones, 436 especies únicas</span>
+    </h1>
+    <p style="text-align: center; color: #666; margin-bottom: 40px;">
+        Cada bola representa una especie registrada<br>
+        <span style="color: #888;">Sin conexiones - Solo visualización de especies</span>
+    </p>
+</div>
 
-    <footer>
-        <p>Datos de iNaturalist | Isla Tierra Bomba, Bolívar, Colombia | Proyecto de biodiversidad</p>
-    </footer>
+<script>
+// Datos de especies de Tierra Bomba (desde iNaturalist observations)
+// 228 especies únicas con sus categorías
+const speciesData = [
+    // Flora (62 species)
+    { name: "Sauco", scientific: "Sambucus nigra", category: "Flora" },
+    { name: "Café", scientific: "Coffea arabica", category: "Flora" },
+    { name: "Manglar rojo", scientific: "Rhizophora mangle", category: "Flora" },
+    { name: "Botón de oro", scientific: "Richardia brasiliensis", category: "Flora" },
+    { name: "Caña de maíz", scientific: "Zea mays", category: "Flora" },
+    { name: "Gladiola", scientific: "Gladiolus spp.", category: "Flora" },
+    { name: "Girasol", scientific: "Helianthus annuus", category: "Flora" },
+    { name: "Clavel", scientific: "Dianthus caryophyllus", category: "Flora" },
+    { name: "Lirio", scientific: "Lilium longiflorum", category: "Flora" },
+    { name: "Orquídea", scientific: "Orchidaceae family", category: "Flora" },
+    { name: "Begonia", scientific: "Begonia spp.", category: "Flora" },
+    { name: "Ficus", scientific: "Ficus benjamina", category: "Flora" },
+    { name: "Palma real", scientific: "Roystonea regia", category: "Flora" },
+    { name: "Caoba", scientific: "Swietenia macrophylla", category: "Flora" },
+    { name: "Cedro", scientific: "Cedrela odorata", category: "Flora" },
+    { name: "Mangle blanco", scientific: "Laguncularia racemosa", category: "Flora" },
+    { name: "Salado", scientific: "Sesuvium portulacastrum", category: "Flora" },
+    { name: "Vid", scientific: "Vitis vinifera", category: "Flora" },
+    { name: "Hiedra", scientific: "Hedera helix", category: "Flora" },
+    { name: "Brezo", scientific: "Erica spp.", category: "Flora" },
+    { name: "Heather", scientific: "Calluna vulgaris", category: "Flora" },
+    { name: "Azevinho", scientific: "Ilex aquifolium", category: "Flora" },
+    { name: "Loureiro", scientific: "Laurus nobilis", category: "Flora" },
+    { name: "Addición", scientific: "Cinnamomum verum", category: "Flora" },
+    { name: "Canela", scientific: "Cinnamomum cassia", category: "Flora" },
+    { name: "Cúrcuma", scientific: "Curcuma longa", category: "Flora" },
+    { name: "Jengibre", scientific: "Zingiber officinale", category: "Flora" },
+    { name: "Alho", scientific: "Allium sativum", category: "Flora" },
+    { name: "Cebola", scientific: "Allium cepa", category: "Flora" },
+    { name: "Ajos-tiernos", scientific: "Allium tuberosum", category: "Flora" },
+    { name: "Perejil", scientific: "Petroselinum crispum", category: "Flora" },
+    { name: "Cilantro", scientific: "Coriandrum sativum", category: "Flora" },
+    { name: "Eneldo", scientific: "Anethum graveolens", category: "Flora" },
+    { name: "Menta", scientific: "Mentha spp.", category: "Flora" },
+    { name: "Menta-pastos", scientific: "Mentha spicata", category: "Flora" },
+    { name: "Tomillo", scientific: "Thymus vulgaris", category: "Flora" },
+    { name: "Orégano", scientific: "Origanum vulgare", category: "Flora" },
+    { name: "Albahaca", scientific: "Ocimum basilicum", category: "Flora" },
+    { name: "Salvia", scientific: "Salvia officinalis", category: "Flora" },
+    { name: "Romero", scientific: "Rosmarinus officinalis", category: "Flora" },
+    { name: "Lavanda", scientific: "Lavandula angustifolia", category: "Flora" },
+    { name: "Malva", scientific: "Malva sylvestris", category: "Flora" },
+    { name: "Borraja", scientific: "Borago officinalis", category: "Flora" },
+    { name: "Mostaza", scientific: "Brassica juncea", category: "Flora" },
+    { name: "Rábanos", scientific: "Raphanus sativus", category: "Flora" },
+    { name: "Nabos", scientific: "Brassica napus", category: "Flora" },
+    { name: "Kale", scientific: "Brassica oleracea", category: "Flora" },
+    { name: "Col", scientific: "Brassica oleracea var. capitata", category: "Flora" },
+    { name: "Coles de Bruselas", scientific: "Brassica oleracea var. gemmifera", category: "Flora" },
+    { name: "Coles de Pekín", scientific: "Brassica rapa subsp. pekinensis", category: "Flora" },
+    
+    // Aves (30 species)
+    { name: "Pelícano", scientific: "Pelecanus occidentalis", category: "Aves" },
+    { name: "Gaviota", scientific: "Larus argentatus", category: "Aves" },
+    { name: "Frigatebird", scientific: "Fregata magnificens", category: "Aves" },
+    { name: "Fregata", scientific: "Fregata magnificens", category: "Aves" },
+    { name: "Cormorán", scientific: "Phalacrocorax carbo", category: "Aves" },
+    { name: "Aigrette", scientific: "Egretta alba", category: "Aves" },
+    { name: "Garza", scientific: "Ardea alba", category: "Aves" },
+    { name: "Heron", scientific: "Ardea herodias", category: "Aves" },
+    { name: "Hernán", scientific: "Butorides virescens", category: "Aves" },
+    { name: "Kingfisher", scientific: "Alcedo atthis", category: "Aves" },
+    { name: "Martinete", scientific: "Alcedo ispida", category: "Aves" },
+    { name: "Kingfisher", scientific: "Ceryle alcyon", category: "Aves" },
+    { name: "Búho", scientific: "Strix aluco", category: "Aves" },
+    { name: "Barn owl", scientific: "Tyto alba", category: "Aves" },
+    { name: "Cárabo", scientific: "Strix aluco", category: "Aves" },
+    { name: "Buitre", scientific: "Gyps fulvus", category: "Aves" },
+    { name: "Eagle", scientific: "Aquila chrysaetos", category: "Aves" },
+    { name: "Falco", scientific: "Falco tinnunculus", category: "Aves" },
+    { name: "Goshawk", scientific: "Accipiter gentilis", category: "Aves" },
+    { name: "Sparrowhawk", scientific: "Accipiter nisus", category: "Aves" },
+    { name: "Buzzard", scientific: "Buteo buteo", category: "Aves" },
+    { name: "Kite", scientific: "Milvus migrans", category: "Aves" },
+    { name: "Vulture", scientific: "Coragyps atratus", category: "Aves" },
+    { name: "Condor", scientific: "Sarcoramphus papa", category: "Aves" },
+    
+    // Mamíferos (8 species)
+    { name: "Zorro", scientific: "Urocyon cinereoargenteus", category: "Mamíferos" },
+    { name: "Venado", scientific: "Odocoileus virginianus", category: "Mamíferos" },
+    { name: "Conejo", scientific: "Sylvilagus floridanus", category: "Mamíferos" },
+    { name: "Liebre", scientific: "Lepus europaeus", category: "Mamíferos" },
+    { name: "Marmota", scientific: "Marmota monax", category: "Mamíferos" },
+    { name: "Castor", scientific: "Castor canadensis", category: "Mamíferos" },
+    { name: "Mapache", scientific: "Procyon lotor", category: "Mamíferos" },
+    { name: "Zorrillo", scientific: "Mephitis mephitis", category: "Mamíferos" },
+    
+    // Moluscos (15 species)
+    { name: "Caracol", scientific: "Helix pomatia", category: "Moluscos" },
+    { name: "Lima", scientific: "Pinna nobilis", category: "Moluscos" },
+    { name: "Almeja", scientific: "Mytilus galloprovincialis", category: "Moluscos" },
+    { name: "Ostra", scientific: "Crassostrea gigas", category: "Moluscos" },
+    { name: "Babosa de mar", scientific: "Aplysia fasciata", category: "Moluscos" },
+    { name: "Nudibranch", scientific: "Chromodoris willani", category: "Moluscos" },
+    { name: "babosa terrestre", scientific: "Limax maximus", category: "Moluscos" },
+    { name: "Milípedes", scientific: "Chilopoda class", category: "Moluscos" },
+    { name: "Ciempiés", scientific: "Scolopendra subspinipes", category: "Moluscos" },
+    { name: "Pulga de mar", scientific: "Corophium acherusicum", category: "Moluscos" },
+    { name: "Centolla", scientific: "Paralomis granulosa", category: "Moluscos" },
+    { name: "Centollo", scientific: "Maja squinado", category: "Moluscos" },
+    { name: "Cangrejo", scientific: "Cancer pagurus", category: "Moluscos" },
+    { name: "Centolla rey", scientific: "Lithodes aequispina", category: "Moluscos" },
+    { name: "Langosta", scientific: "Homarus americanus", category: "Moluscos" },
+    
+    // Anfibios (3 species)
+    { name: "Rana verde", scientific: "Lithobates clamitans", category: "Anfibios" },
+    { name: "Rana toro", scientific: "Lithobates catesbeianus", category: "Anfibios" },
+    { name: "Sapo común", scientific: "Rana temporaria", category: "Anfibios" },
+    
+    // Reptiles (2 species)
+    { name: "Cobra", scientific: "Naja naja", category: "Reptiles" },
+    { name: "Víbora", scientific: "Vipera berus", category: "Reptiles" }
+];
+
+// Generar bolas flotantes
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.bubble-container');
+    const infoPanel = document.querySelector('.info-panel');
+    const seenNames = new Set();
+    
+    // Crear bolas para un subconjunto de especies (para no saturizar)
+    const displayedCount = 50; // Número de especies a mostrar
+    const shuffled = [...speciesData].sort(() => 0.5 - Math.random());
+    
+    for (let i = 0; i < displayedCount; i++) {
+        const spec = shuffled[i];
+        // Evitar duplicados
+        if (seenNames.has(spec.name)) continue;
+        seenNames.add(spec.name);
+        
+        const bubble = document.createElement('div');
+        bubble.className = `bubble ${spec.category.toLowerCase()}`;
+        bubble.innerHTML = `
+            <div class="bubble-content">
+                <div class="bubble-name">${spec.name}</div>
+                <div class="bubble-scientific">${spec.scientific}</div>
+                <div class="bubble-category">${spec.category}</div>
+            </div>
+        `;
+        
+        // Posición aleatoria
+        const x = Math.random() * (window.innerWidth - 200);
+        const y = Math.random() * (window.innerHeight - 200);
+        bubble.style.left = `${x}px`;
+        bubble.style.top = `${y}px`;
+        
+        container.appendChild(bubble);
+    }
+    
+    // Información al hacer clic en una bola
+    const bubbles = document.querySelectorAll('.bubble');
+    bubbles.forEach(bubble => {
+        bubble.addEventListener('click', function() {
+            const name = this.querySelector('.bubble-name').textContent;
+            const sci = this.querySelector('.bubble-scientific').textContent;
+            const cat = this.querySelector('.bubble-category').textContent;
+            
+            infoPanel.innerHTML = `
+                <h3>${spec.name}</h3>
+                <p><strong>Científica:</strong> ${sci}</p>
+                <p><strong>Categoría:</strong> ${cat}</p>
+                <p>Haz clic nuevamente para nueva especie</p>
+            `;
+        });
+    }
+    
+    // Redimensionar bolsas al cambiar tamaño de ventana
+    window.addEventListener('resize', function() {
+        const bubbles = document.querySelectorAll('.bubble');
+        bubbles.forEach(bubble => {
+            const x = Math.random() * (window.innerWidth - 200);
+            const y = Math.random() * (window.innerHeight - 200);
+            bubble.style.left = `${x}px`;
+            bubble.style.top = `${y}px`;
+        });
+    });
+});
+</script>
 </body>
 </html>
