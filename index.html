@@ -232,7 +232,6 @@ button{font-family:inherit;cursor:pointer}
       <div class="sec">
         <div class="ph"><h2>Tipos de relación</h2><div class="mini"><button id="tyOn">Todas</button><button id="tyOff">Ninguna</button></div></div>
         <div class="types" id="tylist"></div>
-        <div class="sw" id="swCar"><span class="knob"></span><span>Solo registradas en el Caribe<small>Al menos un registro entre Centroamérica, las Antillas y el norte de Suramérica</small></span></div>
       </div>
       <div class="totals t3">
         <div><b id="tSp">0</b><span>especies visibles</span></div>
@@ -254,6 +253,9 @@ window.addEventListener('error',function(e){var b=document.getElementById('err')
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { LineSegments2 } from 'three/addons/lines/LineSegments2.js';
+import { LineSegmentsGeometry } from 'three/addons/lines/LineSegmentsGeometry.js';
+import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 
 // ======================================================================
 // Configuración
@@ -679,6 +681,7 @@ function resize() {
   const { w, h } = viewSize();
   renderer.setSize(w, h, false);
   camera.aspect = w / h; camera.clearViewOffset();
+  if (window.__eMat) window.__eMat.resolution.set(w, h);
   camera.updateProjectionMatrix();
 }
 window.addEventListener('resize', () => { resize(); if (!fly) flyTo(morph > 0.5 ? territoryView() : swarmView(), 0.6); });
@@ -702,40 +705,44 @@ REL.rel.forEach(([a, b, tys, nreg, carib, fuentes]) => {
   (nb.edges = nb.edges || []).push(e);
 });
 const typeOn = TYPES.map(() => true);
-let onlyCarib = false;
-const eGeo = new THREE.BufferGeometry();
 const ePos = new Float32Array(edges.length * 6), eCol = new Float32Array(edges.length * 6);
-eGeo.setAttribute('position', new THREE.BufferAttribute(ePos, 3).setUsage(THREE.DynamicDrawUsage));
-eGeo.setAttribute('color', new THREE.BufferAttribute(eCol, 3).setUsage(THREE.DynamicDrawUsage));
-const eMat = new THREE.LineBasicMaterial({ vertexColors: true, transparent: true, opacity: 0.55, depthWrite: false, fog: false, blending: THREE.AdditiveBlending });
-const eLines = new THREE.LineSegments(eGeo, eMat);
+const eGeo = new LineSegmentsGeometry();
+eGeo.setPositions(ePos);
+eGeo.setColors(eCol);
+const eMat = new LineMaterial({ vertexColors: true, linewidth: IS_MOBILE ? 1.6 : 1.9, transparent: true, opacity: 0.85, depthWrite: false, fog: false });
+window.__eMat = eMat;
+eMat.resolution.set(stage.clientWidth, stage.clientHeight);
+const eLines = new LineSegments2(eGeo, eMat);
 eLines.frustumCulled = false;
 eLines.renderOrder = 0;
 net.add(eLines);
 const eColTmp = new THREE.Color();
 function edgeVisible(e) {
   if (!e.a.on || !e.b.on) return false;
-  if (onlyCarib && !e.carib) return false;
   return e.tys.some(t => typeOn[t]);
 }
 function edgeMainVisible(e) { const t = e.tys.filter(t => typeOn[t]).sort((x, y) => (x === 6) - (y === 6) || x - y); return t.length ? t[0] : e.main; }
 function paintEdges() {
+  const arr = eGeo.attributes.instanceColorStart.data.array;
   edges.forEach((e, i) => {
     e.on = edgeVisible(e);
-    const lit = !selected || e.a === selected || e.b === selected;
-    eColTmp.set(TYPES[edgeMainVisible(e)].color).multiplyScalar(!e.on ? 0 : (selected ? (lit ? 1.0 : 0.0) : 0.42));
-    eCol.set([eColTmp.r, eColTmp.g, eColTmp.b, eColTmp.r, eColTmp.g, eColTmp.b], i * 6);
+    e.show = e.on && (!selected || e.a === selected || e.b === selected);
+    eColTmp.set(TYPES[edgeMainVisible(e)].color);
+    arr.set([eColTmp.r, eColTmp.g, eColTmp.b, eColTmp.r, eColTmp.g, eColTmp.b], i * 6);
   });
-  eGeo.attributes.color.needsUpdate = true;
+  eGeo.attributes.instanceColorStart.data.needsUpdate = true;
+  eMat.opacity = selected ? 1 : 0.85;
+  eMat.linewidth = (selected ? 2.6 : 1.9) * (IS_MOBILE ? 0.85 : 1);
   const tr = $('tRe'); if (tr) tr.textContent = edges.filter(e => e.on).length;
 }
 function updateEdgePositions() {
+  const arr = eGeo.attributes.instanceStart.data.array;
   for (let i = 0; i < edges.length; i++) {
-    const e = edges[i], pa = e.a.spr.position, pb = e.b.spr.position;
-    ePos[i * 6] = pa.x; ePos[i * 6 + 1] = pa.y; ePos[i * 6 + 2] = pa.z;
-    ePos[i * 6 + 3] = pb.x; ePos[i * 6 + 4] = pb.y; ePos[i * 6 + 5] = pb.z;
+    const e = edges[i], pa = e.a.spr.position, pb = e.show ? e.b.spr.position : pa;
+    arr[i * 6] = pa.x; arr[i * 6 + 1] = pa.y; arr[i * 6 + 2] = pa.z;
+    arr[i * 6 + 3] = pb.x; arr[i * 6 + 4] = pb.y; arr[i * 6 + 5] = pb.z;
   }
-  eGeo.attributes.position.needsUpdate = true;
+  eGeo.attributes.instanceStart.data.needsUpdate = true;
 }
 
 // panel de tipos
@@ -752,7 +759,6 @@ TYPES.forEach((t, i) => {
 });
 $('tyOn').onclick = () => { typeOn.fill(true); tyList.querySelectorAll('.ty').forEach(e => e.classList.remove('off')); paintEdges(); if (selected) select(selected); };
 $('tyOff').onclick = () => { typeOn.fill(false); tyList.querySelectorAll('.ty').forEach(e => e.classList.add('off')); paintEdges(); if (selected) select(selected); };
-$('swCar').onclick = (ev) => { onlyCarib = !onlyCarib; ev.currentTarget.classList.toggle('on', onlyCarib); paintEdges(); if (selected) select(selected); };
 
 // panel de fuentes: de dónde viene la información
 {
@@ -1026,7 +1032,7 @@ function frame(now) {
     tmpV.set(sx, n.sph.y, sz);
     n.spr.position.lerpVectors(tmpV, n.ter, e);
     n.spr.position.y += Math.sin(Math.PI * e) * 25;
-    let s = THREE.MathUtils.lerp(5.6 * n.size, n.cl.ball * (0.8 + 0.25 * (n.size - 1)), e);
+    let s = THREE.MathUtils.lerp(4.5 * n.size, n.cl.ball * (0.8 + 0.25 * (n.size - 1)), e);
     if (n === hovered) s *= 1.3;
     if (n === selected) s *= 1.7;
     n.spr.scale.set(s, s, 1);
