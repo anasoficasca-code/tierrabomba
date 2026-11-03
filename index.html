@@ -700,6 +700,7 @@ eLines.frustumCulled = false;
 eLines.renderOrder = 0;
 net.add(eLines);
 const eColTmp = new THREE.Color();
+const EDGE_SOFT = new THREE.Color('#C9D2DC');
 function edgeVisible(e) {
   if (!e.a.on || !e.b.on) return false;
   return e.tys.some(t => typeOn[t]);
@@ -711,11 +712,12 @@ function paintEdges() {
     e.on = edgeVisible(e);
     e.show = e.on && (!selected || e.a === selected || e.b === selected);
     // sin selección: líneas neutras; con una especie seleccionada: color del tipo
-    eColTmp.set(selected ? TYPES[edgeMainVisible(e)].color : '#C9D2DC');
+    eColTmp.set(TYPES[edgeMainVisible(e)].color);
+    if (!selected) eColTmp.lerp(EDGE_SOFT, 0.3);   // color del tipo, suavizado
     arr.set([eColTmp.r, eColTmp.g, eColTmp.b, eColTmp.r, eColTmp.g, eColTmp.b], i * 6);
   });
   eGeo.attributes.instanceColorStart.data.needsUpdate = true;
-  eMat.userData.base = selected ? 0.85 : 0.2;
+  eMat.userData.base = selected ? 0.85 : 0.34;
   eMat.linewidth = selected ? 1.5 : 1;
   const tr = $('tRe'); if (tr) tr.textContent = edges.filter(e => e.on).length;
 }
@@ -1025,7 +1027,7 @@ function frame(now) {
     n.spr.renderOrder = n === selected ? 5 : 1;
   }
   updateEdgePositions();
-  eMat.opacity = (eMat.userData.base ?? 0.2) * (selected ? 1 : 1 - 0.35 * clamp01(morph));
+  eMat.opacity = (eMat.userData.base ?? 0.34) * (selected ? 1 : 1 - 0.35 * clamp01(morph));
   const tv = clamp01((morph - 0.55) / 0.45);
   stems.material.opacity = 0.45 * tv;
   obsPts.material.opacity = tv;
