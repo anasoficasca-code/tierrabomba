@@ -710,11 +710,12 @@ function paintEdges() {
   edges.forEach((e, i) => {
     e.on = edgeVisible(e);
     e.show = e.on && (!selected || e.a === selected || e.b === selected);
-    eColTmp.set(TYPES[edgeMainVisible(e)].color);
+    // sin selección: líneas neutras; con una especie seleccionada: color del tipo
+    eColTmp.set(selected ? TYPES[edgeMainVisible(e)].color : '#C9D2DC');
     arr.set([eColTmp.r, eColTmp.g, eColTmp.b, eColTmp.r, eColTmp.g, eColTmp.b], i * 6);
   });
   eGeo.attributes.instanceColorStart.data.needsUpdate = true;
-  eMat.userData.base = selected ? 0.85 : 0.32;
+  eMat.userData.base = selected ? 0.85 : 0.2;
   eMat.linewidth = selected ? 1.5 : 1;
   const tr = $('tRe'); if (tr) tr.textContent = edges.filter(e => e.on).length;
 }
@@ -1024,7 +1025,7 @@ function frame(now) {
     n.spr.renderOrder = n === selected ? 5 : 1;
   }
   updateEdgePositions();
-  eMat.opacity = (eMat.userData.base ?? 0.32) * (selected ? 1 : 1 - 0.35 * clamp01(morph));
+  eMat.opacity = (eMat.userData.base ?? 0.2) * (selected ? 1 : 1 - 0.35 * clamp01(morph));
   const tv = clamp01((morph - 0.55) / 0.45);
   stems.material.opacity = 0.45 * tv;
   obsPts.material.opacity = tv;
