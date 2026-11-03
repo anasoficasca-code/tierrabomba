@@ -558,53 +558,36 @@ try {
 // ======================================================================
 progress(80, 'Ubicando especies en la isla');
 const TER_SIZE = 10.5;   // diámetro base de una bola en el territorio (unidades)
-const clusters = new Map();
-species.forEach(sp => {
-  const key = Math.round(sp.x / 400) + ':' + Math.round(sp.z / 400);
-  if (!clusters.has(key)) clusters.set(key, []);
-  clusters.get(key).push(sp);
-});
+// cada especie en su propio lugar de registro; si varias comparten el mismo punto
+// exacto se abren en una espiral plana sobre el suelo (separación de 18 m)
 const stemPos = [];
-const groundRing = [];
 const CL = [];
-for (const list of clusters.values()) {
-  list.sort((a, b) => a.cat - b.cat || b.n - a.n);
-  const cx = list.reduce((s, p) => s + p.x, 0) / list.length;
-  const cz = list.reduce((s, p) => s + p.z, 0) / list.length;
-  const g = Math.max(0, heightAt(cx, cz) ?? 0);
-  const n = list.length;
-  const cl = { x: cx * S, y: g * S, z: cz * S, n, list };
-  list.forEach((sp, k) => {
-    const o = new THREE.Vector3();
-    if (n > 1) {
-      const phi = Math.acos(1 - 2 * (k + 0.5) / n), th = Math.PI * (1 + Math.sqrt(5)) * k;
-      o.set(Math.sin(phi) * Math.cos(th), Math.cos(phi), Math.sin(phi) * Math.sin(th));
-    }
-    sp.node.off = o; sp.node.cl = cl; sp.node.cluster = list;
-    sp.node.ter.set(cl.x, cl.y + 20, cl.z);
-  });
+const sameSpot = new Map();
+species.slice().sort((a, b) => a.cat - b.cat || b.n - a.n).forEach(sp => {
+  const key = Math.round(sp.x / 15) + ':' + Math.round(sp.z / 15);
+  const k = sameSpot.get(key) || 0;
+  sameSpot.set(key, k + 1);
+  const r = 18 * Math.sqrt(k), th = k * 2.39996;
+  const x = sp.x + r * Math.cos(th), z = sp.z + r * Math.sin(th);
+  const g = Math.max(0, heightAt(x, z) ?? 0);
+  const cl = { x: x * S, y: g * S, z: z * S, n: 1, list: [sp], ball: 1 };
+  sp.node.cl = cl;
+  sp.node.ter.set(cl.x, cl.y + 2, cl.z);
   CL.push(cl);
-  stemPos.push(0, 0, 0, 0, 0, 0);
-}
+});
 // tamaño en pantalla constante en el territorio (px), como símbolos de un mapa
-const TER_PX = IS_MOBILE ? 19 : 23;
+const TER_PX = IS_MOBILE ? 15 : 17;
 const camW = new THREE.Vector3();
 function layoutTerritory() {
   const { h } = viewSize();
   const k0 = 2 * Math.tan(THREE.MathUtils.degToRad(camera.fov) / 2) / h;
-  const sp = stems.geometry.attributes.position;
-  CL.forEach((cl, i) => {
+  CL.forEach((cl) => {
     camW.set(cl.x, cl.y, cl.z);
     const k = camera.position.distanceTo(camW) * k0;       // unidades por píxel
     const ball = TER_PX * k;
-    const R = cl.n === 1 ? 0 : 0.3 * ball * Math.sqrt(cl.n);
-    const cy = cl.y + 26 * k + ball * 0.5 + R;
     cl.ball = ball;
-    cl.list.forEach(s => s.node.ter.set(cl.x + s.node.off.x * R - SWARM_C.x, cy + s.node.off.y * R - SWARM_C.y, cl.z + s.node.off.z * R - SWARM_C.z));
-    sp.setXYZ(i * 2, cl.x, cl.y + 0.3, cl.z);
-    sp.setXYZ(i * 2 + 1, cl.x, cy - R, cl.z);
+    cl.list[0].node.ter.set(cl.x - SWARM_C.x, cl.y + ball * 0.55 + 2 * k - SWARM_C.y, cl.z - SWARM_C.z);
   });
-  sp.needsUpdate = true;
 }
 const stems = new THREE.LineSegments(
   new THREE.BufferGeometry().setAttribute('position', new THREE.Float32BufferAttribute(stemPos, 3)),
@@ -666,7 +649,7 @@ function territoryView(focus) {
   }
   const sz = ISLAND_C.userData;
   const { w, h } = viewSize();
-  const span = Math.max(sz.z, sz.x * (h / Math.max(360, IS_MOBILE ? w : w - 720))) * 0.66;
+  const span = Math.max(sz.z, sz.x * (h / (IS_MOBILE ? w : Math.max(w * 0.55, w - 720)))) * 0.66;
   const vf = THREE.MathUtils.degToRad(camera.fov) / 2;
   const d = span / Math.tan(vf) * (IS_MOBILE ? 1.15 : 0.95);
   const tgt = new THREE.Vector3(ISLAND_C.x, 0, ISLAND_C.z);
@@ -691,15 +674,15 @@ resize();
 // ======================================================================
 // Relaciones entre especies (GloBI)
 // ======================================================================
-const TYPES = REL.tipos.map((name, i) => ({ name, color: ['#E5484D', '#F5A524', '#F472B6', '#84CC16', '#A78BFA', '#2DD4BF', '#8A9AAD'][i] }));
+const TYPES = REL.tipos.map((name, i) => ({ name, color: ['#E5484D', '#F5A524', '#F472B6', '#84CC16', '#A78BFA', '#2DD4BF', '#CBD5E1', '#38BDF8'][i] }));
 const byTid = new Map(species.map(s => [s.tid, s.node]));
 const edges = [];
-REL.rel.forEach(([a, b, tys, nreg, carib, fuentes]) => {
+REL.rel.forEach(([a, b, tys, nreg, carib, fuentes, infer]) => {
   const na = byTid.get(a), nb = byTid.get(b);
   if (!na || !nb) return;
   // tipo principal: el más específico (la interacción general va de último)
-  const main = tys.slice().sort((x, y) => (x === 6) - (y === 6) || x - y)[0];
-  const e = { a: na, b: nb, tys, main, nreg, carib, fuentes, on: true };
+  const main = tys.slice().sort((x, y) => x - y)[0];
+  const e = { a: na, b: nb, tys, main, nreg, carib, fuentes, infer: !!infer, on: true };
   edges.push(e);
   (na.edges = na.edges || []).push(e);
   (nb.edges = nb.edges || []).push(e);
@@ -709,7 +692,7 @@ const ePos = new Float32Array(edges.length * 6), eCol = new Float32Array(edges.l
 const eGeo = new LineSegmentsGeometry();
 eGeo.setPositions(ePos);
 eGeo.setColors(eCol);
-const eMat = new LineMaterial({ vertexColors: true, linewidth: IS_MOBILE ? 1.6 : 1.9, transparent: true, opacity: 0.85, depthWrite: false, fog: false });
+const eMat = new LineMaterial({ vertexColors: true, linewidth: 1, transparent: true, opacity: 0.32, depthWrite: false, fog: false });
 window.__eMat = eMat;
 eMat.resolution.set(stage.clientWidth, stage.clientHeight);
 const eLines = new LineSegments2(eGeo, eMat);
@@ -721,7 +704,7 @@ function edgeVisible(e) {
   if (!e.a.on || !e.b.on) return false;
   return e.tys.some(t => typeOn[t]);
 }
-function edgeMainVisible(e) { const t = e.tys.filter(t => typeOn[t]).sort((x, y) => (x === 6) - (y === 6) || x - y); return t.length ? t[0] : e.main; }
+function edgeMainVisible(e) { const t = e.tys.filter(t => typeOn[t]).sort((x, y) => x - y); return t.length ? t[0] : e.main; }
 function paintEdges() {
   const arr = eGeo.attributes.instanceColorStart.data.array;
   edges.forEach((e, i) => {
@@ -731,8 +714,8 @@ function paintEdges() {
     arr.set([eColTmp.r, eColTmp.g, eColTmp.b, eColTmp.r, eColTmp.g, eColTmp.b], i * 6);
   });
   eGeo.attributes.instanceColorStart.data.needsUpdate = true;
-  eMat.opacity = selected ? 1 : 0.85;
-  eMat.linewidth = (selected ? 2.6 : 1.9) * (IS_MOBILE ? 0.85 : 1);
+  eMat.userData.base = selected ? 0.85 : 0.32;
+  eMat.linewidth = selected ? 1.5 : 1;
   const tr = $('tRe'); if (tr) tr.textContent = edges.filter(e => e.on).length;
 }
 function updateEdgePositions() {
@@ -790,7 +773,7 @@ $('tyOff').onclick = () => { typeOn.fill(false); tyList.querySelectorAll('.ty').
       <tbody>${top.map(f => `<tr><td><span style="display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:${(GROUPS.find(x => x[0] === f[1]) || ['', '#888'])[1]}"></span>${f[0]}</td><td class="n">${f[2].toLocaleString('es-CO')}</td><td class="n">${f[3]}</td></tr>`).join('')}
         <tr><td>Otras ${REL.fuentes.length - top.length} fuentes</td><td class="n">${REL.fuentes.slice(10).reduce((s, f) => s + f[2], 0).toLocaleString('es-CO')}</td><td class="n"></td></tr></tbody>
     </table>
-    <div class="note">${edges.length} relaciones entre las especies de la isla, compiladas en GloBI (Global Biotic Interactions). Están documentadas en algún lugar del mundo; ${edges.filter(e => e.carib).length} tienen al menos un registro en el Caribe o el norte de Suramérica. Una relación puede venir de varias fuentes.</div>`;
+    <div class="note">${edges.length} relaciones entre las especies de la isla, compiladas en GloBI (Global Biotic Interactions). Están documentadas en algún lugar del mundo; ${edges.filter(e => e.carib).length} tienen al menos un registro en el Caribe o el norte de Suramérica. Una relación puede venir de varias fuentes. En ${edges.filter(e => e.infer).length} relaciones la fuente solo indica que las especies interactúan; su tipo se asignó según los grupos de las especies (por ejemplo, ave sobre árbol: refugio y hábitat; dos aves del mismo gremio: competencia).</div>`;
 }
 
 // ======================================================================
@@ -886,7 +869,7 @@ function relList(node) {
   if (!list.length) return `<div class="relh">Relaciones</div><div class="note">No hay relaciones documentadas en GloBI con otras especies de la isla${(node.edges || []).length ? ' con los filtros actuales' : ''}.</div>`;
   return `<div class="relh">Relaciones con otras especies (${list.length})</div>` + list.map(({ e, o }) => {
     const tys = e.tys.filter(t => typeOn[t]).map(t => `<span class="tag" style="--t:${TYPES[t].color}">${TYPES[t].name}</span>`).join('');
-    return `<div class="rel" data-t="${o.sp.tid}" style="--c:${CATS[o.sp.cat].color}"><img src="${A}fotos/${o.sp.tid}.webp" alt=""><div><div class="r1">${o.sp.es}${e.carib ? '<span class="cb">Caribe</span>' : ''}</div><div class="r2">${tys}</div><div class="r2">Fuente: ${e.fuentes.slice(0, 2).join('; ')}${e.fuentes.length > 2 ? ` y ${e.fuentes.length - 2} más` : ''}. ${e.nreg} ${e.nreg === 1 ? 'registro' : 'registros'}.</div></div></div>`;
+    return `<div class="rel" data-t="${o.sp.tid}" style="--c:${CATS[o.sp.cat].color}"><img src="${A}fotos/${o.sp.tid}.webp" alt=""><div><div class="r1">${o.sp.es}${e.carib ? '<span class="cb">Caribe</span>' : ''}</div><div class="r2">${tys}</div>${e.infer ? '<div class="r2">Tipo asignado según los grupos de las especies.</div>' : ''}<div class="r2">Fuente: ${e.fuentes.slice(0, 2).join('; ')}${e.fuentes.length > 2 ? ` y ${e.fuentes.length - 2} más` : ''}. ${e.nreg} ${e.nreg === 1 ? 'registro' : 'registros'}.</div></div></div>`;
   }).join('');
 }
 function goToSpecies(node) {
@@ -1032,7 +1015,7 @@ function frame(now) {
     tmpV.set(sx, n.sph.y, sz);
     n.spr.position.lerpVectors(tmpV, n.ter, e);
     n.spr.position.y += Math.sin(Math.PI * e) * 25;
-    let s = THREE.MathUtils.lerp(4.5 * n.size, n.cl.ball * (0.8 + 0.25 * (n.size - 1)), e);
+    let s = THREE.MathUtils.lerp(4.5 * n.size, n.cl.ball * (0.85 + 0.2 * (n.size - 1)), e);
     if (n === hovered) s *= 1.3;
     if (n === selected) s *= 1.7;
     n.spr.scale.set(s, s, 1);
@@ -1041,6 +1024,7 @@ function frame(now) {
     n.spr.renderOrder = n === selected ? 5 : 1;
   }
   updateEdgePositions();
+  eMat.opacity = (eMat.userData.base ?? 0.32) * (selected ? 1 : 1 - 0.35 * clamp01(morph));
   const tv = clamp01((morph - 0.55) / 0.45);
   stems.material.opacity = 0.45 * tv;
   obsPts.material.opacity = tv;
