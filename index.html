@@ -406,7 +406,7 @@ const loadGLB = (u) => new Promise((res, rej) => new GLTFLoader().load(u, res, u
 // agua translúcida, paredes de tierra y árboles 3D en toda la isla.
 const EX = 3;                           // exageración vertical del relieve
 let BLOCK = null;   // se ajusta a toda la imagen satelital (isla y Cartagena)
-const BASE_Y = -260;                    // fondo del bloque (m)
+const BASE_Y = -60;                     // fondo marino lejano (m)
 const WATER_Y = 0.8;
 
 // --- utilidades de la imagen base (teselas z15) ---
@@ -536,7 +536,7 @@ progress(45, 'Construyendo el relieve');
 
   // paredes de tierra del bloque (con franja de agua arriba donde hay mar)
   const wallPos = [], wallCol = [], wallIdx = [];
-  const soilTop = new THREE.Color('#6b5236'), soilBot = new THREE.Color('#2a1d12'), waterC = new THREE.Color('#1f6f78');
+  const soilTop = new THREE.Color('#5d4a33'), soilBot = new THREE.Color('#24494f'), waterC = new THREE.Color('#24494f');
   const addSide = (pts) => {
     const base = wallPos.length / 3;
     pts.forEach(([x, y, z]) => {
@@ -562,12 +562,12 @@ progress(45, 'Construyendo el relieve');
   wg.setAttribute('color', new THREE.Float32BufferAttribute(wallCol, 3));
   wg.setIndex(wallIdx); wg.computeVertexNormals();
   terr.add(new THREE.Mesh(wg, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, metalness: 0, side: THREE.DoubleSide })));
-  // fondo del bloque
-  const bottom = new THREE.Mesh(new THREE.PlaneGeometry(BLOCK.x1 - BLOCK.x0, BLOCK.z1 - BLOCK.z0), new THREE.MeshStandardMaterial({ color: 0x1c140c, side: THREE.DoubleSide }));
-  bottom.rotation.x = -Math.PI / 2; bottom.position.set((BLOCK.x0 + BLOCK.x1) / 2, BASE_Y, (BLOCK.z0 + BLOCK.z1) / 2);
-  terr.add(bottom);
-  // agua translúcida
-  const water = new THREE.Mesh(new THREE.PlaneGeometry(BLOCK.x1 - BLOCK.x0, BLOCK.z1 - BLOCK.z0),
+  // mar infinito: fondo oscuro y superficie de agua que se pierden en el horizonte
+  const SEA = 600000;
+  const seabed = new THREE.Mesh(new THREE.PlaneGeometry(SEA, SEA), new THREE.MeshStandardMaterial({ color: 0x24494f, roughness: 1, metalness: 0 }));
+  seabed.rotation.x = -Math.PI / 2; seabed.position.set((BLOCK.x0 + BLOCK.x1) / 2, BASE_Y, (BLOCK.z0 + BLOCK.z1) / 2);
+  terr.add(seabed);
+  const water = new THREE.Mesh(new THREE.PlaneGeometry(SEA, SEA),
     new THREE.MeshStandardMaterial({ color: 0x0a2a36, transparent: true, opacity: 0.86, roughness: 0.25, metalness: 0.1, depthWrite: false }));
   water.rotation.x = -Math.PI / 2; water.position.set((BLOCK.x0 + BLOCK.x1) / 2, WATER_Y, (BLOCK.z0 + BLOCK.z1) / 2);
   water.renderOrder = 1;
@@ -739,8 +739,8 @@ species.slice().sort((a, b) => a.cat - b.cat || b.n - a.n).forEach(sp => {
   sameSpot.set(key, k + 1);
   const r = 18 * Math.sqrt(k), th = k * 2.39996;
   const x = sp.x + r * Math.cos(th), z = sp.z + r * Math.sin(th);
-  const g = Math.max(0, heightAt(x, z) ?? 0);
-  const cl = { x: x * S, y: g * S, z: z * S, n: 1, list: [sp], ball: 1 };
+  const hg = heightAt(x, z), g = Math.max(0, hg ?? 0);
+  const cl = { x: x * S, y: g * S, z: z * S, n: 1, list: [sp], ball: 1, sea: hg === null };
   sp.node.cl = cl;
   sp.node.ter.set(cl.x, cl.y + 2, cl.z);
   CL.push(cl);
@@ -756,7 +756,8 @@ function layoutTerritory() {
     const k = camera.position.distanceTo(camW) * k0;       // unidades por píxel
     const ball = TER_PX * k;
     cl.ball = ball;
-    cl.list[0].node.ter.set(cl.x - SWARM_C.x, cl.y + 4.6 + ball * 0.55 + 2 * k - SWARM_C.y, cl.z - SWARM_C.z);   // por encima de las copas
+    const yy = cl.sea ? WATER_Y * S + ball * 0.5 + 0.5 * k : cl.y + 4.6 + ball * 0.55 + 2 * k;   // en el mar, sobre el agua; en tierra, sobre las copas
+    cl.list[0].node.ter.set(cl.x - SWARM_C.x, yy - SWARM_C.y, cl.z - SWARM_C.z);   // por encima de las copas
   });
 }
 const stems = new THREE.LineSegments(
