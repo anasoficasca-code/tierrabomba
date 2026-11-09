@@ -405,7 +405,7 @@ const loadGLB = (u) => new Promise((res, rej) => new GLTFLoader().load(u, res, u
 // Territorio en bloque: relieve real (DEM) exagerado, imagen satelital,
 // agua translúcida, paredes de tierra y árboles 3D en toda la isla.
 const EX = 3;                           // exageración vertical del relieve
-const BLOCK = { x0: -4300, x1: 5100, z0: -2700, z1: 8100 };   // metros
+let BLOCK = null;   // se ajusta a toda la imagen satelital (isla y Cartagena)
 const BASE_Y = -260;                    // fondo del bloque (m)
 const WATER_Y = 0.8;
 
@@ -419,6 +419,13 @@ const xzToTile = (x, z) => {
 };
 const loadImgData = (u) => new Promise((res, rej) => { const im = new Image(); im.onload = () => { const c = document.createElement('canvas'); c.width = im.width; c.height = im.height; const g = c.getContext('2d'); g.drawImage(im, 0, 0); res({ w: im.width, h: im.height, d: g.getImageData(0, 0, im.width, im.height).data }); }; im.onerror = rej; im.src = u; });
 
+{
+  const t2ll = (tx, ty) => [tx / NT * 360 - 180, Math.atan(Math.sinh(Math.PI * (1 - 2 * ty / NT))) * 180 / Math.PI];
+  const [lonA, latA] = t2ll(T.x0, T.y0), [lonB, latB] = t2ll(T.x0 + T.nx, T.y0 + T.ny);
+  const [xa, za] = llToXZ(lonA, latA), [xb, zb] = llToXZ(lonB, latB);
+  const ix = (xb - xa) * 0.004, iz = (zb - za) * 0.004;
+  BLOCK = { x0: xa + ix, x1: xb - ix, z0: za + iz, z1: zb - iz };
+}
 progress(18, 'Cargando relieve e imagen satelital');
 const [DEMBUF, MASKD, satMap, landMask] = await Promise.all([
   fetch(A + 'data/dem_640x1088.bin').then(r => r.arrayBuffer()),
@@ -435,9 +442,11 @@ const demAt = (u, v) => {   // metros sobre el nivel del mar, bilineal
   const g = (x, y) => DEM[y * DW + x] / 100 - 30;
   return g(x0, y0) * (1 - ax) * (1 - ay) + g(x0 + 1, y0) * ax * (1 - ay) + g(x0, y0 + 1) * (1 - ax) * ay + g(x0 + 1, y0 + 1) * ax * ay;
 };
-const landAt = (u, v) => {
-  const x = Math.min(MASKD.w - 1, Math.max(0, Math.floor(u * MASKD.w))), y = Math.min(MASKD.h - 1, Math.max(0, Math.floor(v * MASKD.h)));
-  return MASKD.d[(y * MASKD.w + x) * 4] / 255;
+const landAt = (u, v) => {   // 0..1, bilineal para una costa suave
+  const fx = Math.min(MASKD.w - 1.001, Math.max(0, u * MASKD.w - 0.5)), fy = Math.min(MASKD.h - 1.001, Math.max(0, v * MASKD.h - 0.5));
+  const x0 = Math.floor(fx), y0 = Math.floor(fy), ax = fx - x0, ay = fy - y0;
+  const g = (x, y) => MASKD.d[(y * MASKD.w + x) * 4] / 255;
+  return g(x0, y0) * (1 - ax) * (1 - ay) + g(x0 + 1, y0) * ax * (1 - ay) + g(x0, y0 + 1) * (1 - ax) * ay + g(x0 + 1, y0 + 1) * ax * ay;
 };
 
 // --- modelo Revit: se carga primero para conocer su terreno ---
@@ -496,15 +505,17 @@ function heightAt(x, z) {
 // --- terreno del bloque ---
 progress(45, 'Construyendo el relieve');
 {
-  const STEP = 22;
+  const STEP = 26;
   const nx = Math.round((BLOCK.x1 - BLOCK.x0) / STEP), nz = Math.round((BLOCK.z1 - BLOCK.z0) / STEP);
   const pos = new Float32Array((nx + 1) * (nz + 1) * 3), uv = new Float32Array((nx + 1) * (nz + 1) * 2);
   const edgeH = { n: [], s: [], w: [], e: [] };
   for (let j = 0; j <= nz; j++) for (let i = 0; i <= nx; i++) {
     const x = BLOCK.x0 + i * STEP, z = BLOCK.z0 + j * STEP;
     const [u, v] = xzToTile(x, z);
-    const land = landAt(u, v) >= 0.5, h = demAt(u, v);
-    let y = land ? Math.max(1.5, h * EX) : Math.min(-2, h) * 2.2 - 3;   // fondo marino
+    const lm = landAt(u, v), h = demAt(u, v);
+    const yLand = Math.max(1.5, h * EX), ySea = Math.min(-2, h) * 1.4 - 2;   // fondo marino
+    const tt = Math.min(1, Math.max(0, (lm - 0.25) / 0.5)), sm = tt * tt * (3 - 2 * tt);
+    let y = ySea + (yLand - ySea) * sm;
     const r = revitGround(x, z);
     if (r !== null && r > 0.05) y = r * EX - 2.5;                    // bajo el modelo Revit
     const k = j * (nx + 1) + i;
@@ -557,7 +568,7 @@ progress(45, 'Construyendo el relieve');
   terr.add(bottom);
   // agua translúcida
   const water = new THREE.Mesh(new THREE.PlaneGeometry(BLOCK.x1 - BLOCK.x0, BLOCK.z1 - BLOCK.z0),
-    new THREE.MeshStandardMaterial({ color: 0x2a8a92, transparent: true, opacity: 0.72, roughness: 0.25, metalness: 0.1, depthWrite: false }));
+    new THREE.MeshStandardMaterial({ color: 0x0a2a36, transparent: true, opacity: 0.86, roughness: 0.25, metalness: 0.1, depthWrite: false }));
   water.rotation.x = -Math.PI / 2; water.position.set((BLOCK.x0 + BLOCK.x1) / 2, WATER_Y, (BLOCK.z0 + BLOCK.z1) / 2);
   water.renderOrder = 1;
   terr.add(water);
@@ -603,47 +614,106 @@ if (gltf) {
   } catch (e) { console.warn('Modelo Revit no disponible', e); }
 }
 
-// --- árboles 3D en toda la isla (posiciones detectadas en la imagen satelital) ---
+// --- árboles realistas (modelos 3D con fotografía de hojas y corteza) ---
 progress(65, 'Plantando los árboles');
 try {
-  const TREES = await fetch(A + 'data/arboles_isla.json').then(r => r.json());
-  const mk = (canopy) => {
+  // 1) cargar los dos árboles del repositorio de la tesis, normalizados a 1 m de alto
+  const kinds = [];
+  for (const id of ['island_tree_01', 'island_tree_02']) {
+    const [lv, wd] = await Promise.all([loadGLB(A + `modelo/arboles/${id}_L1_hojas.glb`), loadGLB(A + `modelo/arboles/${id}_L1_madera.glb`)]);
     const parts = [];
-    const trunk = new THREE.CylinderGeometry(0.05, 0.08, 0.45, 6); trunk.translate(0, 0.225, 0);
-    const tc = new THREE.Color('#5a4128'); const tcol = new Float32Array(trunk.attributes.position.count * 3); for (let i = 0; i < tcol.length; i += 3) { tcol[i] = tc.r; tcol[i + 1] = tc.g; tcol[i + 2] = tc.b; }
-    trunk.setAttribute('color', new THREE.BufferAttribute(tcol, 3));
-    canopy.computeVertexNormals();
-    const cp = canopy.attributes.position, ccol = new Float32Array(cp.count * 3);
-    for (let i = 0; i < cp.count; i++) { const sh = 0.78 + 0.32 * (cp.getY(i) - 0.35) / 0.65; ccol[i * 3] = ccol[i * 3 + 1] = ccol[i * 3 + 2] = Math.max(0.6, Math.min(1.1, sh)); }
-    canopy.setAttribute('color', new THREE.BufferAttribute(ccol, 3));
-    parts.push(trunk.toNonIndexed(), canopy.toNonIndexed());
-    // unir
-    let n = 0; parts.forEach(g => n += g.attributes.position.count);
-    const P = new Float32Array(n * 3), N = new Float32Array(n * 3), C = new Float32Array(n * 3); let o = 0;
-    parts.forEach(g => { P.set(g.attributes.position.array, o * 3); N.set(g.attributes.normal.array, o * 3); C.set(g.attributes.color.array, o * 3); o += g.attributes.position.count; });
-    const geo = new THREE.BufferGeometry();
-    geo.setAttribute('position', new THREE.BufferAttribute(P, 3)); geo.setAttribute('normal', new THREE.BufferAttribute(N, 3)); geo.setAttribute('color', new THREE.BufferAttribute(C, 3));
-    return geo;
+    for (const [g, kind] of [[lv, 'leaf'], [wd, 'wood']]) {
+      g.scene.updateMatrixWorld(true);
+      g.scene.traverse((o) => { if (o.isMesh) { const gg = o.geometry.clone(); gg.applyMatrix4(o.matrixWorld); parts.push({ geo: gg, mat: (Array.isArray(o.material) ? o.material[0] : o.material).clone(), kind }); } });
+    }
+    const box = new THREE.Box3();
+    parts.forEach(pt => { pt.geo.computeBoundingBox(); box.union(pt.geo.boundingBox); });
+    const h = box.max.y - box.min.y || 1;
+    const norm = new THREE.Matrix4().makeScale(1 / h, 1 / h, 1 / h).multiply(new THREE.Matrix4().makeTranslation(-(box.min.x + box.max.x) / 2, -box.min.y, -(box.min.z + box.max.z) / 2));
+    parts.forEach(pt => { pt.geo.applyMatrix4(norm); pt.mat.side = THREE.DoubleSide; if (pt.kind === 'leaf') pt.mat.alphaTest = Math.max(pt.mat.alphaTest || 0, 0.4); });
+    const half = Math.max((box.max.x - box.min.x), (box.max.z - box.min.z)) / h / 2;
+    kinds.push({ parts, half });
+  }
+  const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), up = new THREE.Vector3(0, 1, 0), sc = new THREE.Vector3(), ps = new THREE.Vector3();
+  const rnd = (i) => { const r = Math.sin(i * 12.9898 + 78.233) * 43758.5453; return r - Math.floor(r); };
+
+  // 2) árboles 3D completos donde está el modelo del pueblo (vegetación detectada en la imagen z18)
+  const near = [[], []];
+  const v = new THREE.Vector3();
+  VEG.arboles.forEach(([mx, my, size, dense], i) => {
+    const h = hModel(mx, my);
+    if (h === null || h < 0.1) return;
+    v.set(mx, my, h * EX).applyMatrix4(M_REVIT);
+    near[i % 2].push({ x: v.x, y: v.y - 0.1, z: v.z, rot: (i * 2.3999) % 6.283, hgt: 8.5 * size * (dense ? 0.92 : 1.05) * 1.5 });
+  });
+  kinds.forEach((k, kk) => k.parts.forEach(pt => {
+    const list = near[kk];
+    const im = new THREE.InstancedMesh(pt.geo, pt.mat, list.length);
+    list.forEach((t, j) => { q.setFromAxisAngle(up, t.rot); sc.setScalar(t.hgt); ps.set(t.x, t.y, t.z); m4.compose(ps, q, sc); im.setMatrixAt(j, m4); });
+    im.instanceMatrix.needsUpdate = true; im.computeBoundingSphere();
+    terr.add(im);
+  }));
+
+  // 3) en el resto de la isla: los mismos árboles, fotografiados desde el lado y desde arriba
+  //    (impostores en cruz: se ven como el árbol 3D sin el costo de miles de modelos)
+  const RT_W = 1024, RT_H = 512;
+  const rt = new THREE.WebGLRenderTarget(RT_W, RT_H, { samples: 4 });
+  rt.texture.generateMipmaps = true; rt.texture.minFilter = THREE.LinearMipmapLinearFilter;
+  const isc = new THREE.Scene();
+  isc.add(new THREE.HemisphereLight(0xf4f8ff, 0x3a4a2a, 2.0));
+  const dl = new THREE.DirectionalLight(0xfff4e0, 2.6); dl.position.set(-1.2, 2.2, 1.6); isc.add(dl);
+  const prevClear = renderer.getClearColor(new THREE.Color()), prevAlpha = renderer.getClearAlpha();
+  renderer.setRenderTarget(rt); renderer.setClearColor(0x000000, 0); renderer.clear();
+  const cell = RT_W / 4;   // 4 celdas: árbol 1 lado, árbol 1 arriba, árbol 2 lado, árbol 2 arriba
+  kinds.forEach((k, kk) => {
+    const grp = new THREE.Group(); k.parts.forEach(pt => grp.add(new THREE.Mesh(pt.geo, pt.mat))); isc.add(grp);
+    const m = Math.max(k.half, 0.5) * 1.02;
+    const side = new THREE.OrthographicCamera(-m, m, 1.02, -0.02, 0.01, 10); side.position.set(0, 0.5, 4); side.lookAt(0, 0.5, 0);
+    const top = new THREE.OrthographicCamera(-m, m, m, -m, 0.01, 10); top.position.set(0, 4, 0); top.up.set(0, 0, -1); top.lookAt(0, 0, 0);
+    renderer.setViewport(cell * (kk * 2), 0, cell, RT_H); renderer.setScissor(cell * (kk * 2), 0, cell, RT_H); renderer.setScissorTest(true);
+    side.left = -m; side.right = m; side.top = 1.02; side.bottom = -0.02; side.updateProjectionMatrix();
+    renderer.render(isc, side);
+    renderer.setViewport(cell * (kk * 2 + 1), RT_H / 2 - cell / 2, cell, cell); renderer.setScissor(cell * (kk * 2 + 1), RT_H / 2 - cell / 2, cell, cell);
+    renderer.render(isc, top);
+    isc.remove(grp);
+    k.m = m;
+  });
+  renderer.setScissorTest(false); renderer.setRenderTarget(null); renderer.setClearColor(prevClear, prevAlpha);
+  renderer.setViewport(0, 0, renderer.domElement.width / renderer.getPixelRatio(), renderer.domElement.height / renderer.getPixelRatio());
+
+  const impostorGeo = (kk, m) => {
+    const u0 = (kk * 2) / 4, u1 = (kk * 2 + 1) / 4, u2 = (kk * 2 + 2) / 4;
+    const vt0 = (RT_H / 2 - cell / 2) / RT_H, vt1 = (RT_H / 2 + cell / 2) / RT_H;
+    const P = [], U = [], I = [];
+    const quad = (pts, uvs) => { const b = P.length / 3; pts.forEach(p => P.push(...p)); uvs.forEach(t => U.push(...t)); I.push(b, b + 1, b + 2, b, b + 2, b + 3); };
+    const w = m;
+    quad([[-w, -0.02, 0], [w, -0.02, 0], [w, 1.02, 0], [-w, 1.02, 0]], [[u0, 0], [u1, 0], [u1, 1], [u0, 1]]);
+    quad([[0, -0.02, w], [0, -0.02, -w], [0, 1.02, -w], [0, 1.02, w]], [[u0, 0], [u1, 0], [u1, 1], [u0, 1]]);
+    quad([[-w, 0.62, w], [w, 0.62, w], [w, 0.62, -w], [-w, 0.62, -w]], [[u1, vt0], [u2, vt0], [u2, vt1], [u1, vt1]]);
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.Float32BufferAttribute(P, 3)); g.setAttribute('uv', new THREE.Float32BufferAttribute(U, 2)); g.setIndex(I);
+    g.computeVertexNormals();
+    return g;
   };
-  // copa redondeada (árbol de bosque seco) y copa alargada
-  const c1 = new THREE.IcosahedronGeometry(0.42, 1); c1.scale(1, 0.78, 1); c1.translate(0, 0.66, 0);
-  const c2 = new THREE.ConeGeometry(0.3, 0.75, 7, 2); c2.translate(0, 0.72, 0);
-  const geos = [mk(c1), mk(c2)];
-  // pequeña irregularidad de la copa redonda
-  { const p = geos[0].attributes.position; for (let i = 0; i < p.count; i++) { if (p.getY(i) > 0.3) { const s = 1 + 0.12 * Math.sin(p.getX(i) * 23 + p.getZ(i) * 17); p.setX(i, p.getX(i) * s); p.setZ(i, p.getZ(i) * s); } } geos[0].computeVertexNormals(); }
-  const mat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.9, metalness: 0, flatShading: true });
-  const lists = [[], []];
-  TREES.forEach((t, i) => { const h = heightAt(t[0], t[1]); if (h === null) return; lists[(i * 7) % 10 < 8 ? 0 : 1].push([t, h]); });
-  const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), up = new THREE.Vector3(0, 1, 0), sc = new THREE.Vector3(), ps = new THREE.Vector3(), col = new THREE.Color(), hsl = {};
-  lists.forEach((list, kk) => {
-    const im = new THREE.InstancedMesh(geos[kk], mat, list.length);
-    list.forEach(([t, h], j) => {
-      const r = Math.sin(j * 12.9898 + kk * 78.233) * 43758.5453; const rnd = r - Math.floor(r);
-      const hgt = (9 + 9 * rnd) * (0.8 + 0.4 * Math.min(1.2, t[5])) * 1.6;
-      q.setFromAxisAngle(up, rnd * 6.283); sc.set(hgt * (0.9 + 0.3 * rnd), hgt, hgt * (0.9 + 0.3 * rnd)); ps.set(t[0], h - 0.4, t[1]);
+  const impMat = new THREE.MeshBasicMaterial({ map: rt.texture, alphaTest: 0.35, side: THREE.DoubleSide, transparent: false });
+  const TREES = await fetch(A + 'data/arboles_isla.json').then(r => r.json());
+  const far = [[], []];
+  TREES.forEach((t, i) => {
+    if (revitGround(t[0], t[1]) !== null) return;            // allí ya están los árboles 3D completos
+    const h = heightAt(t[0], t[1]); if (h === null) return;
+    far[i % 2].push([t, h, i]);
+  });
+  const col = new THREE.Color(), hsl = {};
+  far.forEach((list, kk) => {
+    const im = new THREE.InstancedMesh(impostorGeo(kk, kinds[kk].m), impMat, list.length);
+    list.forEach(([t, h, i], j) => {
+      const r = rnd(i);
+      const hgt = (11 + 9 * r) * (0.85 + 0.35 * Math.min(1.2, t[5])) * 1.9;
+      q.setFromAxisAngle(up, r * 6.283); sc.setScalar(hgt); ps.set(t[0], h - 0.3, t[1]);
       m4.compose(ps, q, sc); im.setMatrixAt(j, m4);
+      // tono muy suave según el verde de la foto satelital en ese punto
       col.setRGB(t[2] / 255, t[3] / 255, t[4] / 255, THREE.SRGBColorSpace).getHSL(hsl);
-      col.setHSL(Math.min(0.36, Math.max(0.16, hsl.h)), Math.min(0.75, hsl.s * 1.35 + 0.12), Math.min(0.42, Math.max(0.16, hsl.l * 1.05)));
+      col.setRGB(1.18 + 0.15 * r, 1.26 + 0.12 * r, 1.08 + 0.1 * r);   // aclara la foto del árbol
       im.setColorAt(j, col);
     });
     im.instanceMatrix.needsUpdate = true; if (im.instanceColor) im.instanceColor.needsUpdate = true;
