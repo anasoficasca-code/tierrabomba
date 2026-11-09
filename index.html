@@ -95,8 +95,8 @@ button{font-family:inherit;cursor:pointer}
 /* ---------- fuentes ---------- */
 #src{position:absolute;top:62px;right:10px;width:340px;max-height:calc(100% - 150px);overflow-y:auto;padding:14px;z-index:19}
 #insp.on ~ #src{display:none}
-.donut{display:flex;gap:14px;align-items:center;margin:4px 0 10px}
-.donut svg{width:118px;height:118px;flex:none}
+.donut{display:flex;gap:16px;align-items:center;margin:0}
+.donut svg{width:150px;height:150px;flex:none}
 .lg div{display:flex;align-items:center;gap:7px;font-size:12px;margin:4px 0;color:#d6dee6}
 .lg i{width:10px;height:10px;border-radius:2px;flex:none}
 .lg b{margin-left:auto;font:600 12px "IBM Plex Mono",monospace;padding-left:6px}
@@ -402,82 +402,52 @@ const texLoader = new THREE.TextureLoader();
 const loadTex = (u) => new Promise((res, rej) => texLoader.load(u, res, undefined, rej));
 const loadGLB = (u) => new Promise((res, rej) => new GLTFLoader().load(u, res, undefined, rej));
 
-// 1) mar
-const sea = new THREE.Mesh(
-  new THREE.PlaneGeometry(60000, 60000),
-  new THREE.MeshStandardMaterial({ color: 0x0b2430, roughness: 0.55, metalness: 0.0 })
-);
-sea.rotation.x = -Math.PI / 2;
-sea.position.y = -6;
-terr.add(sea);
+// Territorio en bloque: relieve real (DEM) exagerado, imagen satelital,
+// agua translúcida, paredes de tierra y árboles 3D en toda la isla.
+const EX = 3;                           // exageración vertical del relieve
+const BLOCK = { x0: -4300, x1: 5100, z0: -2700, z1: 8100 };   // metros
+const BASE_Y = -260;                    // fondo del bloque (m)
+const WATER_Y = 0.8;
 
-// 2) imagen satelital base (z15) recortada por la costa
-progress(20, 'Cargando imagen satelital');
-{
-  const t = MOSA.base, n = 2 ** t.z;
-  const cx = t.nx * 4, cy = t.ny * 4;
-  const pos = [], uv = [], idx = [];
-  for (let j = 0; j <= cy; j++) for (let i = 0; i <= cx; i++) {
-    const tx = t.x0 + (i / cx) * t.nx, ty = t.y0 + (j / cy) * t.ny;
-    const lon = tx / n * 360 - 180;
-    const lat = Math.atan(Math.sinh(Math.PI * (1 - 2 * ty / n))) * 180 / Math.PI;
-    const [x, z] = llToXZ(lon, lat);
-    pos.push(x, -1.6, z); uv.push(i / cx, 1 - j / cy);
-  }
-  for (let j = 0; j < cy; j++) for (let i = 0; i < cx; i++) {
-    const a = j * (cx + 1) + i, b = a + 1, d = a + cx + 1, e = d + 1;
-    idx.push(a, d, b, b, d, e);
-  }
-  const g = new THREE.BufferGeometry();
-  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
-  g.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2));
-  g.setIndex(idx); g.computeVertexNormals();
-  const [map, mask] = await Promise.all([loadTex(A + 'texturas/sat_base.jpg'), loadTex(A + 'texturas/sat_base_mascara.png')]);
-  map.colorSpace = THREE.SRGBColorSpace;
-  map.anisotropy = renderer.capabilities.getMaxAnisotropy();
-  const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ map, alphaMap: mask, alphaTest: 0.5, roughness: 1, metalness: 0, color: 0xe8e8e8 }));
-  terr.add(m);
-}
+// --- utilidades de la imagen base (teselas z15) ---
+const T = MOSA.base, NT = 2 ** T.z;
+const xzToTile = (x, z) => {
+  const lon = x / GEO.kx + GEO.lon0, lat = -z / GEO.ky + GEO.lat0;
+  const tx = (lon + 180) / 360 * NT;
+  const ty = (1 - Math.asinh(Math.tan(lat * Math.PI / 180)) / Math.PI) / 2 * NT;
+  return [(tx - T.x0) / T.nx, (ty - T.y0) / T.ny];   // 0..1 dentro de la imagen
+};
+const loadImgData = (u) => new Promise((res, rej) => { const im = new Image(); im.onload = () => { const c = document.createElement('canvas'); c.width = im.width; c.height = im.height; const g = c.getContext('2d'); g.drawImage(im, 0, 0); res({ w: im.width, h: im.height, d: g.getImageData(0, 0, im.width, im.height).data }); }; im.onerror = rej; im.src = u; });
 
-// 3) modelo Revit de Tierrabomba (terreno, vías y edificios) con su imagen z18
-progress(45, 'Cargando modelo 3D de la isla');
-let heightAt = () => null;
+progress(18, 'Cargando relieve e imagen satelital');
+const [DEMBUF, MASKD, satMap, landMask] = await Promise.all([
+  fetch(A + 'data/dem_640x1088.bin').then(r => r.arrayBuffer()),
+  loadImgData(A + 'texturas/sat_base_mascara.png'),
+  loadTex(A + 'texturas/sat_base.jpg'),
+  loadTex(A + 'texturas/sat_base_mascara.png')
+]);
+const DEM = new Uint16Array(DEMBUF), DW = 640, DH = 1088;
+satMap.colorSpace = THREE.SRGBColorSpace;
+satMap.anisotropy = renderer.capabilities.getMaxAnisotropy();
+const demAt = (u, v) => {   // metros sobre el nivel del mar, bilineal
+  const fx = Math.min(DW - 1.001, Math.max(0, u * DW - 0.5)), fy = Math.min(DH - 1.001, Math.max(0, v * DH - 0.5));
+  const x0 = Math.floor(fx), y0 = Math.floor(fy), ax = fx - x0, ay = fy - y0;
+  const g = (x, y) => DEM[y * DW + x] / 100 - 30;
+  return g(x0, y0) * (1 - ax) * (1 - ay) + g(x0 + 1, y0) * ax * (1 - ay) + g(x0, y0 + 1) * (1 - ax) * ay + g(x0 + 1, y0 + 1) * ax * ay;
+};
+const landAt = (u, v) => {
+  const x = Math.min(MASKD.w - 1, Math.max(0, Math.floor(u * MASKD.w))), y = Math.min(MASKD.h - 1, Math.max(0, Math.floor(v * MASKD.h)));
+  return MASKD.d[(y * MASKD.w + x) * 4] / 255;
+};
+
+// --- modelo Revit: se carga primero para conocer su terreno ---
+progress(30, 'Cargando modelo 3D de la isla');
+let hModel = () => null, gltf = null;
 try {
-  const gltf = await loadGLB(A + 'modelo/tierrabomba_revit.glb');
-  const [hiMap, hiMask] = await Promise.all([loadTex(A + 'texturas/tierrabomba_satelite.jpg'), loadTex(A + 'texturas/tierrabomba_tierra_mascara.png')]);
-  hiMap.colorSpace = THREE.SRGBColorSpace;
-  hiMap.anisotropy = renderer.capabilities.getMaxAnisotropy();
-  const satMat = new THREE.MeshStandardMaterial({ map: hiMap, alphaMap: hiMask, alphaTest: 0.5, roughness: 0.96, metalness: 0, color: 0xe2e2e2, side: THREE.DoubleSide });
-  const bldMat = new THREE.MeshStandardMaterial({ color: 0xf3efe6, roughness: 0.85, metalness: 0 });
-  const satUV = (geo) => {
-    const p = geo.attributes.position, uv = new Float32Array(p.count * 2);
-    const [a0, a1] = SATMAP.origin, [[i00, i01], [i10, i11]] = SATMAP.inv;
-    for (let i = 0; i < p.count; i++) {
-      const dx = p.getX(i) - a0, dy = p.getY(i) - a1;
-      uv[i * 2] = i00 * dx + i01 * dy;
-      uv[i * 2 + 1] = 1 - (i10 * dx + i11 * dy);
-    }
-    geo.setAttribute('uv', new THREE.BufferAttribute(uv, 2));
-  };
-  let terrainGeoRaw = null;
+  gltf = await loadGLB(A + 'modelo/tierrabomba_revit.glb');
   gltf.scene.updateMatrixWorld(true);
-  gltf.scene.traverse((o) => {
-    if (!o.isMesh) return;
-    const nm = (o.name + ' ' + (o.parent ? o.parent.name : '')).toLowerCase();
-    const geo = o.geometry.clone();
-    geo.applyMatrix4(o.matrixWorld);
-    if (geo.attributes.color) geo.deleteAttribute('color');
-    let mat;
-    if (nm.includes('terrain') || nm.includes('road')) {
-      satUV(geo); mat = satMat;
-      if (nm.includes('terrain')) terrainGeoRaw = geo.clone();
-    } else mat = bldMat;
-    geo.applyMatrix4(M_REVIT);
-    geo.computeVertexNormals();
-    const mesh = new THREE.Mesh(geo, mat);
-    terr.add(mesh);
-  });
-  // mapa de alturas del terreno (coordenadas del modelo, celdas de 8 m)
+  let terrainGeoRaw = null;
+  gltf.scene.traverse((o) => { if (o.isMesh && (o.name + ' ' + (o.parent ? o.parent.name : '')).toLowerCase().includes('terrain')) { terrainGeoRaw = o.geometry.clone(); terrainGeoRaw.applyMatrix4(o.matrixWorld); } });
   if (terrainGeoRaw) {
     const p = terrainGeoRaw.attributes.position, ix = terrainGeoRaw.index;
     terrainGeoRaw.computeBoundingBox();
@@ -503,54 +473,184 @@ try {
         if (gx >= 0 && gy >= 0 && gx < W && gy < H && !(grid[k] > h)) grid[k] = h;
       }
     }
-    const hModel = (mx, my) => {
+    hModel = (mx, my) => {
       const gx = Math.round((mx - bb.min.x) / CELL), gy = Math.round((my - bb.min.y) / CELL);
       if (gx < 0 || gy < 0 || gx >= W || gy >= H) return null;
       const v = grid[gy * W + gx];
       return Number.isNaN(v) ? null : v;
     };
-    // altura en coordenadas de escena (x este, z sur, en metros)
-    const tmp = new THREE.Vector3();
-    heightAt = (x, z) => { tmp.set(x, 0, z).applyMatrix4(M_REVIT_INV); return hModel(tmp.x, tmp.y); };
-
-    // 4) vegetación real detectada sobre la imagen z18
-    progress(65, 'Plantando la vegetación');
-    try {
-      const kinds = [];
-      for (const id of ['island_tree_01', 'island_tree_02']) {
-        const [lv, wd] = await Promise.all([loadGLB(A + `modelo/arboles/${id}_L1_hojas.glb`), loadGLB(A + `modelo/arboles/${id}_L1_madera.glb`)]);
-        const parts = [];
-        for (const [g, kind] of [[lv, 'leaf'], [wd, 'wood']]) {
-          g.scene.updateMatrixWorld(true);
-          g.scene.traverse((o) => { if (o.isMesh) { const gg = o.geometry.clone(); gg.applyMatrix4(o.matrixWorld); parts.push({ geo: gg, mat: (Array.isArray(o.material) ? o.material[0] : o.material).clone(), kind }); } });
-        }
-        const box = new THREE.Box3();
-        parts.forEach(pt => { pt.geo.computeBoundingBox(); box.union(pt.geo.boundingBox); });
-        const h = box.max.y - box.min.y || 1;
-        const norm = new THREE.Matrix4().makeScale(1 / h, 1 / h, 1 / h).multiply(new THREE.Matrix4().makeTranslation(-(box.min.x + box.max.x) / 2, -box.min.y, -(box.min.z + box.max.z) / 2));
-        parts.forEach(pt => { pt.geo.applyMatrix4(norm); pt.mat.side = THREE.DoubleSide; if (pt.kind === 'leaf') pt.mat.alphaTest = Math.max(pt.mat.alphaTest || 0, 0.4); });
-        kinds.push(parts);
-      }
-      const lists = [[], []];
-      const v = new THREE.Vector3();
-      VEG.arboles.forEach(([mx, my, size, dense], i) => {
-        const h = hModel(mx, my);
-        if (h === null || h < 0.1) return;
-        v.set(mx, my, h).applyMatrix4(M_REVIT);
-        lists[i % 2].push({ x: v.x, y: v.y - 0.05, z: v.z, rot: (i * 2.3999) % 6.283, hgt: 8.5 * size * (dense ? 0.92 : 1.05) });
-      });
-      const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), up = new THREE.Vector3(0, 1, 0), sc = new THREE.Vector3(), ps = new THREE.Vector3();
-      kinds.forEach((parts, kk) => parts.forEach(pt => {
-        const list = lists[kk];
-        const im = new THREE.InstancedMesh(pt.geo, pt.mat, list.length);
-        list.forEach((t, j) => { q.setFromAxisAngle(up, t.rot); sc.setScalar(t.hgt); ps.set(t.x, t.y, t.z); m4.compose(ps, q, sc); im.setMatrixAt(j, m4); });
-        im.instanceMatrix.needsUpdate = true;
-        im.computeBoundingSphere();
-        terr.add(im);
-      }));
-    } catch (e) { console.warn('Vegetación no disponible', e); }
   }
 } catch (e) { console.warn('Modelo Revit no disponible', e); }
+const tmpM = new THREE.Vector3();
+const revitGround = (x, z) => { tmpM.set(x, 0, z).applyMatrix4(M_REVIT_INV); return hModel(tmpM.x, tmpM.y); };
+
+// altura del suelo en la escena (metros, ya exagerada); null en el mar
+function heightAt(x, z) {
+  const r = revitGround(x, z);
+  if (r !== null && r > 0.05) return r * EX + 0.2;
+  const [u, v] = xzToTile(x, z);
+  if (landAt(u, v) < 0.5) return null;
+  return Math.max(1.5, demAt(u, v) * EX);
+}
+
+// --- terreno del bloque ---
+progress(45, 'Construyendo el relieve');
+{
+  const STEP = 22;
+  const nx = Math.round((BLOCK.x1 - BLOCK.x0) / STEP), nz = Math.round((BLOCK.z1 - BLOCK.z0) / STEP);
+  const pos = new Float32Array((nx + 1) * (nz + 1) * 3), uv = new Float32Array((nx + 1) * (nz + 1) * 2);
+  const edgeH = { n: [], s: [], w: [], e: [] };
+  for (let j = 0; j <= nz; j++) for (let i = 0; i <= nx; i++) {
+    const x = BLOCK.x0 + i * STEP, z = BLOCK.z0 + j * STEP;
+    const [u, v] = xzToTile(x, z);
+    const land = landAt(u, v) >= 0.5, h = demAt(u, v);
+    let y = land ? Math.max(1.5, h * EX) : Math.min(-2, h) * 2.2 - 3;   // fondo marino
+    const r = revitGround(x, z);
+    if (r !== null && r > 0.05) y = r * EX - 2.5;                    // bajo el modelo Revit
+    const k = j * (nx + 1) + i;
+    pos[k * 3] = x; pos[k * 3 + 1] = y; pos[k * 3 + 2] = z;
+    uv[k * 2] = u; uv[k * 2 + 1] = 1 - v;
+  }
+  const idx = new Uint32Array(nx * nz * 6); let q = 0;
+  for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) {
+    const a = j * (nx + 1) + i, b = a + 1, d = a + nx + 1, e = d + 1;
+    idx[q++] = a; idx[q++] = d; idx[q++] = b; idx[q++] = b; idx[q++] = d; idx[q++] = e;
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  g.setAttribute('uv', new THREE.BufferAttribute(uv, 2));
+  g.setIndex(new THREE.BufferAttribute(idx, 1));
+  g.computeVertexNormals();
+  terr.add(new THREE.Mesh(g, new THREE.MeshStandardMaterial({ map: satMap, roughness: 0.95, metalness: 0, color: 0xf2f2f2 })));
+
+  // paredes de tierra del bloque (con franja de agua arriba donde hay mar)
+  const wallPos = [], wallCol = [], wallIdx = [];
+  const soilTop = new THREE.Color('#6b5236'), soilBot = new THREE.Color('#2a1d12'), waterC = new THREE.Color('#1f6f78');
+  const addSide = (pts) => {
+    const base = wallPos.length / 3;
+    pts.forEach(([x, y, z]) => {
+      const top = Math.max(y, WATER_Y);
+      const wet = y < WATER_Y;
+      wallPos.push(x, top, z, x, y, z, x, BASE_Y, z);
+      const ct = wet ? waterC : soilTop;
+      wallCol.push(ct.r, ct.g, ct.b, soilTop.r, soilTop.g, soilTop.b, soilBot.r, soilBot.g, soilBot.b);
+    });
+    for (let k = 0; k < pts.length - 1; k++) {
+      const a = base + k * 3, b = a + 3;
+      wallIdx.push(a, a + 1, b, b, a + 1, b + 1, a + 1, a + 2, b + 1, b + 1, a + 2, b + 2);
+    }
+  };
+  const P = (i, j) => { const k = j * (nx + 1) + i; return [pos[k * 3], pos[k * 3 + 1], pos[k * 3 + 2]]; };
+  const side = (f) => { const a = []; f(a); return a; };
+  addSide(side(a => { for (let i = 0; i <= nx; i++) a.push(P(i, nz)); }));            // sur
+  addSide(side(a => { for (let i = nx; i >= 0; i--) a.push(P(i, 0)); }));             // norte
+  addSide(side(a => { for (let j = 0; j <= nz; j++) a.push(P(0, j)); }));             // oeste
+  addSide(side(a => { for (let j = nz; j >= 0; j--) a.push(P(nx, j)); }));            // este
+  const wg = new THREE.BufferGeometry();
+  wg.setAttribute('position', new THREE.Float32BufferAttribute(wallPos, 3));
+  wg.setAttribute('color', new THREE.Float32BufferAttribute(wallCol, 3));
+  wg.setIndex(wallIdx); wg.computeVertexNormals();
+  terr.add(new THREE.Mesh(wg, new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 1, metalness: 0, side: THREE.DoubleSide })));
+  // fondo del bloque
+  const bottom = new THREE.Mesh(new THREE.PlaneGeometry(BLOCK.x1 - BLOCK.x0, BLOCK.z1 - BLOCK.z0), new THREE.MeshStandardMaterial({ color: 0x1c140c, side: THREE.DoubleSide }));
+  bottom.rotation.x = -Math.PI / 2; bottom.position.set((BLOCK.x0 + BLOCK.x1) / 2, BASE_Y, (BLOCK.z0 + BLOCK.z1) / 2);
+  terr.add(bottom);
+  // agua translúcida
+  const water = new THREE.Mesh(new THREE.PlaneGeometry(BLOCK.x1 - BLOCK.x0, BLOCK.z1 - BLOCK.z0),
+    new THREE.MeshStandardMaterial({ color: 0x2a8a92, transparent: true, opacity: 0.72, roughness: 0.25, metalness: 0.1, depthWrite: false }));
+  water.rotation.x = -Math.PI / 2; water.position.set((BLOCK.x0 + BLOCK.x1) / 2, WATER_Y, (BLOCK.z0 + BLOCK.z1) / 2);
+  water.renderOrder = 1;
+  terr.add(water);
+}
+
+// --- modelo Revit con el mismo relieve exagerado ---
+if (gltf) {
+  try {
+    const [hiMap, hiMask] = await Promise.all([loadTex(A + 'texturas/tierrabomba_satelite.jpg'), loadTex(A + 'texturas/tierrabomba_tierra_mascara.png')]);
+    hiMap.colorSpace = THREE.SRGBColorSpace;
+    hiMap.anisotropy = renderer.capabilities.getMaxAnisotropy();
+    const satMat = new THREE.MeshStandardMaterial({ map: hiMap, alphaMap: hiMask, alphaTest: 0.5, roughness: 0.96, metalness: 0, color: 0xe8e8e8, side: THREE.DoubleSide });
+    const bldMat = new THREE.MeshStandardMaterial({ color: 0xf3efe6, roughness: 0.85, metalness: 0 });
+    const satUV = (geo) => {
+      const p = geo.attributes.position, uv = new Float32Array(p.count * 2);
+      const [a0, a1] = SATMAP.origin, [[i00, i01], [i10, i11]] = SATMAP.inv;
+      for (let i = 0; i < p.count; i++) {
+        const dx = p.getX(i) - a0, dy = p.getY(i) - a1;
+        uv[i * 2] = i00 * dx + i01 * dy;
+        uv[i * 2 + 1] = 1 - (i10 * dx + i11 * dy);
+      }
+      geo.setAttribute('uv', new THREE.BufferAttribute(uv, 2));
+    };
+    gltf.scene.traverse((o) => {
+      if (!o.isMesh) return;
+      const nm = (o.name + ' ' + (o.parent ? o.parent.name : '')).toLowerCase();
+      const geo = o.geometry.clone();
+      geo.applyMatrix4(o.matrixWorld);
+      if (geo.attributes.color) geo.deleteAttribute('color');
+      const p = geo.attributes.position;
+      const isTerrain = nm.includes('terrain');
+      let mat;
+      if (isTerrain || nm.includes('road')) { satUV(geo); mat = satMat; } else mat = bldMat;
+      for (let i = 0; i < p.count; i++) {
+        const z = p.getZ(i);
+        if (isTerrain) p.setZ(i, z * EX);
+        else { const g = hModel(p.getX(i), p.getY(i)); p.setZ(i, z + (EX - 1) * (g ?? 0)); }
+      }
+      geo.applyMatrix4(M_REVIT);
+      geo.computeVertexNormals();
+      terr.add(new THREE.Mesh(geo, mat));
+    });
+  } catch (e) { console.warn('Modelo Revit no disponible', e); }
+}
+
+// --- árboles 3D en toda la isla (posiciones detectadas en la imagen satelital) ---
+progress(65, 'Plantando los árboles');
+try {
+  const TREES = await fetch(A + 'data/arboles_isla.json').then(r => r.json());
+  const mk = (canopy) => {
+    const parts = [];
+    const trunk = new THREE.CylinderGeometry(0.05, 0.08, 0.45, 6); trunk.translate(0, 0.225, 0);
+    const tc = new THREE.Color('#5a4128'); const tcol = new Float32Array(trunk.attributes.position.count * 3); for (let i = 0; i < tcol.length; i += 3) { tcol[i] = tc.r; tcol[i + 1] = tc.g; tcol[i + 2] = tc.b; }
+    trunk.setAttribute('color', new THREE.BufferAttribute(tcol, 3));
+    canopy.computeVertexNormals();
+    const cp = canopy.attributes.position, ccol = new Float32Array(cp.count * 3);
+    for (let i = 0; i < cp.count; i++) { const sh = 0.78 + 0.32 * (cp.getY(i) - 0.35) / 0.65; ccol[i * 3] = ccol[i * 3 + 1] = ccol[i * 3 + 2] = Math.max(0.6, Math.min(1.1, sh)); }
+    canopy.setAttribute('color', new THREE.BufferAttribute(ccol, 3));
+    parts.push(trunk.toNonIndexed(), canopy.toNonIndexed());
+    // unir
+    let n = 0; parts.forEach(g => n += g.attributes.position.count);
+    const P = new Float32Array(n * 3), N = new Float32Array(n * 3), C = new Float32Array(n * 3); let o = 0;
+    parts.forEach(g => { P.set(g.attributes.position.array, o * 3); N.set(g.attributes.normal.array, o * 3); C.set(g.attributes.color.array, o * 3); o += g.attributes.position.count; });
+    const geo = new THREE.BufferGeometry();
+    geo.setAttribute('position', new THREE.BufferAttribute(P, 3)); geo.setAttribute('normal', new THREE.BufferAttribute(N, 3)); geo.setAttribute('color', new THREE.BufferAttribute(C, 3));
+    return geo;
+  };
+  // copa redondeada (árbol de bosque seco) y copa alargada
+  const c1 = new THREE.IcosahedronGeometry(0.42, 1); c1.scale(1, 0.78, 1); c1.translate(0, 0.66, 0);
+  const c2 = new THREE.ConeGeometry(0.3, 0.75, 7, 2); c2.translate(0, 0.72, 0);
+  const geos = [mk(c1), mk(c2)];
+  // pequeña irregularidad de la copa redonda
+  { const p = geos[0].attributes.position; for (let i = 0; i < p.count; i++) { if (p.getY(i) > 0.3) { const s = 1 + 0.12 * Math.sin(p.getX(i) * 23 + p.getZ(i) * 17); p.setX(i, p.getX(i) * s); p.setZ(i, p.getZ(i) * s); } } geos[0].computeVertexNormals(); }
+  const mat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.9, metalness: 0, flatShading: true });
+  const lists = [[], []];
+  TREES.forEach((t, i) => { const h = heightAt(t[0], t[1]); if (h === null) return; lists[(i * 7) % 10 < 8 ? 0 : 1].push([t, h]); });
+  const m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), up = new THREE.Vector3(0, 1, 0), sc = new THREE.Vector3(), ps = new THREE.Vector3(), col = new THREE.Color(), hsl = {};
+  lists.forEach((list, kk) => {
+    const im = new THREE.InstancedMesh(geos[kk], mat, list.length);
+    list.forEach(([t, h], j) => {
+      const r = Math.sin(j * 12.9898 + kk * 78.233) * 43758.5453; const rnd = r - Math.floor(r);
+      const hgt = (9 + 9 * rnd) * (0.8 + 0.4 * Math.min(1.2, t[5])) * 1.6;
+      q.setFromAxisAngle(up, rnd * 6.283); sc.set(hgt * (0.9 + 0.3 * rnd), hgt, hgt * (0.9 + 0.3 * rnd)); ps.set(t[0], h - 0.4, t[1]);
+      m4.compose(ps, q, sc); im.setMatrixAt(j, m4);
+      col.setRGB(t[2] / 255, t[3] / 255, t[4] / 255, THREE.SRGBColorSpace).getHSL(hsl);
+      col.setHSL(Math.min(0.36, Math.max(0.16, hsl.h)), Math.min(0.75, hsl.s * 1.35 + 0.12), Math.min(0.42, Math.max(0.16, hsl.l * 1.05)));
+      im.setColorAt(j, col);
+    });
+    im.instanceMatrix.needsUpdate = true; if (im.instanceColor) im.instanceColor.needsUpdate = true;
+    im.computeBoundingSphere();
+    terr.add(im);
+  });
+} catch (e) { console.warn('Árboles no disponibles', e); }
 
 // ======================================================================
 // Posiciones en el territorio: cada especie sobre su lugar de registro,
@@ -576,7 +676,7 @@ species.slice().sort((a, b) => a.cat - b.cat || b.n - a.n).forEach(sp => {
   CL.push(cl);
 });
 // tamaño en pantalla constante en el territorio (px), como símbolos de un mapa
-const TER_PX = IS_MOBILE ? 15 : 17;
+const TER_PX = IS_MOBILE ? 17 : 20;
 const camW = new THREE.Vector3();
 function layoutTerritory() {
   const { h } = viewSize();
@@ -586,7 +686,7 @@ function layoutTerritory() {
     const k = camera.position.distanceTo(camW) * k0;       // unidades por píxel
     const ball = TER_PX * k;
     cl.ball = ball;
-    cl.list[0].node.ter.set(cl.x - SWARM_C.x, cl.y + ball * 0.55 + 2 * k - SWARM_C.y, cl.z - SWARM_C.z);
+    cl.list[0].node.ter.set(cl.x - SWARM_C.x, cl.y + 4.6 + ball * 0.55 + 2 * k - SWARM_C.y, cl.z - SWARM_C.z);   // por encima de las copas
   });
 }
 const stems = new THREE.LineSegments(
@@ -645,15 +745,17 @@ function swarmView() {
 function territoryView(focus) {
   if (focus) {
     const t = focus.clone();
-    return { pos: new THREE.Vector3(t.x, t.y + 90, t.z + 110), tgt: t };
+    return { pos: new THREE.Vector3(t.x + 40, t.y + 75, t.z + 110), tgt: t };
   }
   const sz = ISLAND_C.userData;
   const { w, h } = viewSize();
-  const span = Math.max(sz.z, sz.x * (h / (IS_MOBILE ? w : Math.max(w * 0.55, w - 720)))) * 0.66;
+  const span = Math.max(sz.z, sz.x * (h / (IS_MOBILE ? w : Math.max(w * 0.55, w - 720)))) * 0.54;
   const vf = THREE.MathUtils.degToRad(camera.fov) / 2;
   const d = span / Math.tan(vf) * (IS_MOBILE ? 1.15 : 0.95);
   const tgt = new THREE.Vector3(ISLAND_C.x, 0, ISLAND_C.z);
-  return { pos: new THREE.Vector3(tgt.x, d * 0.78, tgt.z + d * 0.62), tgt };
+  const zq = parseFloat(new URLSearchParams(location.search).get('zoom')) || 1;
+  // vista tres cuartos, como una maqueta
+  return { pos: new THREE.Vector3(tgt.x + d * 0.30 * zq, d * 0.60 * zq, tgt.z + d * 0.74 * zq), tgt };
 }
 
 let fly = null;
@@ -713,11 +815,11 @@ function paintEdges() {
     e.show = e.on && (!selected || e.a === selected || e.b === selected);
     // sin selección: líneas neutras; con una especie seleccionada: color del tipo
     eColTmp.set(TYPES[edgeMainVisible(e)].color);
-    if (!selected) eColTmp.lerp(EDGE_SOFT, 0.15);   // color del tipo, suavizado
+    if (!selected) eColTmp.lerp(EDGE_SOFT, 0.05);   // color del tipo, suavizado
     arr.set([eColTmp.r, eColTmp.g, eColTmp.b, eColTmp.r, eColTmp.g, eColTmp.b], i * 6);
   });
   eGeo.attributes.instanceColorStart.data.needsUpdate = true;
-  eMat.userData.base = selected ? 0.9 : 0.48;
+  eMat.userData.base = selected ? 0.95 : 0.62;
   eMat.linewidth = selected ? 1.5 : 1;
   const tr = $('tRe'); if (tr) tr.textContent = edges.filter(e => e.on).length;
 }
@@ -764,19 +866,12 @@ $('tyOff').onclick = () => { typeOn.fill(false); tyList.querySelectorAll('.ty').
   const pct = (v) => Math.round(v / tot * 100) + '%';
   const top = REL.fuentes.slice(0, 10);
   $('src').innerHTML = `
-    <div class="ph"><h2>De dónde viene la información</h2></div>
     <div class="donut">
       <svg viewBox="0 0 118 118" role="img" aria-label="Registros de interacción por tipo de fuente">${arcs}
         <text x="59" y="56" text-anchor="middle" fill="#f1f5f9" font-family="Inter" font-weight="800" font-size="17">${tot.toLocaleString('es-CO')}</text>
         <text x="59" y="72" text-anchor="middle" fill="#9aa7b4" font-family="Inter" font-size="10">registros</text></svg>
       <div class="lg">${g.map(x => `<div><i style="background:${x.c}"></i>${x.k}<b>${pct(x.v)}</b></div>`).join('')}</div>
-    </div>
-    <table class="stbl">
-      <thead><tr><th>Fuente</th><th style="text-align:right">Registros</th><th style="text-align:right">Relaciones</th></tr></thead>
-      <tbody>${top.map(f => `<tr><td><span style="display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:${(GROUPS.find(x => x[0] === f[1]) || ['', '#888'])[1]}"></span>${f[0]}</td><td class="n">${f[2].toLocaleString('es-CO')}</td><td class="n">${f[3]}</td></tr>`).join('')}
-        <tr><td>Otras ${REL.fuentes.length - top.length} fuentes</td><td class="n">${REL.fuentes.slice(10).reduce((s, f) => s + f[2], 0).toLocaleString('es-CO')}</td><td class="n"></td></tr></tbody>
-    </table>
-    <div class="note">${edges.length} relaciones entre las especies de la isla, compiladas en GloBI (Global Biotic Interactions). Están documentadas en algún lugar del mundo; ${edges.filter(e => e.carib).length} tienen al menos un registro en el Caribe o el norte de Suramérica. Una relación puede venir de varias fuentes. En ${edges.filter(e => e.infer).length} relaciones la fuente solo indica que las especies interactúan; su tipo se asignó según los grupos de las especies (por ejemplo, ave sobre árbol: refugio y hábitat; dos aves del mismo gremio: competencia).</div>`;
+    </div>`;
 }
 
 // ======================================================================
@@ -1027,7 +1122,7 @@ function frame(now) {
     n.spr.renderOrder = n === selected ? 5 : 1;
   }
   updateEdgePositions();
-  eMat.opacity = (eMat.userData.base ?? 0.48) * (selected ? 1 : 1 - 0.35 * clamp01(morph));
+  eMat.opacity = (eMat.userData.base ?? 0.62) * (selected ? 1 : 1 - 0.5 * clamp01(morph));
   const tv = clamp01((morph - 0.55) / 0.45);
   stems.material.opacity = 0.45 * tv;
   obsPts.material.opacity = tv;
