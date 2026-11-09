@@ -285,7 +285,7 @@ const progress = (p, t) => { vbar.style.width = p + '%'; if (t) vtxt.textContent
 // ======================================================================
 // Escena
 // ======================================================================
-const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance', logarithmicDepthBuffer: true });   // sin parpadeo entre agua y costa
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, IS_MOBILE ? 1.75 : 2));
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 const scene = new THREE.Scene();
@@ -780,7 +780,7 @@ const obsGeo = new THREE.BufferGeometry();
 }
 const dotTex = (() => { const cv = document.createElement('canvas'); cv.width = cv.height = 64; const g = cv.getContext('2d'); g.beginPath(); g.arc(32, 32, 26, 0, 7); g.fillStyle = '#fff'; g.fill(); g.lineWidth = 6; g.strokeStyle = 'rgba(0,0,0,.85)'; g.stroke(); const t = new THREE.CanvasTexture(cv); return t; })();
 const obsPts = new THREE.Points(obsGeo, new THREE.PointsMaterial({ size: IS_MOBILE ? 9 : 10, sizeAttenuation: false, vertexColors: true, map: dotTex, alphaTest: 0.3, transparent: true, opacity: 0, depthWrite: false, depthTest: false }));
-obsPts.renderOrder = 0;
+obsPts.renderOrder = 2;
 scene.add(obsPts);
 const selGeo = new THREE.BufferGeometry();
 const selPts = new THREE.Points(selGeo, new THREE.PointsMaterial({ size: 18, sizeAttenuation: false, color: 0xffffff, map: dotTex, alphaTest: 0.3, transparent: true, opacity: 0, depthWrite: false, depthTest: false }));
@@ -870,7 +870,7 @@ window.__eMat = eMat;
 eMat.resolution.set(stage.clientWidth, stage.clientHeight);
 const eLines = new LineSegments2(eGeo, eMat);
 eLines.frustumCulled = false;
-eLines.renderOrder = 0;
+eLines.renderOrder = 2;
 net.add(eLines);
 const eColTmp = new THREE.Color();
 const EDGE_SOFT = new THREE.Color('#C9D2DC');
@@ -1190,7 +1190,7 @@ function frame(now) {
     n.spr.scale.set(s, s, 1);
     const op = dimOthers && n !== selected && !(selected.partners && selected.partners.has(n)) ? 0.22 : 1;
     n.spr.material.opacity += (op - n.spr.material.opacity) * 0.15;
-    n.spr.renderOrder = n === selected ? 5 : 1;
+    n.spr.renderOrder = n === selected ? 6 : 3;   // siempre por encima del agua
   }
   updateEdgePositions();
   eMat.opacity = (eMat.userData.base ?? 0.62) * (selected ? 1 : 1 - 0.5 * clamp01(morph));
